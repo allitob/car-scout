@@ -1,6 +1,6 @@
 # Cheapest EVs per km
 
-Updated 2026-10-10 10:17 UTC · 138 battery-electric cars · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
+Updated 2026-10-10 10:19 UTC · 138 battery-electric cars · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
 
 Market: EVs lose about **16% of their value per year** at this mileage (fitted on 138 listings). Costs in today's krónur. Assumptions: `config.yaml`.
 
@@ -95,7 +95,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 13.0 · capital 7% 4.2 · charging 5.8 · km-gjald 7.0 · insurance 5.2 · service 4.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.1</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 7 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -132,7 +132,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 12.5 · capital 7% 4.1 · charging 5.1 · km-gjald 7.0 · insurance 5.2 · service 5.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.3</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 9 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -182,7 +182,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 11.1 · capital 7% 3.5 · charging 5.6 · km-gjald 7.0 · insurance 5.1 · service 6.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.4</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 9 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -208,7 +208,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 13.6 · capital 7% 4.3 · charging 5.8 · km-gjald 7.0 · insurance 5.2 · service 5.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -232,7 +232,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 10.5 · capital 7% 3.3 · charging 6.1 · km-gjald 7.0 · insurance 5.1 · service 7.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.9</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -258,7 +258,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 15.4 · capital 7% 4.9 · charging 5.8 · km-gjald 7.0 · insurance 5.3 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.0</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 7 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -271,7 +271,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 14.1 · capital 7% 4.5 · charging 5.8 · km-gjald 7.0 · insurance 5.3 · service 5.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -284,7 +284,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 11.9 · capital 7% 3.8 · charging 5.8 · km-gjald 7.0 · insurance 5.2 · service 6.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.3</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 7 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -297,6 +297,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 11.8 · capital 7% 4.8 · charging 5.8 · km-gjald 7.0 · insurance 5.3 · service 6.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.7</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **47.9 kr/km** · sell after **10 yr** · 2.400.000 kr
@@ -308,7 +310,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 10.8 · capital 7% 3.4 · charging 6.1 · km-gjald 7.0 · insurance 5.1 · service 7.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 5.1</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 10 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -320,6 +322,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>2021 · 83.000 km · Bland · nissan leaf · at market (market ≈ 2.543.106 kr, resale ≈ 704.645 kr)</sub>
 
 <sub>kr/km: depreciation 12.7 · capital 7% 5.1 · charging 5.8 · km-gjald 7.0 · insurance 5.4 · service 5.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.1</sub>
+
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 7 yr — the selling year is a data limit, not an optimum</sub>
 
 ---
 
@@ -356,6 +360,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 12.1 · capital 7% 5.2 · charging 5.3 · km-gjald 7.0 · insurance 5.4 · service 6.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.7</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **48.2 kr/km** · sell after **6 yr** · 1.390.000 kr
@@ -380,7 +386,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 14.1 · capital 7% 4.5 · charging 7.5 · km-gjald 7.0 · insurance 5.3 · service 4.4 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.5</sub>
 
-<sub>⚠️ young brand in Iceland: depreciation & battery guessed</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 11 yr — the selling year is a data limit, not an optimum; young brand in Iceland: depreciation & battery guessed</sub>
 
 ---
 
@@ -393,6 +399,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 14.2 · capital 7% 5.7 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 4.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.6</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 7 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **48.9 kr/km** · sell after **6 yr** · 1.990.000 kr
@@ -403,6 +411,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>2019 · 104.000 km · Bland · nissan leaf · 7% over market (market ≈ 1.854.478 kr, resale ≈ 659.570 kr)</sub>
 
 <sub>kr/km: depreciation 11.1 · capital 7% 4.3 · charging 5.8 · km-gjald 7.0 · insurance 5.2 · service 7.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 5.0</sub>
+
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 6 yr — the selling year is a data limit, not an optimum</sub>
 
 ---
 
@@ -428,6 +438,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 12.8 · capital 7% 4.9 · charging 5.8 · km-gjald 7.0 · insurance 5.3 · service 6.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.6</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 6 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **49.0 kr/km** · sell after **10 yr** · 2.950.000 kr
@@ -439,7 +451,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 13.2 · capital 7% 4.3 · charging 5.8 · km-gjald 7.0 · insurance 5.2 · service 6.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.0</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 10 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -463,7 +475,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 15.8 · capital 7% 5.1 · charging 6.5 · km-gjald 7.0 · insurance 5.4 · service 4.4 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.9</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 11 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
 
 ---
 
@@ -476,6 +488,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 14.6 · capital 7% 5.9 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 4.9 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.4</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 9 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **49.6 kr/km** · sell after **3 yr** · 1.590.000 kr
@@ -486,6 +500,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>2018 · 178.000 km · Bland · nissan leaf · 11% over market (market ≈ 1.430.063 kr, resale ≈ 879.666 kr)</sub>
 
 <sub>kr/km: depreciation 11.8 · capital 7% 4.3 · charging 5.8 · km-gjald 7.0 · insurance 5.2 · service 6.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 5.5</sub>
+
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 3 yr — the selling year is a data limit, not an optimum</sub>
 
 ---
 
@@ -511,6 +527,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 12.5 · capital 7% 4.4 · charging 5.8 · km-gjald 7.0 · insurance 5.3 · service 6.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 5.8</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 2 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **50.3 kr/km** · sell after **7 yr** · 2.690.000 kr
@@ -522,7 +540,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 15.4 · capital 7% 4.8 · charging 5.8 · km-gjald 7.0 · insurance 5.3 · service 5.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.1</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 7 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -535,7 +553,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 15.7 · capital 7% 4.9 · charging 5.8 · km-gjald 7.0 · insurance 5.3 · service 5.4 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.0</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 10 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -548,6 +566,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 14.3 · capital 7% 5.6 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 5.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.3</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 9 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **51.0 kr/km** · sell after **6 yr** · 1.590.000 kr
@@ -559,7 +579,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 10.2 · capital 7% 2.9 · charging 5.6 · km-gjald 7.0 · insurance 5.0 · service 9.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 7.8</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 6 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -572,6 +592,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 12.0 · capital 7% 4.8 · charging 5.4 · km-gjald 7.0 · insurance 5.3 · service 7.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 5.6</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 9 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **51.2 kr/km** · sell after **8 yr** · 2.600.000 kr
@@ -583,7 +605,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 13.7 · capital 7% 4.3 · charging 5.6 · km-gjald 7.0 · insurance 5.2 · service 7.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.9</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -596,7 +618,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 13.7 · capital 7% 4.2 · charging 4.6 · km-gjald 7.0 · insurance 5.2 · service 7.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 6.0</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 5 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -620,6 +642,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 10.8 · capital 7% 4.2 · charging 5.4 · km-gjald 7.0 · insurance 5.2 · service 8.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 7.2</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 7 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **51.9 kr/km** · sell after **11 yr** · 3.500.000 kr
@@ -630,6 +654,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>2022 · 6.000 km · Bland · nissan leaf · 6% over market (market ≈ 3.313.780 kr, resale ≈ 489.624 kr)</sub>
 
 <sub>kr/km: depreciation 13.7 · capital 7% 5.4 · charging 5.8 · km-gjald 7.0 · insurance 5.4 · service 6.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.6</sub>
+
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 11 yr — the selling year is a data limit, not an optimum</sub>
 
 ---
 
@@ -642,7 +668,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 16.7 · capital 7% 5.4 · charging 6.5 · km-gjald 7.0 · insurance 5.4 · service 5.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
 
 ---
 
@@ -655,7 +681,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 16.3 · capital 7% 5.2 · charging 6.5 · km-gjald 7.0 · insurance 5.4 · service 5.9 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.6</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 11 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
 
 ---
 
@@ -668,6 +694,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 11.0 · capital 7% 4.3 · charging 5.4 · km-gjald 7.0 · insurance 5.2 · service 9.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 7.8</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **53.5 kr/km** · sell after **8 yr** · 2.650.000 kr
@@ -678,6 +706,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>2019 · 82.000 km · Bland · nissan leaf · 38% over market (market ≈ 1.921.180 kr, resale ≈ 590.811 kr)</sub>
 
 <sub>kr/km: depreciation 12.9 · capital 7% 4.8 · charging 5.8 · km-gjald 7.0 · insurance 5.3 · service 8.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 6.3</sub>
+
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum</sub>
 
 ---
 
@@ -690,6 +720,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 15.5 · capital 7% 5.9 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 6.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.4</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 9 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **54.6 kr/km** · sell after **8 yr** · 3.500.000 kr
@@ -701,7 +733,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 18.4 · capital 7% 5.7 · charging 6.8 · km-gjald 7.0 · insurance 5.5 · service 5.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -714,7 +746,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 18.9 · capital 7% 5.8 · charging 5.4 · km-gjald 7.0 · insurance 5.5 · service 5.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.1</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 7 yr — the selling year is a data limit, not an optimum; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -727,6 +759,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <sub>kr/km: depreciation 17.7 · capital 7% 6.6 · charging 5.3 · km-gjald 7.0 · insurance 5.6 · service 6.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.5</sub>
 
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 4 yr — the selling year is a data limit, not an optimum</sub>
+
 ---
 
 **55.4 kr/km** · sell after **8 yr** · 2.900.000 kr
@@ -737,6 +771,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>2020 · 73.000 km · Bland · jaguar i-pace · 16% under market (market ≈ 3.438.701 kr, resale ≈ 713.403 kr)</sub>
 
 <sub>kr/km: depreciation 13.7 · capital 7% 5.7 · charging 8.2 · km-gjald 7.0 · insurance 5.5 · service 7.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.9</sub>
+
+<sub>⚠️ no older/higher-mileage cars on the market to project beyond 8 yr — the selling year is a data limit, not an optimum</sub>
 
 ---
 
