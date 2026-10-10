@@ -1,5 +1,8 @@
 Bland: 1175 car listings scanned, 141 electric
-138 electric cars with year, km and price
-Market fit on 138 listings: value falls 15.9%/yr at 20.000 km/yr (age 0.141/yr, km 0.016/10k km in log price), residual σ 0.19
-69 cars from 2022 on ranked
-Notify: 0 new cars in the top 10
+Hekla (new): 150 listings, 123 electric
+Brimborg (new): 221 listings, 221 electric
+Brimborg (used): 59 listings, 59 electric
+540 electric cars with year, km and price
+Market fit on 197 listings: value falls 15.3%/yr at 20.000 km/yr (age 0.134/yr, km 0.016/10k km in log price), residual σ 0.18
+470 cars from 2022 on ranked
+Notify: posted 10 cars to issue #1
