@@ -150,7 +150,38 @@ LABELS = [("depreciation", "depreciation"), ("opportunity", "capital 7%"), ("ene
           ("tyres", "tyres"), ("tax", "tax/skoðun"), ("battery", "battery risk")]
 
 
-def card(r, new, rate):
+def band_of(kpk, bands):
+    for b in bands:
+        if b.get("max") is None or kpk < b["max"]:
+            return b
+    return bands[-1] if bands else None
+
+
+def band_range(b, bands, i):
+    lo = bands[i - 1]["max"] if i > 0 else None
+    if lo is None:
+        return f"under {b['max']}"
+    if b.get("max") is None:
+        return f"{lo}+"
+    return f"{lo}–{b['max']}"
+
+
+def band_year(b, bands, i, D):
+    lo = bands[i - 1]["max"] if i > 0 else None
+    m = lambda x: f"{x * D / 1e6:.1f}".replace(".", ",") + "M kr"
+    if lo is None:
+        return "under " + m(b["max"])
+    if b.get("max") is None:
+        return "over " + m(lo)
+    return f"{m(lo)[:-4]}–{m(b['max'])}"
+
+
+def anchor(b, D=None):
+    import re as _re
+    return _re.sub(r"[^a-z0-9 -]", "", b["name"].lower()).strip().replace(" ", "-")
+
+
+def card(r, new, rate, band=None):
     bd = r["breakdown"]
     parts = " · ".join(f"{lab.replace('7%', f'{rate:.0%}')} {bd[k]:.1f}" for k, lab in LABELS if bd.get(k, 0) >= 0.05)
     deal = r["deal"]
@@ -162,7 +193,7 @@ def card(r, new, rate):
     price = f"{fmt(r['price'])} kr"
     if r.get("prev_price") and r["prev_price"] > r["price"]:
         price += f" (was {fmt(r['prev_price'])})"
-    out = [f"**{r['kr_per_km']:.1f} kr/km** · sell after **{r['hold_years']} yr** · {price}" + (" · 🆕" if new else "") + (f" · {r['in_stock']} in stock" if r.get("in_stock", 1) > 1 else ""), ""]
+    out = [(f"{band['icon']} " if band else "") + f"**{r['kr_per_km']:.1f} kr/km** · sell after **{r['hold_years']} yr** · {price}" + (" · 🆕" if new else "") + (f" · {r['in_stock']} in stock" if r.get("in_stock", 1) > 1 else ""), ""]
     out += [f'<a href="{r["url"]}"><img src="{r.get("image") or "images/no-photo.png"}" width="320"></a>', ""]
     out += [f"[{r['title']}]({r['url']})  ",
             f"<sub>{'🆕 NEW' if r.get('new') else r['year']} · {fmt(r['km'])} km · {r['source']} · {r['model']} · {deal_txt} "
@@ -187,7 +218,22 @@ def write_md(rows, market, cfg, health, now, new):
              "Resale comes from today's market: what the same model sells for N years older and "
              f"{fmt(D)}·N km further on. N is whichever year gives the lowest cost per km.", "",
              "</details>", "", "---", ""]
-    lines += [card(r, r["url"] in new, rate) for r in rows]
+    bands = cfg.get("bands") or []
+    counts = [sum(1 for r in rows if band_of(r["kr_per_km"], bands) is b) for b in bands]
+    if bands:
+        lines += ["**Bands:** " + " · ".join(
+            f"{b['icon']} **{b['name']}** {band_range(b, bands, i)} kr/km ({n} cars)"
+            for i, (b, n) in enumerate(zip(bands, counts))), "", "---", ""]
+    current = None
+    for r in rows:
+        b = band_of(r["kr_per_km"], bands)
+        if bands and b is not current:
+            current = b
+            i = bands.index(b)
+            lines += [f"## {b['icon']} {b['name']} — {band_range(b, bands, i)} kr/km", "",
+                      f"> {b['icon']} **{band_range(b, bands, i)} kr/km ≈ {band_year(b, bands, i, D)} per year** "
+                      f"at {fmt(D)} km/yr · {counts[i]} cars · {b['note']}", ""]
+        lines.append(card(r, r["url"] in new, rate, b))
     lines += ["<details><summary>Source status</summary>", ""]
     lines += [f"- {k}: {v}" for k, v in health.items()]
     lines += ["", "</details>", ""]

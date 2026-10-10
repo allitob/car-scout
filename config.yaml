@@ -71,6 +71,12 @@ filters:
   min_price_isk: 300000
   max_price_isk: 30000000
 
+# Dividers in the ranking list (kr/km). Last band has max: null.
+bands:
+  - {name: Good, icon: "🟢", max: 50, note: "cheap, efficient, holds its value — about as low as a 2022+ EV gets"}
+  - {name: Medium, icon: "🟡", max: 70, note: "normal family EV — you pay for size, range or a newer car"}
+  - {name: Bad, icon: "🔴", max: null, note: "paying for luxury, not transport — every 10 kr/km ≈ 200.000 kr/yr"}
+
 new_cars:
   # Rafbílastyrkur (Umhverfis- og orkustofnun) from 1 Jan 2026: 500.000 kr for a new BEV passenger car
   # costing under 10M kr. Applied here when the dealer's card doesn't already show a price "með styrk".
