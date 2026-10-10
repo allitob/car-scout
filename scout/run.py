@@ -47,6 +47,26 @@ def main():
         log(f"Bland: FAILED — {type(e).__name__}: {e}")
         health["Bland"] = f"failed: {type(e).__name__}"
 
+    for d in cfg["sources"].get("dealers", []):
+        try:
+            got = sources.dealer(d["name"], d["url"], d["link"], d["new"], d["max_pages"], log)
+            raw += got
+            health[d["name"]] = len(got)
+        except Exception as e:
+            log(f"{d['name']}: FAILED — {type(e).__name__}: {e}")
+            health[d["name"]] = f"failed: {type(e).__name__}"
+
+    # New cars: no km, this year's model, and the rafbílastyrkur off the price
+    nc = cfg.get("new_cars", {})
+    this_year = dt.date.today().year
+    for c in raw:
+        if not c.get("new"):
+            continue
+        c["year"], c["km"], c["age"] = this_year, 0, 0.0
+        if not c.get("grant_applied") and c["price"] < nc.get("grant_max_price_kr", 0):
+            c["price"] -= nc.get("grant_kr", 0)
+            c["grant_assumed"] = True
+
     f = cfg["filters"]
     cars = []
     for c in raw:
@@ -60,7 +80,8 @@ def main():
         cars.append(c)
     log(f"{len(cars)} electric cars with year, km and price")
 
-    market = Market(cars, ridge=cfg["market"]["ridge"], min_listings=cfg["market"]["min_listings_per_model"])
+    # New-car list prices aren't used-market prices: fit the market on used listings only
+    market = Market([c for c in cars if not c.get("new")], ridge=cfg["market"]["ridge"], min_listings=cfg["market"]["min_listings_per_model"])
     D = cfg["usage"]["km_per_year"]
     log(f"Market fit on {market.n} listings: value falls {market.yearly_depreciation(D):.1%}/yr at {fmt(D)} km/yr "
         f"(age {-market.a:.3f}/yr, km {-market.b:.3f}/10k km in log price), residual σ {market.sigma:.2f}")
@@ -112,6 +133,9 @@ def card(r, new, rate):
     parts = " · ".join(f"{lab.replace('7%', f'{rate:.0%}')} {bd[k]:.1f}" for k, lab in LABELS if bd.get(k, 0) >= 0.05)
     deal = r["deal"]
     deal_txt = (f"{-deal:.0%} under market" if deal < -0.03 else f"{deal:.0%} over market" if deal > 0.03 else "at market")
+    if r.get("new"):
+        deal_txt = (f"new: {fmt(r['list_price'])} kr list, rafbílastyrkur "
+                    + ("assumed" if r.get("grant_assumed") else "included") + f" · {deal:+.0%} vs a nearly-new used one")
     price = f"{fmt(r['price'])} kr"
     if r.get("prev_price") and r["prev_price"] > r["price"]:
         price += f" (was {fmt(r['prev_price'])})"
@@ -119,7 +143,7 @@ def card(r, new, rate):
     if r.get("image"):
         out += [f'<a href="{r["url"]}"><img src="{r["image"]}" width="320"></a>', ""]
     out += [f"[{r['title']}]({r['url']})  ",
-            f"<sub>{r['year']} · {fmt(r['km'])} km · {r['source']} · {r['model']} · {deal_txt} "
+            f"<sub>{'🆕 NEW' if r.get('new') else r['year']} · {fmt(r['km'])} km · {r['source']} · {r['model']} · {deal_txt} "
             f"(market ≈ {fmt(r['market_value'])} kr, resale ≈ {fmt(r['resale'])} kr)</sub>", "",
             f"<sub>kr/km: {parts}</sub>"]
     if r["flags"]:

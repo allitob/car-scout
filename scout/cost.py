@@ -17,7 +17,7 @@ from .market import car_age
 def evaluate(car, market, cfg):
     u, m, e, run, bat = cfg["usage"], cfg["money"], cfg["energy"], cfg["running"], cfg["battery"]
     D = u["km_per_year"]
-    age0 = car_age(car["year"])
+    age0 = car.get("age", car_age(car["year"]))
     km0 = car["km"]
     price = car["price"]
 
@@ -29,7 +29,8 @@ def evaluate(car, market, cfg):
     v_market = market.value(car["model"], car["make"], age0, km0)
     # A price below/above the market usually reflects condition, spec or battery health, so most of
     # the gap stays with the car when it's resold (price_gap_persists = 1: all of it)
-    keep = m.get("price_gap_persists", 0.8)
+    # New cars: the gap between list price and a nearly-new used one is the showroom premium — it's gone at resale
+    keep = 0.0 if car.get("new") else m.get("price_gap_persists", 0.8)
     v_now = v_market * (price / v_market) ** keep
 
     energy_kr_per_km = (car["kwh_100km"] / 100 * e["winter_factor"] * (1 + e["charging_loss"])

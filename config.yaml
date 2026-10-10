@@ -69,7 +69,29 @@ filters:
   min_price_isk: 300000
   max_price_isk: 30000000
 
+new_cars:
+  # Rafbílastyrkur (Umhverfis- og orkustofnun) from 1 Jan 2026: 500.000 kr for a new BEV passenger car
+  # costing under 10M kr. Applied here when the dealer's card doesn't already show a price "með styrk".
+  grant_kr: 500000
+  grant_max_price_kr: 10000000
+
 sources:
+  dealers:
+    - name: Hekla (new)
+      url: "https://www.hekla.is/is/bilar/nyir-bilar-syningasalur?page={page}"
+      link: "/nyir-bilar-syningasalur/[^?/]+$"
+      new: true
+      max_pages: 12
+    - name: Brimborg (new)
+      url: "https://nyirbilar.brimborg.is/is/nyir-bilar?fueltype=2&page={page}"
+      link: "/nyir-bilar/bill/[^/?]+$"
+      new: true
+      max_pages: 12
+    - name: Brimborg (used)
+      url: "https://notadir.brimborg.is/is/notadir-bilar?fueltype=2&page={page}"
+      link: "/notadir-bilar/bill/[^/?]+$"
+      new: false
+      max_pages: 12
   bland:
     category: "https://bland.is/solutorg/farartaeki/nyir-notadir-bilar-til-solu/?categoryId=17&sub=1"
     max_pages: 60
