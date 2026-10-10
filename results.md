@@ -1,6 +1,6 @@
 # Cheapest EVs per km
 
-Updated 2026-10-10 10:47 UTC · 277 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
+Updated 2026-10-10 10:52 UTC · 277 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
 
 Market: EVs lose about **15% of their value per year** at this mileage (fitted on all 184 EV listings, older ones included). Costs in today's krónur. Assumptions: `config.yaml`.
 
@@ -121,11 +121,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EIF49"><img src="https://nyirbilar.brimborg.is/static/notadir/images/EIF49_6f413bfacadee226d0e68c5547ef01a0_full.jpg?v2" width="320"></a>
 
 [Ford Puma EV Premium](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EIF49)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 4.990.000 kr list, rafbílastyrkur included · -53% vs a nearly-new used one (market ≈ 9.038.167 kr, resale ≈ 275.752 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 4.990.000 kr list, rafbílastyrkur included (resale ≈ 275.752 kr)</sub>
 
 <sub>kr/km: depreciation 16.7 · capital 7% 4.9 · charging 5.3 · km-gjald 7.0 · insurance 5.3 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -173,11 +173,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/146517"><img src="https://nyirbilar.brimborg.is/static/notadir/images/146517_0909e795e8af12c2e59adeab44723535_full.jpg?v2" width="320"></a>
 
 [Ford Puma EV Premium](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/146517)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 4.990.000 kr list, rafbílastyrkur included · -50% vs a nearly-new used one (market ≈ 9.038.167 kr, resale ≈ 289.282 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 4.990.000 kr list, rafbílastyrkur included (resale ≈ 289.282 kr)</sub>
 
 <sub>kr/km: depreciation 17.5 · capital 7% 5.1 · charging 5.3 · km-gjald 7.0 · insurance 5.4 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -186,11 +186,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GKM99"><img src="https://nyirbilar.brimborg.is/static/strevda/overlay/1790002323-nokian.vetrardekk.fylgjanyr.png" width="320"></a>
 
 [Ford Puma EV Premium](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GKM99)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 5.209.000 kr list, rafbílastyrkur included · -50% vs a nearly-new used one (market ≈ 9.038.167 kr, resale ≈ 289.862 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 5.209.000 kr list, rafbílastyrkur included (resale ≈ 289.862 kr)</sub>
 
 <sub>kr/km: depreciation 17.5 · capital 7% 5.2 · charging 5.3 · km-gjald 7.0 · insurance 5.4 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -225,11 +225,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/146518"><img src="https://nyirbilar.brimborg.is/static/notadir/images/146518_453535b5a633a3b67379c850d1f6368b_full.jpg?v2" width="320"></a>
 
 [Ford Puma EV Premium](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/146518)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 5.169.000 kr list, rafbílastyrkur included · -48% vs a nearly-new used one (market ≈ 9.038.167 kr, resale ≈ 300.815 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 5.169.000 kr list, rafbílastyrkur included (resale ≈ 300.815 kr)</sub>
 
 <sub>kr/km: depreciation 18.2 · capital 7% 5.3 · charging 5.3 · km-gjald 7.0 · insurance 5.4 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -301,11 +301,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 **52.1 kr/km** · sell after **12 yr** · 5.070.000 kr · 2 in stock
 
 [VOLKSWAGEN ID. POLO](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-8)  
-<sub>🆕 NEW · 0 km · Hekla (new) · vw id.polo · new: 5.570.000 kr list, rafbílastyrkur included · -28% vs a nearly-new used one (market ≈ 7.082.773 kr, resale ≈ 326.650 kr)</sub>
+<sub>🆕 NEW · 0 km · Hekla (new) · vw id.polo · new: 5.570.000 kr list, rafbílastyrkur included (resale ≈ 326.650 kr)</sub>
 
 <sub>kr/km: depreciation 19.8 · capital 7% 5.8 · charging 5.1 · km-gjald 7.0 · insurance 5.5 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -314,11 +314,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148725"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148725_9e7d06f4d29e9f6f4f86b4e28fd834b0_full.jpg?v2" width="320"></a>
 
 [Peugeot E-2008 Allure](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148725)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.500.000 kr list, rafbílastyrkur included · -66% vs a nearly-new used one (market ≈ 14.545.754 kr, resale ≈ 322.140 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.500.000 kr list, rafbílastyrkur included (resale ≈ 322.140 kr)</sub>
 
 <sub>kr/km: depreciation 19.5 · capital 7% 5.7 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -340,22 +340,22 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148729"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148729_2679f3b9c296f37b0fa1be15cd3e312d_full.jpg?v2" width="320"></a>
 
 [Peugeot E-2008 Allure](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148729)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.560.000 kr list, rafbílastyrkur included · -65% vs a nearly-new used one (market ≈ 14.545.754 kr, resale ≈ 326.006 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.560.000 kr list, rafbílastyrkur included (resale ≈ 326.006 kr)</sub>
 
 <sub>kr/km: depreciation 19.7 · capital 7% 5.8 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
 **52.7 kr/km** · sell after **12 yr** · 5.190.000 kr · 4 in stock
 
 [Skoda Epiq 55](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-epiq-55)  
-<sub>🆕 NEW · 0 km · Hekla (new) · skoda epiq · new: 5.690.000 kr list, rafbílastyrkur included · -38% vs a nearly-new used one (market ≈ 8.315.503 kr, resale ≈ 334.382 kr)</sub>
+<sub>🆕 NEW · 0 km · Hekla (new) · skoda epiq · new: 5.690.000 kr list, rafbílastyrkur included (resale ≈ 334.382 kr)</sub>
 
 <sub>kr/km: depreciation 20.2 · capital 7% 5.9 · charging 5.1 · km-gjald 7.0 · insurance 5.5 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -364,11 +364,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148730"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148730_5c83b0adb9f30bf5263b78c7fb21f2cc_full.jpg?v2" width="320"></a>
 
 [Peugeot E-2008 Allure](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148730)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.590.000 kr list, rafbílastyrkur included · -65% vs a nearly-new used one (market ≈ 14.545.754 kr, resale ≈ 327.939 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.590.000 kr list, rafbílastyrkur included (resale ≈ 327.939 kr)</sub>
 
 <sub>kr/km: depreciation 19.8 · capital 7% 5.8 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -377,22 +377,22 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148813"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148813_fae787e2a01b79499dca4b35babac31c_full.jpg?v2" width="320"></a>
 
 [Peugeot E-2008 GT Exclusive](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148813)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.770.000 kr list, rafbílastyrkur included · -64% vs a nearly-new used one (market ≈ 14.545.754 kr, resale ≈ 339.536 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.770.000 kr list, rafbílastyrkur included (resale ≈ 339.536 kr)</sub>
 
 <sub>kr/km: depreciation 20.5 · capital 7% 6.0 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
 **53.9 kr/km** · sell after **12 yr** · 5.410.000 kr · 3 in stock
 
 [VOLKSWAGEN ID. POLO](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-1)  
-<sub>🆕 NEW · 0 km · Hekla (new) · vw id.polo · new: 5.910.000 kr list, rafbílastyrkur included · -24% vs a nearly-new used one (market ≈ 7.082.773 kr, resale ≈ 348.556 kr)</sub>
+<sub>🆕 NEW · 0 km · Hekla (new) · vw id.polo · new: 5.910.000 kr list, rafbílastyrkur included (resale ≈ 348.556 kr)</sub>
 
 <sub>kr/km: depreciation 21.1 · capital 7% 6.2 · charging 5.1 · km-gjald 7.0 · insurance 5.6 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -401,11 +401,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148817"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148817_3a644f4642f67aa6c70d34af407c21f4_full.jpg?v2" width="320"></a>
 
 [Peugeot E-2008 GT Exclusive](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148817)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.830.000 kr list, rafbílastyrkur included · -63% vs a nearly-new used one (market ≈ 14.545.754 kr, resale ≈ 343.402 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.830.000 kr list, rafbílastyrkur included (resale ≈ 343.402 kr)</sub>
 
 <sub>kr/km: depreciation 20.8 · capital 7% 6.1 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -414,22 +414,22 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148818"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148818_c383a96161fd5b86f33d2e73a0e305f4_full.jpg?v2" width="320"></a>
 
 [Peugeot E-2008 GT Exclusive](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148818)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.860.000 kr list, rafbílastyrkur included · -63% vs a nearly-new used one (market ≈ 14.545.754 kr, resale ≈ 345.335 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · peugeot e-2008 · new: 5.860.000 kr list, rafbílastyrkur included (resale ≈ 345.335 kr)</sub>
 
 <sub>kr/km: depreciation 20.9 · capital 7% 6.1 · charging 5.8 · km-gjald 7.0 · insurance 5.6 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
 **54.3 kr/km** · sell after **12 yr** · 5.490.000 kr · 2 in stock
 
 [Skoda Epiq 55](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/epiq-2)  
-<sub>🆕 NEW · 0 km · Hekla (new) · skoda epiq · new: 5.990.000 kr list, rafbílastyrkur included · -34% vs a nearly-new used one (market ≈ 8.315.503 kr, resale ≈ 353.710 kr)</sub>
+<sub>🆕 NEW · 0 km · Hekla (new) · skoda epiq · new: 5.990.000 kr list, rafbílastyrkur included (resale ≈ 353.710 kr)</sub>
 
 <sub>kr/km: depreciation 21.4 · capital 7% 6.3 · charging 5.1 · km-gjald 7.0 · insurance 5.6 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -449,11 +449,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 **54.7 kr/km** · sell after **12 yr** · 5.480.000 kr · 7 in stock
 
 [VW ID.3 PRO](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id3-pro-39)  
-<sub>🆕 NEW · 0 km · Hekla (new) · vw id.3 · new: 5.980.000 kr list, rafbílastyrkur included · -21% vs a nearly-new used one (market ≈ 6.943.622 kr, resale ≈ 353.066 kr)</sub>
+<sub>🆕 NEW · 0 km · Hekla (new) · vw id.3 · new: 5.980.000 kr list, rafbílastyrkur included (resale ≈ 353.066 kr)</sub>
 
 <sub>kr/km: depreciation 21.4 · capital 7% 6.3 · charging 5.6 · km-gjald 7.0 · insurance 5.6 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -473,11 +473,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 **56.8 kr/km** · sell after **12 yr** · 5.880.000 kr · 2 in stock
 
 [VOLKSWAGEN ID. Cross Life](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-cross-life)  
-<sub>🆕 NEW · 0 km · Hekla (new) · vw id.cross · new: 6.380.000 kr list, rafbílastyrkur included · -17% vs a nearly-new used one (market ≈ 7.082.773 kr, resale ≈ 378.837 kr)</sub>
+<sub>🆕 NEW · 0 km · Hekla (new) · vw id.cross · new: 6.380.000 kr list, rafbílastyrkur included (resale ≈ 378.837 kr)</sub>
 
 <sub>kr/km: depreciation 22.9 · capital 7% 6.7 · charging 5.6 · km-gjald 7.0 · insurance 5.7 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -564,11 +564,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/REK18"><img src="https://nyirbilar.brimborg.is/static/notadir/images/REK18_668d3fb3e56c6a43324c2db76cebbab5_full.jpg?v2" width="320"></a>
 
 [Mazda6e Takumi](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/REK18)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.580.000 kr list, rafbílastyrkur included · -28% vs a nearly-new used one (market ≈ 8.455.629 kr, resale ≈ 391.723 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.580.000 kr list, rafbílastyrkur included (resale ≈ 391.723 kr)</sub>
 
 <sub>kr/km: depreciation 23.7 · capital 7% 7.0 · charging 6.5 · km-gjald 7.0 · insurance 5.7 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
 
 ---
 
@@ -603,11 +603,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/PDH37"><img src="https://nyirbilar.brimborg.is/static/notadir/images/PDH37_ef3a2b4dbd9ac6faac10bc6f2d5d8e18_full.jpg?v2" width="320"></a>
 
 [Mazda6e Takumi](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/PDH37)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.630.000 kr list, rafbílastyrkur included · -28% vs a nearly-new used one (market ≈ 8.455.629 kr, resale ≈ 394.944 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.630.000 kr list, rafbílastyrkur included (resale ≈ 394.944 kr)</sub>
 
 <sub>kr/km: depreciation 23.9 · capital 7% 7.0 · charging 6.5 · km-gjald 7.0 · insurance 5.7 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
 
 ---
 
@@ -653,11 +653,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 **59.7 kr/km** · sell after **12 yr** · 6.390.000 kr · 6 in stock
 
 [Skoda Elroq 85x 4x4](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/elroq-22)  
-<sub>🆕 NEW · 0 km · Hekla (new) · skoda elroq · new: 7.190.000 kr list, rafbílastyrkur included · -23% vs a nearly-new used one (market ≈ 8.315.503 kr, resale ≈ 411.695 kr)</sub>
+<sub>🆕 NEW · 0 km · Hekla (new) · skoda elroq · new: 7.190.000 kr list, rafbílastyrkur included (resale ≈ 411.695 kr)</sub>
 
 <sub>kr/km: depreciation 24.9 · capital 7% 7.3 · charging 5.8 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -705,11 +705,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RUH79"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RUH79_32e9321b832e538ae32ab3a0acb0dc31_full.jpg?v2" width="320"></a>
 
 [Mazda CX-6e Takumi](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RUH79)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · mazda cx-6e · new: 6.890.000 kr list, rafbílastyrkur included · -5% vs a nearly-new used one (market ≈ 6.733.503 kr, resale ≈ 411.695 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · mazda cx-6e · new: 6.890.000 kr list, rafbílastyrkur included (resale ≈ 411.695 kr)</sub>
 
 <sub>kr/km: depreciation 24.9 · capital 7% 7.3 · charging 6.3 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
@@ -718,11 +718,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EPF49"><img src="https://nyirbilar.brimborg.is/static/notadir/images/EPF49_9ad79e05aafed7c62a5e0797da10de0a_full.jpg?v2" width="320"></a>
 
 [Mazda6e Takumi Plus](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EPF49)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.880.000 kr list, rafbílastyrkur included · -25% vs a nearly-new used one (market ≈ 8.455.629 kr, resale ≈ 411.051 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.880.000 kr list, rafbílastyrkur included (resale ≈ 411.051 kr)</sub>
 
 <sub>kr/km: depreciation 24.9 · capital 7% 7.3 · charging 6.5 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
 
 ---
 
@@ -731,11 +731,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RXU96"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RXU96_4d6bf4a1cbd0439c2af7f7cdb3c7ec16_full.jpg?v2" width="320"></a>
 
 [Mazda6e Takumi Plus](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RXU96)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.900.000 kr list, rafbílastyrkur included · -24% vs a nearly-new used one (market ≈ 8.455.629 kr, resale ≈ 412.340 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.900.000 kr list, rafbílastyrkur included (resale ≈ 412.340 kr)</sub>
 
 <sub>kr/km: depreciation 24.9 · capital 7% 7.3 · charging 6.5 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
 
 ---
 
@@ -744,11 +744,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/MHL89"><img src="https://nyirbilar.brimborg.is/static/notadir/images/MHL89_f3098269988f3bb5567c88b3b19c9b14_full.jpg?v2" width="320"></a>
 
 [Mazda6e Takumi Plus](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/MHL89)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.930.000 kr list, rafbílastyrkur included · -24% vs a nearly-new used one (market ≈ 8.455.629 kr, resale ≈ 414.273 kr)</sub>
+<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.930.000 kr list, rafbílastyrkur included (resale ≈ 414.273 kr)</sub>
 
 <sub>kr/km: depreciation 25.1 · capital 7% 7.4 · charging 6.5 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
 
 ---
 
@@ -768,17 +768,17 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 **60.8 kr/km** · sell after **12 yr** · 6.630.000 kr
 
 [VOLKSWAGEN ID. Cross Style](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-cross-style-3)  
-<sub>🆕 NEW · 0 km · Hekla (new) · vw id.cross · new: 7.130.000 kr list, rafbílastyrkur included · -6% vs a nearly-new used one (market ≈ 7.082.773 kr, resale ≈ 427.158 kr)</sub>
+<sub>🆕 NEW · 0 km · Hekla (new) · vw id.cross · new: 7.130.000 kr list, rafbílastyrkur included (resale ≈ 427.158 kr)</sub>
 
 <sub>kr/km: depreciation 25.8 · capital 7% 7.6 · charging 5.6 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
-<sub>⚠️ little market data for this model: depreciation borrowed from brand/all EVs</sub>
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
 
 ---
 
 <details><summary>Source status</summary>
 
-- Bland: 1175
+- Bland: 1176
 - Hekla (new): 150
 - Brimborg (new): 221
 - Brimborg (used): 59
