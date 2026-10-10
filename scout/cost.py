@@ -76,8 +76,9 @@ def evaluate(car, market, cfg):
         return None
     flags = []
     if capped and best["hold_years"] == h - 1:
-        flags.append(f"no older/higher-mileage cars on the market to project beyond {best['hold_years']} yr — "
-                     "the selling year is a data limit, not an optimum")
+        km_at = round((km0 + D * best["hold_years"]) / 1000)
+        flags.append(f"still getting cheaper per km at {best['hold_years']} yr / {km_at}.000 km, where market data ends — "
+                     "keeping it longer is probably cheaper still")
     if young:
         flags.append("young brand in Iceland: depreciation & battery guessed")
     elif not measured:
