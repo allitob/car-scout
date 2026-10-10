@@ -84,18 +84,13 @@ new_cars:
 # Price = list price incl. VSK as shown on the maker's site, BEFORE the rafbílastyrkur (it's deducted
 # automatically when under 10M kr). Entries with price: null are skipped until filled in.
 manual_new:
-  - title: Tesla Model Y Standard
-    price: null
-    url: "https://www.tesla.com/is_is/modely/design"
-  - title: Tesla Model Y Premium RWD
-    price: null
-    url: "https://www.tesla.com/is_is/modely/design"
-  - title: Tesla Model 3 Standard
-    price: null
+  # From tesla.com/is_is, 10 Oct 2026 (Einstaklingur: Staðgreiðsla, "Með VSK")
+  - title: Tesla Model 3 RWD
+    price: 5790000
     url: "https://www.tesla.com/is_is/model3/design"
-  - title: Tesla Model 3 Premium RWD
-    price: null
-    url: "https://www.tesla.com/is_is/model3/design"
+  - title: Tesla Model Y RWD
+    price: 6529990
+    url: "https://www.tesla.com/is_is/modely/design"
 
 sources:
   dealers:
@@ -109,6 +104,13 @@ sources:
       link: "/nyir-bilar/bill/[^/?]+$"
       new: true
       max_pages: 12
+    - name: ÍSBAND (new)
+      # Leapmotor, Fiat, Jeep, RAM. Cards don't state fuel; the rafbílastyrkur badge marks the EVs.
+      url: "https://www.isband.is/product-category/nyir-bilar/page/{page}/"
+      link: "/product/[^/]+/?$"
+      new: true
+      max_pages: 5
+      electric_if: "rafb[ií]lastyrk"
     - name: Brimborg (used)
       url: "https://notadir.brimborg.is/is/notadir-bilar?fueltype=2&page={page}"
       link: "/notadir-bilar/bill/[^/?]+$"

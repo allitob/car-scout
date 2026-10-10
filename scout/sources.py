@@ -184,7 +184,7 @@ def _image(node, base):
     return urljoin("https:", src) if src.startswith("//") else urljoin(base, src)
 
 
-def dealer_cards(html, base, link_rx, source, new):
+def dealer_cards(html, base, link_rx, source, new, electric_rx=None):
     soup = BeautifulSoup(html, "html.parser")
     out = {}
     for a in soup.find_all("a", href=True):
@@ -211,7 +211,8 @@ def dealer_cards(html, base, link_rx, source, new):
         h = node.find(["h2", "h3", "h4"])
         title = max(names + ([h.get_text(" ", strip=True)] if h else []), key=len, default="")
         year, km, fuel = parse_fields(text, title)
-        electric = bool(re.search(r"\brafmagn\b|100\s*%\s*raf", text, re.I)) and not PHEV_RE.search(text + " " + title)
+        electric = (bool(re.search(r"\brafmagn\b|100\s*%\s*raf", text, re.I))
+                    or bool(electric_rx and re.search(electric_rx, text, re.I))) and not PHEV_RE.search(text + " " + title)
         out[href] = {"source": source, "title": title, "price": min(prices), "list_price": max(prices),
                      "grant_applied": bool(re.search(r"styrk", text, re.I)) and len(prices) > 1,
                      "year": year, "km": km, "fuel": "rafmagn" if electric else (fuel or ""),
@@ -219,7 +220,7 @@ def dealer_cards(html, base, link_rx, source, new):
     return list(out.values())
 
 
-def dealer(name, url_tmpl, link_rx, new, max_pages, log):
+def dealer(name, url_tmpl, link_rx, new, max_pages, log, electric_rx=None):
     out = {}
     for page in range(1, max_pages + 1):
         url = url_tmpl.format(page=page)
@@ -233,7 +234,7 @@ def dealer(name, url_tmpl, link_rx, new, max_pages, log):
             dbg = Path(__file__).resolve().parent.parent / "data" / "debug"
             dbg.mkdir(parents=True, exist_ok=True)
             (dbg / (re.sub(r"\W+", "_", name).strip("_").lower() + "_page1.html")).write_text(r.text, encoding="utf-8")
-        cards = dealer_cards(r.text, url, link_rx, name, new)
+        cards = dealer_cards(r.text, url, link_rx, name, new, electric_rx)
         fresh = [c for c in cards if c["url"] not in out]
         if not fresh:
             break

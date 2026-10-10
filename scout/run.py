@@ -49,7 +49,8 @@ def main():
 
     for d in cfg["sources"].get("dealers", []):
         try:
-            got = sources.dealer(d["name"], d["url"], d["link"], d["new"], d["max_pages"], log)
+            got = sources.dealer(d["name"], d["url"], d["link"], d["new"], d["max_pages"], log,
+                                 electric_rx=d.get("electric_if"))
             raw += got
             health[d["name"]] = len(got)
         except Exception as e:
