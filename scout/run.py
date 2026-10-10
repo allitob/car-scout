@@ -163,8 +163,7 @@ def card(r, new, rate):
     if r.get("prev_price") and r["prev_price"] > r["price"]:
         price += f" (was {fmt(r['prev_price'])})"
     out = [f"**{r['kr_per_km']:.1f} kr/km** · sell after **{r['hold_years']} yr** · {price}" + (" · 🆕" if new else "") + (f" · {r['in_stock']} in stock" if r.get("in_stock", 1) > 1 else ""), ""]
-    if r.get("image"):
-        out += [f'<a href="{r["url"]}"><img src="{r["image"]}" width="320"></a>', ""]
+    out += [f'<a href="{r["url"]}"><img src="{r.get("image") or "images/no-photo.png"}" width="320"></a>', ""]
     out += [f"[{r['title']}]({r['url']})  ",
             f"<sub>{'🆕 NEW' if r.get('new') else r['year']} · {fmt(r['km'])} km · {r['source']} · {r['model']} · {deal_txt} "
             + (f"(resale ≈ {fmt(r['resale'])} kr)</sub>" if r.get("anchored") else f"(market ≈ {fmt(r['market_value'])} kr, resale ≈ {fmt(r['resale'])} kr)</sub>"), "",

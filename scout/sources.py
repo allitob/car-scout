@@ -168,20 +168,46 @@ def card_prices(text):
     return out
 
 
+NOT_PHOTO_RE = re.compile(r"overlay|logo|badge|icon|sprite|placeholder|\.svg(\?|$)|strevda", re.I)
+
+
 def _image(node, base):
+    """First real car photo in the node — skips promo overlays, logos and icons."""
+    cands = []
     cover = node.find(attrs={"data-cover": True})
     if cover:
-        src = cover["data-cover"]
-    else:
-        bg = node.find(style=re.compile(r"background-image"))
-        m = re.search(r"url\(['\"]?([^'\")]+)", bg["style"]) if bg else None
-        img = node.find("img")
-        src = m.group(1) if m else ((img.get("data-src") or img.get("src") or "").split(" ")[0] if img else None)
-        if not src and img and img.get("srcset"):
+        cands.append(cover["data-cover"])
+    for el in node.find_all(style=re.compile(r"background-image")):
+        m = re.search(r"url\(['\"]?([^'\")]+)", el["style"])
+        if m:
+            cands.append(m.group(1))
+    for img in node.find_all("img"):
+        src = (img.get("data-src") or img.get("src") or "").split(" ")[0]
+        if (not src or src.startswith("data:")) and img.get("srcset"):
             src = img["srcset"].split(",")[0].split()[0]
-    if not src or src.startswith("data:"):
-        return None
-    return urljoin("https:", src) if src.startswith("//") else urljoin(base, src)
+        cands.append(src)
+    for src in cands:
+        if src and not src.startswith("data:") and not NOT_PHOTO_RE.search(src):
+            return urljoin("https:", src) if src.startswith("//") else urljoin(base, src)
+    return None
+
+
+def _card_image(node, a, href, base, link_rx):
+    """The photo often sits beside the text block (Hekla: imageWrap next to content), so climb a
+    few more levels while we're still inside this one car's card."""
+    for _ in range(4):
+        img = _image(node, base)
+        if img:
+            return img
+        parent = node.parent
+        if parent is None:
+            return None
+        links = {urljoin(base, x["href"]).split("#")[0] for x in parent.find_all("a", href=True)
+                 if re.search(link_rx, urljoin(base, x["href"]))}
+        if len(links) > 1:
+            return None
+        node = parent
+    return None
 
 
 def dealer_cards(html, base, link_rx, source, new, electric_rx=None):
@@ -216,7 +242,7 @@ def dealer_cards(html, base, link_rx, source, new, electric_rx=None):
         out[href] = {"source": source, "title": title, "price": min(prices), "list_price": max(prices),
                      "grant_applied": bool(re.search(r"styrk", text, re.I)) and len(prices) > 1,
                      "year": year, "km": km, "fuel": "rafmagn" if electric else (fuel or ""),
-                     "url": href, "image": _image(node, base), "text": text[:600], "new": new}
+                     "url": href, "image": _card_image(node, a, href, base, link_rx), "text": text[:600], "new": new}
     return list(out.values())
 
 
