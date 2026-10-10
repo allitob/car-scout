@@ -30,10 +30,13 @@ def evaluate(car, market, cfg):
     # A price below/above the market usually reflects condition, spec or battery health, so most of
     # the gap stays with the car when it's resold (price_gap_persists = 1: all of it)
     # New cars: the gap between list price and a nearly-new used one is the showroom premium — it's gone at resale
+    anchored = False
     if car.get("new"):
         # Value right after registration: the used market's level for this model, but never above what
         # was paid minus the registration drop (thin data can put a model's used level above its new price)
-        v_now = min(v_market, price * (1 - cfg["new_cars"].get("registration_drop", 0.10)))
+        drop = cfg["new_cars"].get("registration_drop", 0.10)
+        anchored = v_market > price * (1 - drop)
+        v_now = min(v_market, price * (1 - drop))
     else:
         keep = m.get("price_gap_persists", 0.8)
         v_now = v_market * (price / v_market) ** keep
@@ -85,6 +88,9 @@ def evaluate(car, market, cfg):
         km_at = round((km0 + D * best["hold_years"]) / 1000)
         flags.append(f"still getting cheaper per km at {best['hold_years']} yr / {km_at}.000 km, where market data ends — "
                      "keeping it longer is probably cheaper still")
+    if car.get("new") and anchored:
+        flags.append(f"no nearly-new used ones to compare with: assumed it loses {drop:.0%} on registration, "
+                     "then the normal EV depreciation")
     if young:
         flags.append("young brand in Iceland: depreciation & battery guessed")
     elif not measured:
@@ -93,5 +99,5 @@ def evaluate(car, market, cfg):
         flags.append("model not recognised: consumption assumed")
     deal = price / v_market - 1
     best.update({"market_value": v_market, "deal": deal, "energy_kr_per_km": energy_kr_per_km,
-                 "flags": flags, "uncertainty": unc})
+                 "flags": flags, "uncertainty": unc, "anchored": anchored})
     return best

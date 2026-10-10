@@ -149,7 +149,8 @@ def card(r, new, rate):
     deal_txt = (f"{-deal:.0%} under market" if deal < -0.03 else f"{deal:.0%} over market" if deal > 0.03 else "at market")
     if r.get("new"):
         deal_txt = (f"new: {fmt(r['list_price'])} kr list, rafbílastyrkur "
-                    + ("assumed" if r.get("grant_assumed") else "included") + f" · {deal:+.0%} vs a nearly-new used one")
+                    + ("assumed" if r.get("grant_assumed") else "included")
+                    + ("" if r.get("anchored") else f" · {deal:+.0%} vs a nearly-new used one"))
     price = f"{fmt(r['price'])} kr"
     if r.get("prev_price") and r["prev_price"] > r["price"]:
         price += f" (was {fmt(r['prev_price'])})"
@@ -158,7 +159,7 @@ def card(r, new, rate):
         out += [f'<a href="{r["url"]}"><img src="{r["image"]}" width="320"></a>', ""]
     out += [f"[{r['title']}]({r['url']})  ",
             f"<sub>{'🆕 NEW' if r.get('new') else r['year']} · {fmt(r['km'])} km · {r['source']} · {r['model']} · {deal_txt} "
-            f"(market ≈ {fmt(r['market_value'])} kr, resale ≈ {fmt(r['resale'])} kr)</sub>", "",
+            (f"(resale ≈ {fmt(r['resale'])} kr)</sub>" if r.get("anchored") else f"(market ≈ {fmt(r['market_value'])} kr, resale ≈ {fmt(r['resale'])} kr)</sub>"), "",
             f"<sub>kr/km: {parts}</sub>"]
     if r["flags"]:
         out += ["", f"<sub>⚠️ {'; '.join(r['flags'])}</sub>"]
