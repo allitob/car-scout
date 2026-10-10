@@ -81,6 +81,9 @@ def main():
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=1))
 
     rows.sort(key=lambda r: r["kr_per_km"])
+    # Rank only recent model years; older listings were used above for the market fit only
+    rows = [r for r in rows if r["year"] >= f.get("min_year", 0)]
+    log(f"{len(rows)} cars from {f.get('min_year')} on ranked")
     write_csv(rows)
     write_md(rows, market, cfg, health, now, new_urls)
     notify(rows[:10], new_urls)
@@ -128,10 +131,10 @@ def write_md(rows, market, cfg, health, now, new):
     D = cfg["usage"]["km_per_year"]
     rate = cfg["money"]["opportunity_rate"]
     lines = ["# Cheapest EVs per km", "",
-             f"Updated {now} · {len(rows)} battery-electric cars · {fmt(D)} km/yr · capital at {rate:.0%} · "
+             f"Updated {now} · {len(rows)} battery-electric cars from {cfg['filters'].get('min_year')} on · {fmt(D)} km/yr · capital at {rate:.0%} · "
              f"best selling year chosen per car (max {cfg['usage']['max_hold_years']} yr)", "",
              f"Market: EVs lose about **{market.yearly_depreciation(D):.0%} of their value per year** at this mileage "
-             f"(fitted on {market.n} listings). Costs in today's krónur. Assumptions: `config.yaml`.", "",
+             f"(fitted on all {market.n} EV listings, older ones included). Costs in today's krónur. Assumptions: `config.yaml`.", "",
              "<details><summary>How the number is built</summary>", "",
              "cost per km = (price − resale after N years + capital cost + charging + kílómetragjald + insurance + "
              "service + tyres + tax/skoðun + expected battery repairs after warranty) ÷ km driven. "
