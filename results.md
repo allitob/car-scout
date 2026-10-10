@@ -1,6 +1,6 @@
 # Cheapest EVs per km
 
-Updated 2026-10-10 12:22 UTC · 285 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
+Updated 2026-10-10 12:37 UTC · 285 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
 
 Market: EVs lose about **15% of their value per year** at this mileage (fitted on all 184 EV listings, older ones included). Costs in today's krónur. Assumptions: `config.yaml`.
 
@@ -12,7 +12,15 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**38.4 kr/km** · sell after **11 yr** · 2.390.000 kr
+**Bands:** 🟢 **Good** under 50 kr/km (20 cars) · 🟡 **Medium** 50–70 kr/km (144 cars) · 🔴 **Bad** 70+ kr/km (121 cars)
+
+---
+
+## 🟢 Good — under 50 kr/km
+
+> 🟢 **under 50 kr/km ≈ under 1,0M kr per year** at 20.000 km/yr · 20 cars · cheap, efficient, holds its value — about as low as a 2022+ EV gets
+
+🟢 **38.4 kr/km** · sell after **11 yr** · 2.390.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-t03/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-T03-Caribbean-Blue.png" width="320"></a>
 
@@ -25,7 +33,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**42.0 kr/km** · sell after **12 yr** · 2.990.000 kr
+🟢 **42.0 kr/km** · sell after **12 yr** · 2.990.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-b03x-life/"><img src="https://www.isband.is/wp-content/uploads/2026/07/1000x1000-B03X-Life-Acorn-Brown.png" width="320"></a>
 
@@ -38,7 +46,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**45.2 kr/km** · sell after **12 yr** · 3.590.000 kr
+🟢 **45.2 kr/km** · sell after **12 yr** · 3.590.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-b03x-design/"><img src="https://www.isband.is/wp-content/uploads/2026/07/1000x1000-B03X-Design-Seaweed-Green.png" width="320"></a>
 
@@ -51,7 +59,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**45.2 kr/km** · sell after **7 yr** · 2.290.000 kr
+🟢 **45.2 kr/km** · sell after **7 yr** · 2.290.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg-mg5-electric-2022/5291994/"><img src="https://img.bland.is/album/400/382085/m/20261002234111_0.jpg" width="320"></a>
 
@@ -64,7 +72,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**45.3 kr/km** · sell after **11 yr** · 2.890.000 kr
+🟢 **45.3 kr/km** · sell after **11 yr** · 2.890.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/ZOX15"><img src="https://notadir.brimborg.is/static/notadir/images/ZOX15_cf39e1b97047f5050758041c56fc34b6_thumb.jpg?v2" width="320"></a>
 
@@ -77,7 +85,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**46.2 kr/km** · sell after **9 yr** · 2.590.000 kr
+🟢 **46.2 kr/km** · sell after **9 yr** · 2.590.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/draumaperla-innanbaejar-til-solu-fiat-e500/5283536/"><img src="https://img.bland.is/album/400/723/m/20260902102821_0.jpg" width="320"></a>
 
@@ -90,7 +98,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**46.4 kr/km** · sell after **11 yr** · 2.790.000 kr
+🟢 **46.4 kr/km** · sell after **11 yr** · 2.790.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/VZA79"><img src="https://notadir.brimborg.is/static/notadir/images/VZA79_15c46107d6877f8a8439ba3d98db0595_thumb.jpg?v2" width="320"></a>
 
@@ -103,7 +111,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**47.0 kr/km** · sell after **10 yr** · 2.990.000 kr
+🟢 **47.0 kr/km** · sell after **10 yr** · 2.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/YDU85"><img src="https://notadir.brimborg.is/static/notadir/images/YDU85_40da9b64375f8cb41adc60032792e3e5_thumb.jpg?v2" width="320"></a>
 
@@ -116,7 +124,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**47.0 kr/km** · sell after **8 yr** · 2.590.000 kr
+🟢 **47.0 kr/km** · sell after **8 yr** · 2.590.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg-mg4-electric-12-2022/5291832/"><img src="https://img.bland.is/album/400/92609/m/20261002120141_0.jpg" width="320"></a>
 
@@ -129,7 +137,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**47.2 kr/km** · sell after **8 yr** · 2.690.000 kr
+🟢 **47.2 kr/km** · sell after **8 yr** · 2.690.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/citroen-e-c4-2022/5171569/"><img src="https://img.bland.is/album/400/53278/m/20250829190327_0.jpg" width="320"></a>
 
@@ -142,7 +150,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**47.3 kr/km** · sell after **12 yr** · 3.990.000 kr
+🟢 **47.3 kr/km** · sell after **12 yr** · 3.990.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-b05-design/"><img src="https://www.isband.is/wp-content/uploads/2026/03/1000x1000-B05-Design-Galaxy-Silver.png" width="320"></a>
 
@@ -155,7 +163,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**47.5 kr/km** · sell after **7 yr** · 2.700.000 kr
+🟢 **47.5 kr/km** · sell after **7 yr** · 2.700.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg-mg5-electric-2023/5282996/"><img src="https://img.bland.is/album/400/415862/m/20260831130544_0.jpg" width="320"></a>
 
@@ -168,7 +176,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**48.1 kr/km** · sell after **12 yr** · 4.280.000 kr
+🟢 **48.1 kr/km** · sell after **12 yr** · 4.280.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EIF49"><img src="https://nyirbilar.brimborg.is/static/notadir/images/EIF49_6f413bfacadee226d0e68c5547ef01a0_full.jpg?v2" width="320"></a>
 
@@ -181,7 +189,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**48.4 kr/km** · sell after **10 yr** · 3.190.000 kr
+🟢 **48.4 kr/km** · sell after **10 yr** · 3.190.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/YDG93"><img src="https://notadir.brimborg.is/static/notadir/images/YDG93_6a5a066e2c4b5603eb086ffda745274a_thumb.jpg?v2" width="320"></a>
 
@@ -194,7 +202,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**48.6 kr/km** · sell after **7 yr** · 2.780.000 kr
+🟢 **48.6 kr/km** · sell after **7 yr** · 2.780.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/nissan-leaf-40kwh-2022/5234123/"><img src="https://img.bland.is/album/400/175648/m/20260322220437_0.jpg" width="320"></a>
 
@@ -207,7 +215,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**48.8 kr/km** · sell after **10 yr** · 2.950.000 kr
+🟢 **48.8 kr/km** · sell after **10 yr** · 2.950.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/opel-mokka-ultimate-2022/5277617/"><img src="https://img.bland.is/album/400/69445/m/20260813123618_0.jpg" width="320"></a>
 
@@ -220,7 +228,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**49.2 kr/km** · sell after **12 yr** · 4.490.000 kr
+🟢 **49.2 kr/km** · sell after **12 yr** · 4.490.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/146517"><img src="https://nyirbilar.brimborg.is/static/notadir/images/146517_0909e795e8af12c2e59adeab44723535_full.jpg?v2" width="320"></a>
 
@@ -233,7 +241,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**49.3 kr/km** · sell after **12 yr** · 4.499.000 kr
+🟢 **49.3 kr/km** · sell after **12 yr** · 4.499.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GKM99"><img src="https://nyirbilar.brimborg.is/static/notadir/images/GKM99_6f413bfacadee226d0e68c5547ef01a0_full.jpg?v2" width="320"></a>
 
@@ -246,7 +254,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**49.3 kr/km** · sell after **9 yr** · 3.300.000 kr
+🟢 **49.3 kr/km** · sell after **9 yr** · 3.300.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/nissan-leaf-40kwh/5258470/"><img src="https://img.bland.is/album/400/245091/m/20260606234341_0.jpg" width="320"></a>
 
@@ -259,7 +267,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**49.4 kr/km** · sell after **11 yr** · 3.800.000 kr
+🟢 **49.4 kr/km** · sell after **11 yr** · 3.800.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg-comfort/5289959/"><img src="https://img.bland.is/album/400/318980/m/20260925153102_0.jpg" width="320"></a>
 
@@ -272,7 +280,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**50.2 kr/km** · sell after **12 yr** · 4.669.000 kr
+## 🟡 Medium — 50–70 kr/km
+
+> 🟡 **50–70 kr/km ≈ 1,0–1,4M kr per year** at 20.000 km/yr · 144 cars · normal family EV — you pay for size, range or a newer car
+
+🟡 **50.2 kr/km** · sell after **12 yr** · 4.669.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/146518"><img src="https://nyirbilar.brimborg.is/static/notadir/images/146518_453535b5a633a3b67379c850d1f6368b_full.jpg?v2" width="320"></a>
 
@@ -285,7 +297,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**50.2 kr/km** · sell after **10 yr** · 3.490.000 kr
+🟡 **50.2 kr/km** · sell after **10 yr** · 3.490.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/GZZ04"><img src="https://notadir.brimborg.is/static/notadir/images/GZZ04_1deb5524a4496b2a59f2a7f1b23764bf_thumb.jpg?v2" width="320"></a>
 
@@ -298,7 +310,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**50.3 kr/km** · sell after **10 yr** · 3.990.000 kr
+🟡 **50.3 kr/km** · sell after **10 yr** · 3.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/SHR26"><img src="https://notadir.brimborg.is/static/notadir/images/SHR26_41c9f6585b890b364e33652a9c7cd7d3_thumb.jpg?v2" width="320"></a>
 
@@ -311,7 +323,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**50.4 kr/km** · sell after **9 yr** · 3.200.000 kr
+🟡 **50.4 kr/km** · sell after **9 yr** · 3.200.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/nissan-leaf-62kwh-2022/5291168/"><img src="https://img.bland.is/album/400/88208/m/20260929192918_0.jpg" width="320"></a>
 
@@ -324,7 +336,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**50.4 kr/km** · sell after **10 yr** · 3.500.000 kr
+🟡 **50.4 kr/km** · sell after **10 yr** · 3.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg4-rafmagnsbill/5289431/"><img src="https://img.bland.is/album/400/189894/m/20260923124042_0.jpg" width="320"></a>
 
@@ -337,7 +349,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**51.9 kr/km** · sell after **11 yr** · 3.500.000 kr
+🟡 **51.9 kr/km** · sell after **11 yr** · 3.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/nissan-leaf-tekna-2022/4880347/"><img src="https://img.bland.is/album/400/139165/m/20231001141648_0.jpg" width="320"></a>
 
@@ -350,7 +362,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**52.0 kr/km** · sell after **12 yr** · 4.790.000 kr
+🟡 **52.0 kr/km** · sell after **12 yr** · 4.790.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-b10-design/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-B10-3.png" width="320"></a>
 
@@ -363,7 +375,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**52.1 kr/km** · sell after **12 yr** · 5.070.000 kr · 2 in stock
+🟡 **52.1 kr/km** · sell after **12 yr** · 5.070.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-8"><img src="https://www.hekla.is/static/store/images/original/product_973719.png" width="320"></a>
 
@@ -376,7 +388,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**52.4 kr/km** · sell after **12 yr** · 5.000.000 kr
+🟡 **52.4 kr/km** · sell after **12 yr** · 5.000.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148725"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148725_9e7d06f4d29e9f6f4f86b4e28fd834b0_full.jpg?v2" width="320"></a>
 
@@ -389,7 +401,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**52.7 kr/km** · sell after **11 yr** · 4.490.000 kr
+🟡 **52.7 kr/km** · sell after **11 yr** · 4.490.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/KLN72"><img src="https://notadir.brimborg.is/static/notadir/images/KLN72_c5eb57bcce5024fa08dc48cf5585d057_thumb.jpg?v2" width="320"></a>
 
@@ -402,7 +414,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**52.7 kr/km** · sell after **12 yr** · 5.060.000 kr
+🟡 **52.7 kr/km** · sell after **12 yr** · 5.060.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148729"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148729_2679f3b9c296f37b0fa1be15cd3e312d_full.jpg?v2" width="320"></a>
 
@@ -415,7 +427,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**52.7 kr/km** · sell after **12 yr** · 5.190.000 kr · 4 in stock
+🟡 **52.7 kr/km** · sell after **12 yr** · 5.190.000 kr · 4 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-epiq-55"><img src="https://www.hekla.is/static/store/images/original/product_973604.png" width="320"></a>
 
@@ -428,7 +440,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**52.9 kr/km** · sell after **12 yr** · 5.090.000 kr
+🟡 **52.9 kr/km** · sell after **12 yr** · 5.090.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148730"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148730_5c83b0adb9f30bf5263b78c7fb21f2cc_full.jpg?v2" width="320"></a>
 
@@ -441,7 +453,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**53.7 kr/km** · sell after **12 yr** · 5.290.000 kr
+🟡 **53.7 kr/km** · sell after **12 yr** · 5.290.000 kr
 
 <a href="https://www.tesla.com/is_is/model3/design"><img src="images/tesla-model-3.jpg" width="320"></a>
 
@@ -454,7 +466,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**53.8 kr/km** · sell after **12 yr** · 5.270.000 kr
+🟡 **53.8 kr/km** · sell after **12 yr** · 5.270.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148813"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148813_fae787e2a01b79499dca4b35babac31c_full.jpg?v2" width="320"></a>
 
@@ -467,7 +479,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**53.9 kr/km** · sell after **12 yr** · 5.410.000 kr · 3 in stock
+🟡 **53.9 kr/km** · sell after **12 yr** · 5.410.000 kr · 3 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-1"><img src="https://www.hekla.is/static/store/images/original/product_973727.png" width="320"></a>
 
@@ -480,7 +492,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**54.1 kr/km** · sell after **12 yr** · 5.330.000 kr · 4 in stock
+🟡 **54.1 kr/km** · sell after **12 yr** · 5.330.000 kr · 4 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148817"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148817_3a644f4642f67aa6c70d34af407c21f4_full.jpg?v2" width="320"></a>
 
@@ -493,7 +505,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**54.3 kr/km** · sell after **12 yr** · 5.360.000 kr
+🟡 **54.3 kr/km** · sell after **12 yr** · 5.360.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148818"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148818_c383a96161fd5b86f33d2e73a0e305f4_full.jpg?v2" width="320"></a>
 
@@ -506,7 +518,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**54.3 kr/km** · sell after **12 yr** · 5.490.000 kr · 2 in stock
+🟡 **54.3 kr/km** · sell after **12 yr** · 5.490.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/epiq-2"><img src="https://www.hekla.is/static/store/images/original/product_973581.png" width="320"></a>
 
@@ -519,7 +531,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**54.5 kr/km** · sell after **8 yr** · 3.500.000 kr
+🟡 **54.5 kr/km** · sell after **8 yr** · 3.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg-mg-marvel-r-electric-2022/5293541/"><img src="https://img.bland.is/album/400/167758/m/20261007222616_1.jpg" width="320"></a>
 
@@ -532,7 +544,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**54.7 kr/km** · sell after **12 yr** · 5.480.000 kr · 7 in stock
+🟡 **54.7 kr/km** · sell after **12 yr** · 5.480.000 kr · 7 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id3-pro-39"><img src="https://www.hekla.is/static/store/images/original/product_970239.jpg" width="320"></a>
 
@@ -545,7 +557,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**55.9 kr/km** · sell after **8 yr** · 3.700.000 kr
+🟡 **55.9 kr/km** · sell after **8 yr** · 3.700.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg-mg-marvel-r-electric-2022/5266801/"><img src="https://img.bland.is/album/400/167758/m/20260705215023_0.jpg" width="320"></a>
 
@@ -558,7 +570,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**56.8 kr/km** · sell after **12 yr** · 5.880.000 kr · 2 in stock
+🟡 **56.8 kr/km** · sell after **12 yr** · 5.880.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-cross-life"><img src="https://www.hekla.is/static/store/images/original/product_973142.png" width="320"></a>
 
@@ -571,7 +583,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**57.0 kr/km** · sell after **9 yr** · 4.390.000 kr
+🟡 **57.0 kr/km** · sell after **9 yr** · 4.390.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/DKY61"><img src="https://notadir.brimborg.is/static/notadir/images/DKY61_d09bf603f774e23e0560de76761d00b3_thumb.jpg?v2" width="320"></a>
 
@@ -584,7 +596,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**57.7 kr/km** · sell after **7 yr** · 3.890.000 kr
+🟡 **57.7 kr/km** · sell after **7 yr** · 3.890.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/KJX58"><img src="https://notadir.brimborg.is/static/notadir/images/KJX58_6b684ddaa1dab7147185d6cedb806f47_thumb.jpg?v2" width="320"></a>
 
@@ -597,7 +609,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**57.8 kr/km** · sell after **11 yr** · 5.590.000 kr
+🟡 **57.8 kr/km** · sell after **11 yr** · 5.590.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-3-2026/5282308/"><img src="https://img.bland.is/album/400/191249/m/20260828233830_0.jpg" width="320"></a>
 
@@ -610,7 +622,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.0 kr/km** · sell after **8 yr** · 3.999.999 kr
+🟡 **58.0 kr/km** · sell after **8 yr** · 3.999.999 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg-mg-marvel-r-electric-2022/5289348/"><img src="https://img.bland.is/album/400/167758/m/20260922223747_0.jpg" width="320"></a>
 
@@ -623,7 +635,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.2 kr/km** · sell after **12 yr** · 6.029.990 kr
+🟡 **58.2 kr/km** · sell after **12 yr** · 6.029.990 kr
 
 <a href="https://www.tesla.com/is_is/modely/design"><img src="images/tesla-model-y.jpg" width="320"></a>
 
@@ -636,7 +648,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.2 kr/km** · sell after **8 yr** · 4.500.000 kr
+🟡 **58.2 kr/km** · sell after **8 yr** · 4.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-y-2023/5292750/"><img src="https://img.bland.is/album/400/73249/m/20261005112606_0.jpg" width="320"></a>
 
@@ -649,7 +661,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.3 kr/km** · sell after **9 yr** · 4.590.000 kr
+🟡 **58.3 kr/km** · sell after **9 yr** · 4.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/VFM83"><img src="https://notadir.brimborg.is/static/notadir/images/VFM83_9e8a868f9adf3c53fcbc7e35815d1567_thumb.jpg?v2" width="320"></a>
 
@@ -662,7 +674,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.7 kr/km** · sell after **12 yr** · 6.080.000 kr · 2 in stock
+🟡 **58.7 kr/km** · sell after **12 yr** · 6.080.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/REK18"><img src="https://nyirbilar.brimborg.is/static/notadir/images/REK18_668d3fb3e56c6a43324c2db76cebbab5_full.jpg?v2" width="320"></a>
 
@@ -675,7 +687,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.8 kr/km** · sell after **12 yr** · 5.990.000 kr
+🟡 **58.8 kr/km** · sell after **12 yr** · 5.990.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-c10-design-awd/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-C10-1.png" width="320"></a>
 
@@ -688,7 +700,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.8 kr/km** · sell after **10 yr** · 4.790.000 kr
+🟡 **58.8 kr/km** · sell after **10 yr** · 4.790.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/VRY57"><img src="https://notadir.brimborg.is/static/notadir/images/VRY57_671f1d5e1316feae17819813b2466d33_thumb.jpg?v2" width="320"></a>
 
@@ -701,7 +713,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.8 kr/km** · sell after **5 yr** · 3.300.000 kr
+🟡 **58.8 kr/km** · sell after **5 yr** · 3.300.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mg-mg-marvel-r-electric-2022/5218418/"><img src="https://img.bland.is/album/400/103077/m/20260128142328_0.jpg" width="320"></a>
 
@@ -714,7 +726,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.0 kr/km** · sell after **12 yr** · 6.130.000 kr
+🟡 **59.0 kr/km** · sell after **12 yr** · 6.130.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/PDH37"><img src="https://nyirbilar.brimborg.is/static/notadir/images/PDH37_ef3a2b4dbd9ac6faac10bc6f2d5d8e18_full.jpg?v2" width="320"></a>
 
@@ -727,7 +739,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.1 kr/km** · sell after **9 yr** · 4.990.000 kr
+🟡 **59.1 kr/km** · sell after **9 yr** · 4.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/ZBZ58"><img src="https://notadir.brimborg.is/static/notadir/images/ZBZ58_504f5d2cceda1ec947ca7e2c98ea3694_thumb.jpg?v2" width="320"></a>
 
@@ -740,7 +752,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.2 kr/km** · sell after **8 yr** · 4.590.000 kr
+🟡 **59.2 kr/km** · sell after **8 yr** · 4.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/JKH73"><img src="https://notadir.brimborg.is/static/notadir/images/JKH73_6eaec6018b66fc6fb746745fe35a929c_thumb.jpg?v2" width="320"></a>
 
@@ -753,7 +765,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.5 kr/km** · sell after **10 yr** · 4.900.000 kr
+🟡 **59.5 kr/km** · sell after **10 yr** · 4.900.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/subaru-solterra-2023-ekinn-adeins-34-000-km-/5291633/"><img src="https://img.bland.is/album/400/153692/m/20261001183508_0.jpg" width="320"></a>
 
@@ -766,7 +778,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.7 kr/km** · sell after **12 yr** · 6.390.000 kr · 6 in stock
+🟡 **59.7 kr/km** · sell after **12 yr** · 6.390.000 kr · 6 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/elroq-22"><img src="https://www.hekla.is/static/store/images/original/product_973434.png" width="320"></a>
 
@@ -779,7 +791,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.9 kr/km** · sell after **9 yr** · 4.500.000 kr
+🟡 **59.9 kr/km** · sell after **9 yr** · 4.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/kia-ev6-2022/5278945/"><img src="https://img.bland.is/album/400/281104/m/20260817195328_0.jpg" width="320"></a>
 
@@ -792,7 +804,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.9 kr/km** · sell after **10 yr** · 4.690.000 kr
+🟡 **59.9 kr/km** · sell after **10 yr** · 4.690.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/LMB57"><img src="https://notadir.brimborg.is/static/notadir/images/LMB57_402c476ff93d20d362133231b6e37ea5_thumb.jpg?v2" width="320"></a>
 
@@ -805,7 +817,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.9 kr/km** · sell after **11 yr** · 5.670.000 kr
+🟡 **59.9 kr/km** · sell after **11 yr** · 5.670.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mazda-6e-2025/5291215/"><img src="https://img.bland.is/album/400/135494/m/20260929225151_0.jpg" width="320"></a>
 
@@ -818,7 +830,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**60.2 kr/km** · sell after **12 yr** · 6.390.000 kr · 2 in stock
+🟡 **60.2 kr/km** · sell after **12 yr** · 6.390.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RUH79"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RUH79_32e9321b832e538ae32ab3a0acb0dc31_full.jpg?v2" width="320"></a>
 
@@ -831,7 +843,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**60.3 kr/km** · sell after **12 yr** · 6.380.000 kr
+🟡 **60.3 kr/km** · sell after **12 yr** · 6.380.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EPF49"><img src="https://nyirbilar.brimborg.is/static/notadir/images/EPF49_9ad79e05aafed7c62a5e0797da10de0a_full.jpg?v2" width="320"></a>
 
@@ -844,7 +856,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**60.4 kr/km** · sell after **12 yr** · 6.400.000 kr
+🟡 **60.4 kr/km** · sell after **12 yr** · 6.400.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RXU96"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RXU96_4d6bf4a1cbd0439c2af7f7cdb3c7ec16_full.jpg?v2" width="320"></a>
 
@@ -857,7 +869,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**60.6 kr/km** · sell after **12 yr** · 6.430.000 kr
+🟡 **60.6 kr/km** · sell after **12 yr** · 6.430.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/MHL89"><img src="https://nyirbilar.brimborg.is/static/notadir/images/MHL89_f3098269988f3bb5567c88b3b19c9b14_full.jpg?v2" width="320"></a>
 
@@ -870,7 +882,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**60.6 kr/km** · sell after **9 yr** · 4.690.000 kr
+🟡 **60.6 kr/km** · sell after **9 yr** · 4.690.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/OXE66"><img src="https://notadir.brimborg.is/static/notadir/images/OXE66_fe4f0b1661b5d9228393bca0f92ae76a_thumb.jpg?v2" width="320"></a>
 
@@ -883,7 +895,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**60.8 kr/km** · sell after **12 yr** · 6.630.000 kr
+🟡 **60.8 kr/km** · sell after **12 yr** · 6.630.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-cross-style-3"><img src="https://www.hekla.is/static/store/images/original/product_973159.png" width="320"></a>
 
@@ -896,7 +908,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**60.9 kr/km** · sell after **12 yr** · 6.490.000 kr
+🟡 **60.9 kr/km** · sell after **12 yr** · 6.490.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id4-pro-4motion-93"><img src="https://www.hekla.is/static/store/images/original/product_973230.png" width="320"></a>
 
@@ -909,7 +921,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**60.9 kr/km** · sell after **11 yr** · 5.990.000 kr
+🟡 **60.9 kr/km** · sell after **11 yr** · 5.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/kia-ev3-gt-line-2025/5291944/"><img src="https://img.bland.is/album/400/9094/m/20261002183915_0.jpg" width="320"></a>
 
@@ -922,7 +934,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.0 kr/km** · sell after **11 yr** · 5.690.000 kr
+🟡 **61.0 kr/km** · sell after **11 yr** · 5.690.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/BHK47"><img src="https://notadir.brimborg.is/static/notadir/images/BHK47_aefb94be563ddf8fdfc3ecd5a4824bc5_thumb.jpg?v2" width="320"></a>
 
@@ -935,7 +947,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.2 kr/km** · sell after **12 yr** · 6.580.000 kr
+🟡 **61.2 kr/km** · sell after **12 yr** · 6.580.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/KJB85"><img src="https://nyirbilar.brimborg.is/static/notadir/images/KJB85_9533e95485cb1e000e738601dbc1736f_full.jpg?v2" width="320"></a>
 
@@ -948,7 +960,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.2 kr/km** · sell after **12 yr** · 6.580.000 kr · 4 in stock
+🟡 **61.2 kr/km** · sell after **12 yr** · 6.580.000 kr · 4 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/LBB86"><img src="https://nyirbilar.brimborg.is/static/notadir/images/LBB86_6f727867fac0245b21ad1b43381e1333_full.jpg?v2" width="320"></a>
 
@@ -961,7 +973,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.2 kr/km** · sell after **12 yr** · 6.590.000 kr · 2 in stock
+🟡 **61.2 kr/km** · sell after **12 yr** · 6.590.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147090"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147090_b0b99113d495c846014435ec2746520c_full.jpg?v2" width="320"></a>
 
@@ -974,7 +986,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.3 kr/km** · sell after **9 yr** · 4.790.000 kr
+🟡 **61.3 kr/km** · sell after **9 yr** · 4.790.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/UBU46"><img src="https://notadir.brimborg.is/static/notadir/images/UBU46_da864f7070cc28feda184dfce8ab8c8c_thumb.jpg?v2" width="320"></a>
 
@@ -987,7 +999,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.3 kr/km** · sell after **12 yr** · 6.610.000 kr · 3 in stock
+🟡 **61.3 kr/km** · sell after **12 yr** · 6.610.000 kr · 3 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147231"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147231_0507fc0e4518788a96f72c75c5160fc4_full.jpg?v2" width="320"></a>
 
@@ -1000,7 +1012,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.4 kr/km** · sell after **7 yr** · 4.400.000 kr
+🟡 **61.4 kr/km** · sell after **7 yr** · 4.400.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/polestar-polestar-2-2022/5216910/"><img src="https://img.bland.is/album/400/104059/m/20260123161729_0.jpg" width="320"></a>
 
@@ -1013,7 +1025,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.5 kr/km** · sell after **12 yr** · 6.640.000 kr · 2 in stock
+🟡 **61.5 kr/km** · sell after **12 yr** · 6.640.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147001"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147001_0051ce5fa6221be1b2825e95619134e8_full.jpg?v2" width="320"></a>
 
@@ -1026,7 +1038,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.8 kr/km** · sell after **12 yr** · 6.820.000 kr · 2 in stock
+🟡 **61.8 kr/km** · sell after **12 yr** · 6.820.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-cross-style-2"><img src="https://www.hekla.is/static/store/images/original/product_973176.png" width="320"></a>
 
@@ -1039,7 +1051,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.9 kr/km** · sell after **12 yr** · 6.680.000 kr · 8 in stock
+🟡 **61.9 kr/km** · sell after **12 yr** · 6.680.000 kr · 8 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id4-pro-4motion-73"><img src="https://www.hekla.is/static/store/images/original/product_972129.png" width="320"></a>
 
@@ -1052,7 +1064,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**61.9 kr/km** · sell after **10 yr** · 5.390.000 kr
+🟡 **61.9 kr/km** · sell after **10 yr** · 5.390.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-y-sr-2023/5283295/"><img src="https://img.bland.is/album/400/356925/m/20260901142738_0.jpg" width="320"></a>
 
@@ -1065,7 +1077,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**62.2 kr/km** · sell after **12 yr** · 6.780.000 kr · 5 in stock
+🟡 **62.2 kr/km** · sell after **12 yr** · 6.780.000 kr · 5 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/ETT59"><img src="https://nyirbilar.brimborg.is/static/notadir/images/ETT59_772c50f384607453cbb35aa4bb7ef151_full.jpg?v2" width="320"></a>
 
@@ -1078,7 +1090,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**62.4 kr/km** · sell after **12 yr** · 6.810.000 kr · 6 in stock
+🟡 **62.4 kr/km** · sell after **12 yr** · 6.810.000 kr · 6 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/OEV59"><img src="https://nyirbilar.brimborg.is/static/notadir/images/OEV59_908ea8b8a21d6aeaf3c9b3e35d2dd3a9_full.jpg?v2" width="320"></a>
 
@@ -1091,7 +1103,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**62.5 kr/km** · sell after **7 yr** · 4.690.000 kr
+🟡 **62.5 kr/km** · sell after **7 yr** · 4.690.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/HTT44"><img src="https://notadir.brimborg.is/static/notadir/images/HTT44_bd9e1eeeb9e9ec3397b5f93bcb07cd52_thumb.jpg?v2" width="320"></a>
 
@@ -1104,7 +1116,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**62.6 kr/km** · sell after **12 yr** · 6.840.000 kr · 3 in stock
+🟡 **62.6 kr/km** · sell after **12 yr** · 6.840.000 kr · 3 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/UME19"><img src="https://nyirbilar.brimborg.is/static/notadir/images/UME19_26938eae5a948101193a854cecdfb652_full.jpg?v2" width="320"></a>
 
@@ -1117,7 +1129,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**62.7 kr/km** · sell after **10 yr** · 5.450.000 kr
+🟡 **62.7 kr/km** · sell after **10 yr** · 5.450.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/polestar-2-plus-longe-range/5291777/"><img src="https://img.bland.is/album/400/80467/m/20261002100114_0.jpg" width="320"></a>
 
@@ -1130,7 +1142,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**62.7 kr/km** · sell after **9 yr** · 5.290.000 kr
+🟡 **62.7 kr/km** · sell after **9 yr** · 5.290.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/TLT75"><img src="https://notadir.brimborg.is/static/notadir/images/TLT75_3a208289816e6c1e7780d63ed44dfd05_thumb.jpg?v2" width="320"></a>
 
@@ -1143,7 +1155,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**63.3 kr/km** · sell after **12 yr** · 6.990.000 kr
+🟡 **63.3 kr/km** · sell after **12 yr** · 6.990.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148334"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148334_0d99e3db5927717a29291d82ea9be477_full.jpg?v2" width="320"></a>
 
@@ -1156,7 +1168,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**63.3 kr/km** · sell after **12 yr** · 7.090.000 kr · 4 in stock
+🟡 **63.3 kr/km** · sell after **12 yr** · 7.090.000 kr · 4 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/elroq-42"><img src="https://www.hekla.is/static/store/images/original/product_973878.png" width="320"></a>
 
@@ -1169,7 +1181,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**63.4 kr/km** · sell after **9 yr** · 5.390.000 kr
+🟡 **63.4 kr/km** · sell after **9 yr** · 5.390.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/ROZ34"><img src="https://notadir.brimborg.is/static/notadir/images/ROZ34_56f54b64cba50640e3002c21e3e5a8f3_thumb.jpg?v2" width="320"></a>
 
@@ -1182,7 +1194,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**63.4 kr/km** · sell after **9 yr** · 4.990.000 kr
+🟡 **63.4 kr/km** · sell after **9 yr** · 4.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/audi-q4-2022/5292009/"><img src="https://img.bland.is/album/400/205162/m/20261003075558_0.jpg" width="320"></a>
 
@@ -1195,7 +1207,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**63.8 kr/km** · sell after **9 yr** · 5.190.000 kr
+🟡 **63.8 kr/km** · sell after **9 yr** · 5.190.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/UBT24"><img src="https://notadir.brimborg.is/static/notadir/images/UBT24_e7bbfee65dacb7d9a1466ac60586a0fc_thumb.jpg?v2" width="320"></a>
 
@@ -1208,7 +1220,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**63.9 kr/km** · sell after **5 yr** · 4.190.000 kr
+🟡 **63.9 kr/km** · sell after **5 yr** · 4.190.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/OYY82"><img src="https://notadir.brimborg.is/static/notadir/images/OYY82_95438ed35f90b47e2657ec25f889e165_thumb.jpg?v2" width="320"></a>
 
@@ -1221,7 +1233,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.0 kr/km** · sell after **12 yr** · 7.220.000 kr · 3 in stock
+🟡 **64.0 kr/km** · sell after **12 yr** · 7.220.000 kr · 3 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/MKT25"><img src="https://nyirbilar.brimborg.is/static/notadir/images/MKT25_0a312b297d6a12401ecf3b89bf9602f3_full.jpg?v2" width="320"></a>
 
@@ -1234,7 +1246,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.1 kr/km** · sell after **10 yr** · 5.390.000 kr
+🟡 **64.1 kr/km** · sell after **10 yr** · 5.390.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/KTZ70"><img src="https://notadir.brimborg.is/static/notadir/images/KTZ70_875c388c0d597b0608a3442e499b74a8_thumb.jpg?v2" width="320"></a>
 
@@ -1247,7 +1259,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.3 kr/km** · sell after **12 yr** · 7.180.000 kr · 2 in stock
+🟡 **64.3 kr/km** · sell after **12 yr** · 7.180.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/AIZ06"><img src="https://nyirbilar.brimborg.is/static/notadir/images/AIZ06_93001fc48ba77bbd831ef0693ad73077_full.jpg?v2" width="320"></a>
 
@@ -1260,7 +1272,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.5 kr/km** · sell after **9 yr** · 5.290.000 kr
+🟡 **64.5 kr/km** · sell after **9 yr** · 5.290.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/AVM16"><img src="https://notadir.brimborg.is/static/notadir/images/AVM16_24985ffbfb6c10ecb9832301ee3705db_thumb.jpg?v2" width="320"></a>
 
@@ -1273,7 +1285,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.5 kr/km** · sell after **12 yr** · 7.210.000 kr
+🟡 **64.5 kr/km** · sell after **12 yr** · 7.210.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/149082"><img src="https://nyirbilar.brimborg.is/static/notadir/images/149082_309a2d3c5388911f02cab459ce51f13a_full.jpg?v2" width="320"></a>
 
@@ -1286,7 +1298,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.6 kr/km** · sell after **12 yr** · 7.270.000 kr · 2 in stock
+🟡 **64.6 kr/km** · sell after **12 yr** · 7.270.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/OXS60"><img src="https://nyirbilar.brimborg.is/static/notadir/images/OXS60_45c25b49eb7aaf00ecfcf48a19f2be1b_full.jpg?v2" width="320"></a>
 
@@ -1299,7 +1311,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.7 kr/km** · sell after **8 yr** · 5.390.000 kr
+🟡 **64.7 kr/km** · sell after **8 yr** · 5.390.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/IEN15"><img src="https://notadir.brimborg.is/static/notadir/images/IEN15_eda4d29ad57ead70d1b9595a01ee77bb_thumb.jpg?v2" width="320"></a>
 
@@ -1312,7 +1324,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.7 kr/km** · sell after **8 yr** · 5.390.000 kr
+🟡 **64.7 kr/km** · sell after **8 yr** · 5.390.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/DUK42"><img src="https://notadir.brimborg.is/static/notadir/images/DUK42_6834fc73424d679cb8108753a7ed3c18_thumb.jpg?v2" width="320"></a>
 
@@ -1325,7 +1337,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.8 kr/km** · sell after **12 yr** · 7.190.000 kr
+🟡 **64.8 kr/km** · sell after **12 yr** · 7.190.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/DFF39"><img src="https://nyirbilar.brimborg.is/static/notadir/images/DFF39_dacc8aaf756896af46da075488931851_full.jpg?v2" width="320"></a>
 
@@ -1338,7 +1350,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.9 kr/km** · sell after **8 yr** · 4.990.000 kr
+🟡 **64.9 kr/km** · sell after **8 yr** · 4.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/TBB90"><img src="https://notadir.brimborg.is/static/notadir/images/TBB90_2f7db8b8689fa978517b5656c7a9f7eb_thumb.jpg?v2" width="320"></a>
 
@@ -1351,7 +1363,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**64.9 kr/km** · sell after **12 yr** · 7.290.000 kr
+🟡 **64.9 kr/km** · sell after **12 yr** · 7.290.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-enyaq-85x-120"><img src="https://www.hekla.is/static/store/images/original/product_970137.png" width="320"></a>
 
@@ -1364,7 +1376,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.0 kr/km** · sell after **7 yr** · 4.990.000 kr
+🟡 **65.0 kr/km** · sell after **7 yr** · 4.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/YSR75"><img src="https://notadir.brimborg.is/static/notadir/images/YSR75_8ab3ca1457d29870adfb20a95f401ad5_thumb.jpg?v2" width="320"></a>
 
@@ -1377,7 +1389,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.0 kr/km** · sell after **7 yr** · 4.890.000 kr
+🟡 **65.0 kr/km** · sell after **7 yr** · 4.890.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/BKB93"><img src="https://notadir.brimborg.is/static/notadir/images/BKB93_910f7a7b2e4447b9574604bf86776164_thumb.jpg?v2" width="320"></a>
 
@@ -1390,7 +1402,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.1 kr/km** · sell after **9 yr** · 5.390.000 kr
+🟡 **65.1 kr/km** · sell after **9 yr** · 5.390.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/JIL49"><img src="https://notadir.brimborg.is/static/notadir/images/JIL49_dea4b580cf72a5984dacbed70d532827_thumb.jpg?v2" width="320"></a>
 
@@ -1403,7 +1415,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.1 kr/km** · sell after **11 yr** · 6.350.000 kr
+🟡 **65.1 kr/km** · sell after **11 yr** · 6.350.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/volkswagen-vw-id-5-gtx-4x4-220-kw-nyskradur-2024/5269647/"><img src="https://img.bland.is/album/400/102035/m/20260715170416_2.jpg" width="320"></a>
 
@@ -1416,7 +1428,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.3 kr/km** · sell after **9 yr** · 5.690.000 kr
+🟡 **65.3 kr/km** · sell after **9 yr** · 5.690.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/SSP96"><img src="https://notadir.brimborg.is/static/notadir/images/SSP96_f85d711d5df564bba6c89d87529246aa_thumb.jpg?v2" width="320"></a>
 
@@ -1429,7 +1441,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.3 kr/km** · sell after **7 yr** · 4.750.000 kr
+🟡 **65.3 kr/km** · sell after **7 yr** · 4.750.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/kia-ev6-style-awd-77kwh-2022/5279409/"><img src="https://img.bland.is/album/400/284068/m/20260818235001_0.jpg" width="320"></a>
 
@@ -1442,7 +1454,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.3 kr/km** · sell after **7 yr** · 5.290.000 kr
+🟡 **65.3 kr/km** · sell after **7 yr** · 5.290.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-y-lr-awd-m-krok/5293088/"><img src="https://img.bland.is/album/400/287167/m/20261006151445_0.jpg" width="320"></a>
 
@@ -1455,7 +1467,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.3 kr/km** · sell after **11 yr** · 6.590.000 kr
+🟡 **65.3 kr/km** · sell after **11 yr** · 6.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/KLE80"><img src="https://notadir.brimborg.is/static/notadir/images/KLE80_fda81ae977b2cca433b448f0a4341203_thumb.jpg?v2" width="320"></a>
 
@@ -1468,7 +1480,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.4 kr/km** · sell after **12 yr** · 7.490.000 kr · 2 in stock
+🟡 **65.4 kr/km** · sell after **12 yr** · 7.490.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/TNH91"><img src="https://nyirbilar.brimborg.is/static/notadir/images/TNH91_ef7c3c12e53932638ef3eacefaa9bca0_full.jpg?v2" width="320"></a>
 
@@ -1481,7 +1493,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.6 kr/km** · sell after **7 yr** · 4.990.000 kr
+🟡 **65.6 kr/km** · sell after **7 yr** · 4.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/DMM15"><img src="https://notadir.brimborg.is/static/notadir/images/DMM15_65ab1fcda6d5a50c68ab43362cf21292_thumb.jpg?v2" width="320"></a>
 
@@ -1494,7 +1506,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.7 kr/km** · sell after **12 yr** · 7.360.000 kr · 2 in stock
+🟡 **65.7 kr/km** · sell after **12 yr** · 7.360.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EOA86"><img src="https://nyirbilar.brimborg.is/static/notadir/images/EOA86_100687d09dae6bc92b66edfaf9f0708b_full.jpg?v2" width="320"></a>
 
@@ -1507,7 +1519,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.8 kr/km** · sell after **12 yr** · 7.560.000 kr
+🟡 **65.8 kr/km** · sell after **12 yr** · 7.560.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/ZOM99"><img src="https://nyirbilar.brimborg.is/static/notadir/images/ZOM99_2b9162ef27b5037b9022a97dc9c33cab_full.jpg?v2" width="320"></a>
 
@@ -1520,7 +1532,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.9 kr/km** · sell after **12 yr** · 7.390.000 kr
+🟡 **65.9 kr/km** · sell after **12 yr** · 7.390.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/HJF30"><img src="https://nyirbilar.brimborg.is/static/notadir/images/HJF30_cfc5f538faa713423d7b889051b190ca_full.jpg?v2" width="320"></a>
 
@@ -1533,7 +1545,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**65.9 kr/km** · sell after **12 yr** · 7.480.000 kr · 3 in stock
+🟡 **65.9 kr/km** · sell after **12 yr** · 7.480.000 kr · 3 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-enyaq-85x-118"><img src="https://www.hekla.is/static/store/images/original/product_970144.png" width="320"></a>
 
@@ -1546,7 +1558,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.1 kr/km** · sell after **6 yr** · 4.390.000 kr
+🟡 **66.1 kr/km** · sell after **6 yr** · 4.390.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/hyundai-ioniq5-2022/5277930/"><img src="https://img.bland.is/album/400/388483/m/20260814155117_0.jpg" width="320"></a>
 
@@ -1559,7 +1571,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.1 kr/km** · sell after **11 yr** · 6.790.000 kr
+🟡 **66.1 kr/km** · sell after **11 yr** · 6.790.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/ford-explorer-ev-awd-2025/5264461/"><img src="https://img.bland.is/album/400/153550/m/20260627175004_0.jpg" width="320"></a>
 
@@ -1572,7 +1584,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.2 kr/km** · sell after **12 yr** · 7.570.000 kr
+🟡 **66.2 kr/km** · sell after **12 yr** · 7.570.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/FIN28"><img src="https://nyirbilar.brimborg.is/static/notadir/images/FIN28_85e90d91dd3508eff4d65a88a5947ac7_full.jpg?v2" width="320"></a>
 
@@ -1585,7 +1597,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.3 kr/km** · sell after **9 yr** · 5.590.000 kr
+🟡 **66.3 kr/km** · sell after **9 yr** · 5.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/LUK11"><img src="https://notadir.brimborg.is/static/notadir/images/LUK11_0129631089d2bef3bc3da43541240b8f_thumb.jpg?v2" width="320"></a>
 
@@ -1598,7 +1610,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.5 kr/km** · sell after **12 yr** · 7.690.000 kr
+🟡 **66.5 kr/km** · sell after **12 yr** · 7.690.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-elroq-rs-4x4-34"><img src="https://www.hekla.is/static/store/images/original/product_971432.png" width="320"></a>
 
@@ -1611,7 +1623,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.5 kr/km** · sell after **12 yr** · 7.600.000 kr · 5 in stock
+🟡 **66.5 kr/km** · sell after **12 yr** · 7.600.000 kr · 5 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/KEY79"><img src="https://nyirbilar.brimborg.is/static/notadir/images/KEY79_20e7ee73b1630efa15a3982e7af98049_full.jpg?v2" width="320"></a>
 
@@ -1624,7 +1636,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.7 kr/km** · sell after **12 yr** · 7.720.000 kr · 4 in stock
+🟡 **66.7 kr/km** · sell after **12 yr** · 7.720.000 kr · 4 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/JOY36"><img src="https://nyirbilar.brimborg.is/static/notadir/images/JOY36_dfccd01b14c6f6c0947494931783dd58_full.jpg?v2" width="320"></a>
 
@@ -1637,7 +1649,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.7 kr/km** · sell after **11 yr** · 6.590.000 kr
+🟡 **66.7 kr/km** · sell after **11 yr** · 6.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/PGL78"><img src="https://notadir.brimborg.is/static/notadir/images/PGL78_47634428a9f6656faacf19717ce01d60_thumb.jpg?v2" width="320"></a>
 
@@ -1650,7 +1662,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.7 kr/km** · sell after **9 yr** · 5.980.000 kr
+🟡 **66.7 kr/km** · sell after **9 yr** · 5.980.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-y-2023/5291419/"><img src="https://img.bland.is/album/400/157876/m/20260930212852_0.jpg" width="320"></a>
 
@@ -1663,7 +1675,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.7 kr/km** · sell after **11 yr** · 6.490.000 kr
+🟡 **66.7 kr/km** · sell after **11 yr** · 6.490.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/KYF38"><img src="https://notadir.brimborg.is/static/notadir/images/KYF38_a2d94676dcc808918418806ed33e19e4_thumb.jpg?v2" width="320"></a>
 
@@ -1676,7 +1688,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.8 kr/km** · sell after **10 yr** · 6.390.000 kr
+🟡 **66.8 kr/km** · sell after **10 yr** · 6.390.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/RRF46"><img src="https://notadir.brimborg.is/static/notadir/images/RRF46_52b6feb3b1592620ea416328badc3922_thumb.jpg?v2" width="320"></a>
 
@@ -1689,7 +1701,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.8 kr/km** · sell after **11 yr** · 6.690.000 kr
+🟡 **66.8 kr/km** · sell after **11 yr** · 6.690.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-y-long-range-awd-2024-model/5239636/"><img src="https://img.bland.is/album/400/251838/m/20260725215503_1.jpg" width="320"></a>
 
@@ -1702,7 +1714,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.8 kr/km** · sell after **12 yr** · 7.690.000 kr
+🟡 **66.8 kr/km** · sell after **12 yr** · 7.690.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/145623"><img src="https://nyirbilar.brimborg.is/static/notadir/images/145623_45c25b49eb7aaf00ecfcf48a19f2be1b_full.jpg?v2" width="320"></a>
 
@@ -1715,7 +1727,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.9 kr/km** · sell after **11 yr** · 6.590.000 kr
+🟡 **66.9 kr/km** · sell after **11 yr** · 6.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/SXA29"><img src="https://notadir.brimborg.is/static/notadir/images/SXA29_5d7e0bbf87b2c2a5039683e3463e4654_thumb.jpg?v2" width="320"></a>
 
@@ -1728,7 +1740,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.9 kr/km** · sell after **11 yr** · 7.050.000 kr
+🟡 **66.9 kr/km** · sell after **11 yr** · 7.050.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-3-performance-2025/5291694/"><img src="https://img.bland.is/album/400/177958/m/20261001215612_1.jpg" width="320"></a>
 
@@ -1741,7 +1753,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**66.9 kr/km** · sell after **12 yr** · 7.590.000 kr
+🟡 **66.9 kr/km** · sell after **12 yr** · 7.590.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/BXR79"><img src="https://nyirbilar.brimborg.is/static/notadir/images/BXR79_c1912a05af0058cfcaa01e8cbc11b6a6_full.jpg?v2" width="320"></a>
 
@@ -1754,7 +1766,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.0 kr/km** · sell after **12 yr** · 7.730.000 kr
+🟡 **67.0 kr/km** · sell after **12 yr** · 7.730.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/NVH69"><img src="https://nyirbilar.brimborg.is/static/notadir/images/NVH69_85e90d91dd3508eff4d65a88a5947ac7_full.jpg?v2" width="320"></a>
 
@@ -1767,7 +1779,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.2 kr/km** · sell after **10 yr** · 5.990.000 kr
+🟡 **67.2 kr/km** · sell after **10 yr** · 5.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-y-2022/5285936/"><img src="https://img.bland.is/album/400/145752/m/20260910171918_0.jpg" width="320"></a>
 
@@ -1780,7 +1792,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.3 kr/km** · sell after **12 yr** · 7.660.000 kr
+🟡 **67.3 kr/km** · sell after **12 yr** · 7.660.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/YYZ60"><img src="https://nyirbilar.brimborg.is/static/notadir/images/YYZ60_f63e2f49a0d4758158e32565b0251af6_full.jpg?v2" width="320"></a>
 
@@ -1793,7 +1805,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.4 kr/km** · sell after **12 yr** · 7.860.000 kr · 2 in stock
+🟡 **67.4 kr/km** · sell after **12 yr** · 7.860.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/149889"><img src="https://nyirbilar.brimborg.is/static/notadir/images/149889_2eef19fadf09b96479646e22b8e798a8_full.jpg?v2" width="320"></a>
 
@@ -1806,7 +1818,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.4 kr/km** · sell after **11 yr** · 6.990.000 kr
+🟡 **67.4 kr/km** · sell after **11 yr** · 6.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/BPM40"><img src="https://notadir.brimborg.is/static/notadir/images/BPM40_5ba3f75b860e0f27460ac48c9030fdc4_thumb.jpg?v2" width="320"></a>
 
@@ -1819,7 +1831,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.4 kr/km** · sell after **12 yr** · 7.710.000 kr · 2 in stock
+🟡 **67.4 kr/km** · sell after **12 yr** · 7.710.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/YFJ88"><img src="https://nyirbilar.brimborg.is/static/notadir/images/YFJ88_b70211d7629d9ee54f919d01d87fafb6_full.jpg?v2" width="320"></a>
 
@@ -1832,7 +1844,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.5 kr/km** · sell after **12 yr** · 7.690.000 kr
+🟡 **67.5 kr/km** · sell after **12 yr** · 7.690.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/TZF98"><img src="https://nyirbilar.brimborg.is/static/notadir/images/TZF98_6fe6e1fb0e8af216f89dac07e9d6fbae_full.jpg?v2" width="320"></a>
 
@@ -1845,7 +1857,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.5 kr/km** · sell after **12 yr** · 7.790.000 kr
+🟡 **67.5 kr/km** · sell after **12 yr** · 7.790.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-enyaq-85x-159"><img src="https://www.hekla.is/static/store/images/original/product_971809.png" width="320"></a>
 
@@ -1858,7 +1870,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.6 kr/km** · sell after **12 yr** · 7.830.000 kr
+🟡 **67.6 kr/km** · sell after **12 yr** · 7.830.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/DFX78"><img src="https://nyirbilar.brimborg.is/static/notadir/images/DFX78_85e90d91dd3508eff4d65a88a5947ac7_full.jpg?v2" width="320"></a>
 
@@ -1871,7 +1883,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.6 kr/km** · sell after **12 yr** · 7.800.000 kr · 3 in stock
+🟡 **67.6 kr/km** · sell after **12 yr** · 7.800.000 kr · 3 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/149226"><img src="https://nyirbilar.brimborg.is/static/notadir/images/149226_20e7ee73b1630efa15a3982e7af98049_full.jpg?v2" width="320"></a>
 
@@ -1884,7 +1896,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.6 kr/km** · sell after **12 yr** · 7.770.000 kr · 6 in stock
+🟡 **67.6 kr/km** · sell after **12 yr** · 7.770.000 kr · 6 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id4-gtx-4motion-60"><img src="https://www.hekla.is/static/store/images/original/product_972948.png" width="320"></a>
 
@@ -1897,7 +1909,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**67.7 kr/km** · sell after **12 yr** · 7.860.000 kr
+🟡 **67.7 kr/km** · sell after **12 yr** · 7.860.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/SNR16"><img src="https://nyirbilar.brimborg.is/static/notadir/images/SNR16_256c63661e4064d97e6be2e2f0bd50cf_full.jpg?v2" width="320"></a>
 
@@ -1910,7 +1922,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.0 kr/km** · sell after **10 yr** · 6.590.000 kr
+🟡 **68.0 kr/km** · sell after **10 yr** · 6.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/UME97"><img src="https://notadir.brimborg.is/static/notadir/images/UME97_0315366ebd3e1b530d4aca73bf426d4d_thumb.jpg?v2" width="320"></a>
 
@@ -1923,7 +1935,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.0 kr/km** · sell after **10 yr** · 6.590.000 kr
+🟡 **68.0 kr/km** · sell after **10 yr** · 6.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/RKY59"><img src="https://notadir.brimborg.is/static/notadir/images/RKY59_06b256664260bccb90c813e7d588ce43_thumb.jpg?v2" width="320"></a>
 
@@ -1936,7 +1948,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.2 kr/km** · sell after **12 yr** · 7.950.000 kr
+🟡 **68.2 kr/km** · sell after **12 yr** · 7.950.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/145629"><img src="https://nyirbilar.brimborg.is/static/notadir/images/145629_45c25b49eb7aaf00ecfcf48a19f2be1b_full.jpg?v2" width="320"></a>
 
@@ -1949,7 +1961,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.2 kr/km** · sell after **9 yr** · 5.950.000 kr
+🟡 **68.2 kr/km** · sell after **9 yr** · 5.950.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-y-performance/5222349/"><img src="https://img.bland.is/album/400/429942/m/20260210160838_0.jpg" width="320"></a>
 
@@ -1962,7 +1974,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.2 kr/km** · sell after **12 yr** · 7.960.000 kr
+🟡 **68.2 kr/km** · sell after **12 yr** · 7.960.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/145632"><img src="https://nyirbilar.brimborg.is/static/notadir/images/145632_85e90d91dd3508eff4d65a88a5947ac7_full.jpg?v2" width="320"></a>
 
@@ -1975,7 +1987,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.3 kr/km** · sell after **11 yr** · 7.190.000 kr
+🟡 **68.3 kr/km** · sell after **11 yr** · 7.190.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/ford-explorer-2025-premium/5255222/"><img src="https://img.bland.is/album/400/315470/m/20260528160138_2.jpg" width="320"></a>
 
@@ -1988,7 +2000,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.4 kr/km** · sell after **12 yr** · 7.860.000 kr · 2 in stock
+🟡 **68.4 kr/km** · sell after **12 yr** · 7.860.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/VSU00"><img src="https://nyirbilar.brimborg.is/static/notadir/images/VSU00_eec1fc076399bddc1423df41c6341f9c_full.jpg?v2" width="320"></a>
 
@@ -2001,7 +2013,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.5 kr/km** · sell after **12 yr** · 7.980.000 kr
+🟡 **68.5 kr/km** · sell after **12 yr** · 7.980.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-enyaq-85x-158"><img src="https://www.hekla.is/static/store/images/original/product_971815.png" width="320"></a>
 
@@ -2014,7 +2026,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**68.8 kr/km** · sell after **12 yr** · 7.960.000 kr · 2 in stock
+🟡 **68.8 kr/km** · sell after **12 yr** · 7.960.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/YMX91"><img src="https://nyirbilar.brimborg.is/static/notadir/images/YMX91_e34ea48bea02c2b271141e2a83beca2e_full.jpg?v2" width="320"></a>
 
@@ -2027,7 +2039,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.0 kr/km** · sell after **9 yr** · 6.190.000 kr
+🟡 **69.0 kr/km** · sell after **9 yr** · 6.190.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/TEE83"><img src="https://notadir.brimborg.is/static/notadir/images/TEE83_f9c3bd39da8c72a7cb196147a6e5c850_thumb.jpg?v2" width="320"></a>
 
@@ -2040,7 +2052,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.1 kr/km** · sell after **10 yr** · 6.790.000 kr
+🟡 **69.1 kr/km** · sell after **10 yr** · 6.790.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/toyota-4x4-bz4x-2024-ny-vetrardekk-fylgja-/5293248/"><img src="https://img.bland.is/album/400/152580/m/20261006212438_0.jpg" width="320"></a>
 
@@ -2053,7 +2065,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.1 kr/km** · sell after **12 yr** · 8.120.000 kr
+🟡 **69.1 kr/km** · sell after **12 yr** · 8.120.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/145630"><img src="https://nyirbilar.brimborg.is/static/notadir/images/145630_85e90d91dd3508eff4d65a88a5947ac7_full.jpg?v2" width="320"></a>
 
@@ -2066,7 +2078,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.4 kr/km** · sell after **12 yr** · 8.180.000 kr
+🟡 **69.4 kr/km** · sell after **12 yr** · 8.180.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148418"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148418_6d7151bc8f4e6ade6b374ba72aab7074_full.jpg?v2" width="320"></a>
 
@@ -2079,7 +2091,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.4 kr/km** · sell after **10 yr** · 6.490.000 kr
+🟡 **69.4 kr/km** · sell after **10 yr** · 6.490.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/ENH29"><img src="https://notadir.brimborg.is/static/notadir/images/ENH29_8033535c014b8d8a74686b01e2e76c0e_thumb.jpg?v2" width="320"></a>
 
@@ -2092,7 +2104,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.7 kr/km** · sell after **9 yr** · 6.290.000 kr
+🟡 **69.7 kr/km** · sell after **9 yr** · 6.290.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/NNN07"><img src="https://notadir.brimborg.is/static/notadir/images/NNN07_3797fa06e3e909afa75323ce5f425db1_thumb.jpg?v2" width="320"></a>
 
@@ -2105,7 +2117,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.8 kr/km** · sell after **12 yr** · 7.990.000 kr
+🟡 **69.8 kr/km** · sell after **12 yr** · 7.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/kia-ev5-gt-line-2026/5293499/"><img src="https://img.bland.is/album/400/393739/m/20261007193511_0.jpg" width="320"></a>
 
@@ -2118,7 +2130,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.8 kr/km** · sell after **12 yr** · 7.990.000 kr
+🟡 **69.8 kr/km** · sell after **12 yr** · 7.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/kia-ev5-gt-line-2026/5291421/"><img src="https://img.bland.is/album/400/393739/m/20260930214524_0.jpg" width="320"></a>
 
@@ -2131,7 +2143,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**69.8 kr/km** · sell after **12 yr** · 7.990.000 kr
+🟡 **69.8 kr/km** · sell after **12 yr** · 7.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/kia-ev5-gt-line-2026/5289342/"><img src="https://img.bland.is/album/400/393739/m/20260922220000_0.jpg" width="320"></a>
 
@@ -2144,7 +2156,11 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**70.1 kr/km** · sell after **12 yr** · 8.210.000 kr · 4 in stock
+## 🔴 Bad — 70+ kr/km
+
+> 🔴 **70+ kr/km ≈ over 1,4M kr per year** at 20.000 km/yr · 121 cars · paying for luxury, not transport — every 10 kr/km ≈ 200.000 kr/yr
+
+🔴 **70.1 kr/km** · sell after **12 yr** · 8.210.000 kr · 4 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RHG67"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RHG67_088c1efb1ce2269210d2636594358f84_full.jpg?v2" width="320"></a>
 
@@ -2157,7 +2173,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**70.6 kr/km** · sell after **12 yr** · 8.410.000 kr
+🔴 **70.6 kr/km** · sell after **12 yr** · 8.410.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GLT58"><img src="https://nyirbilar.brimborg.is/static/notadir/images/GLT58_76dcea7946f0fb52ecadc08098bc4f82_full.jpg?v2" width="320"></a>
 
@@ -2170,7 +2186,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**70.9 kr/km** · sell after **10 yr** · 6.980.000 kr
+🔴 **70.9 kr/km** · sell after **10 yr** · 6.980.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/IUS47"><img src="https://notadir.brimborg.is/static/notadir/images/IUS47_19dba03f724a0ed9ec6b9dbcb384fab7_thumb.jpg?v2" width="320"></a>
 
@@ -2183,7 +2199,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**71.0 kr/km** · sell after **10 yr** · 6.990.000 kr
+🔴 **71.0 kr/km** · sell after **10 yr** · 6.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/TJT06"><img src="https://notadir.brimborg.is/static/notadir/images/TJT06_76e8eb11bf749af7f0f57978dab43a2f_thumb.jpg?v2" width="320"></a>
 
@@ -2196,7 +2212,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**71.1 kr/km** · sell after **7 yr** · 5.590.000 kr
+🔴 **71.1 kr/km** · sell after **7 yr** · 5.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/PXZ41"><img src="https://notadir.brimborg.is/static/notadir/images/PXZ41_0918bb76b76edb8744e1b34849c9afa7_thumb.jpg?v2" width="320"></a>
 
@@ -2209,7 +2225,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**71.1 kr/km** · sell after **8 yr** · 5.990.000 kr
+🔴 **71.1 kr/km** · sell after **8 yr** · 5.990.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/NSS11"><img src="https://notadir.brimborg.is/static/notadir/images/NSS11_5c703422b936446125a094948844b7ea_thumb.jpg?v2" width="320"></a>
 
@@ -2222,7 +2238,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**71.6 kr/km** · sell after **12 yr** · 8.600.000 kr · 2 in stock
+🔴 **71.6 kr/km** · sell after **12 yr** · 8.600.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148437"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148437_6d7151bc8f4e6ade6b374ba72aab7074_full.jpg?v2" width="320"></a>
 
@@ -2235,7 +2251,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**71.8 kr/km** · sell after **12 yr** · 8.490.000 kr · 3 in stock
+🔴 **71.8 kr/km** · sell after **12 yr** · 8.490.000 kr · 3 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id-buzz-pro-long-wheelbase-210-kw-286-ps-3"><img src="https://www.hekla.is/static/store/images/original/product_970659.png" width="320"></a>
 
@@ -2248,7 +2264,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**71.8 kr/km** · sell after **8 yr** · 6.500.000 kr
+🔴 **71.8 kr/km** · sell after **8 yr** · 6.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-y-performance-2023/5290900/"><img src="https://img.bland.is/album/400/101616/m/20260928193126_0.jpg" width="320"></a>
 
@@ -2261,7 +2277,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**71.8 kr/km** · sell after **8 yr** · 5.890.000 kr
+🔴 **71.8 kr/km** · sell after **8 yr** · 5.890.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mercedes-benz-eqc-2022/5280440/"><img src="https://img.bland.is/album/400/367229/m/20260822190709_0.jpg" width="320"></a>
 
@@ -2274,7 +2290,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**72.0 kr/km** · sell after **8 yr** · 5.990.000 kr
+🔴 **72.0 kr/km** · sell after **8 yr** · 5.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/audi-q4-sportback-50-e-tron-2022/5291620/"><img src="https://img.bland.is/album/400/49175/m/20261001175329_0.jpg" width="320"></a>
 
@@ -2287,7 +2303,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**72.4 kr/km** · sell after **9 yr** · 6.590.000 kr
+🔴 **72.4 kr/km** · sell after **9 yr** · 6.590.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/volvo-c40-2023/5226396/"><img src="https://img.bland.is/album/400/62614/m/20260224170521_0.jpg" width="320"></a>
 
@@ -2300,7 +2316,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**72.7 kr/km** · sell after **11 yr** · 7.990.000 kr
+🔴 **72.7 kr/km** · sell after **11 yr** · 7.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/2025-tesla-model-y-launch-edition/5280589/"><img src="https://img.bland.is/album/400/135975/m/20260823131930_0.jpg" width="320"></a>
 
@@ -2313,7 +2329,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**72.8 kr/km** · sell after **12 yr** · 8.490.000 kr
+🔴 **72.8 kr/km** · sell after **12 yr** · 8.490.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/toyota-bz4x-vx-2026/5293953/"><img src="https://img.bland.is/album/400/87182/m/20261009125033_0.jpg" width="320"></a>
 
@@ -2324,7 +2340,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**73.2 kr/km** · sell after **11 yr** · 7.390.000 kr
+🔴 **73.2 kr/km** · sell after **11 yr** · 7.390.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/OYY53"><img src="https://notadir.brimborg.is/static/notadir/images/OYY53_92bb809bf48e1a9bcc871ca3a20b99cd_thumb.jpg?v2" width="320"></a>
 
@@ -2337,7 +2353,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**73.6 kr/km** · sell after **10 yr** · 6.790.000 kr
+🔴 **73.6 kr/km** · sell after **10 yr** · 6.790.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/bmw-ix-xdrive-2022-37-000-km-tilbod/5292951/"><img src="https://img.bland.is/album/400/62567/m/20261005220034_0.jpg" width="320"></a>
 
@@ -2350,7 +2366,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**73.6 kr/km** · sell after **12 yr** · 8.790.000 kr
+🔴 **73.6 kr/km** · sell after **12 yr** · 8.790.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/FIZ50"><img src="https://nyirbilar.brimborg.is/static/notadir/images/FIZ50_818c3476817b0bbfe9cdded16eca1d15_full.jpg?v2" width="320"></a>
 
@@ -2363,7 +2379,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**73.8 kr/km** · sell after **12 yr** · 8.980.000 kr · 2 in stock
+🔴 **73.8 kr/km** · sell after **12 yr** · 8.980.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-enyaq-rs-15"><img src="https://www.hekla.is/static/store/images/original/product_971499.png" width="320"></a>
 
@@ -2376,7 +2392,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**74.0 kr/km** · sell after **12 yr** · 8.990.000 kr · 3 in stock
+🔴 **74.0 kr/km** · sell after **12 yr** · 8.990.000 kr · 3 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q4-e-tron-45-quattro-216"><img src="https://www.hekla.is/static/store/images/original/product_972516.jpg" width="320"></a>
 
@@ -2389,7 +2405,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**74.0 kr/km** · sell after **12 yr** · 8.990.000 kr · 5 in stock
+🔴 **74.0 kr/km** · sell after **12 yr** · 8.990.000 kr · 5 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/q4-e-tron-2"><img src="https://www.hekla.is/static/store/images/original/product_974023.jpg" width="320"></a>
 
@@ -2402,7 +2418,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**74.1 kr/km** · sell after **12 yr** · 8.880.000 kr · 3 in stock
+🔴 **74.1 kr/km** · sell after **12 yr** · 8.880.000 kr · 3 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-peaq-90x-8"><img src="https://www.hekla.is/static/store/images/original/product_973636.png" width="320"></a>
 
@@ -2415,7 +2431,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**74.1 kr/km** · sell after **12 yr** · 8.890.000 kr · 5 in stock
+🔴 **74.1 kr/km** · sell after **12 yr** · 8.890.000 kr · 5 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/JZT09"><img src="https://nyirbilar.brimborg.is/static/notadir/images/JZT09_ed06d53710c3df33d398efd0fe0a7074_full.jpg?v2" width="320"></a>
 
@@ -2428,7 +2444,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**74.4 kr/km** · sell after **12 yr** · 8.940.000 kr
+🔴 **74.4 kr/km** · sell after **12 yr** · 8.940.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/PFK74"><img src="https://nyirbilar.brimborg.is/static/notadir/images/PFK74_6090b017c25f8b47bea1a3f0e23f8c6c_full.jpg?v2" width="320"></a>
 
@@ -2441,7 +2457,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**74.9 kr/km** · sell after **12 yr** · 9.030.000 kr
+🔴 **74.9 kr/km** · sell after **12 yr** · 9.030.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GYR52"><img src="https://nyirbilar.brimborg.is/static/notadir/images/GYR52_48837f78911fd1b96659a6eb6ad04a77_full.jpg?v2" width="320"></a>
 
@@ -2454,7 +2470,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**75.4 kr/km** · sell after **12 yr** · 9.200.000 kr
+🔴 **75.4 kr/km** · sell after **12 yr** · 9.200.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RGG49"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RGG49_f1969460e2200b6172e817c985de8736_full.jpg?v2" width="320"></a>
 
@@ -2467,7 +2483,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**75.5 kr/km** · sell after **12 yr** · 9.145.000 kr · 3 in stock
+🔴 **75.5 kr/km** · sell after **12 yr** · 9.145.000 kr · 3 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/HKV82"><img src="https://nyirbilar.brimborg.is/static/notadir/images/HKV82_27154febc1b70d136e8e1f79c4249031_full.jpg?v2" width="320"></a>
 
@@ -2480,7 +2496,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**75.8 kr/km** · sell after **12 yr** · 9.265.000 kr
+🔴 **75.8 kr/km** · sell after **12 yr** · 9.265.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/KXV98"><img src="https://nyirbilar.brimborg.is/static/notadir/images/KXV98_d3a4d2a14eef9b11d940745531269f0f_full.jpg?v2" width="320"></a>
 
@@ -2493,7 +2509,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**76.1 kr/km** · sell after **12 yr** · 9.265.000 kr
+🔴 **76.1 kr/km** · sell after **12 yr** · 9.265.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/IMB69"><img src="https://nyirbilar.brimborg.is/static/notadir/images/IMB69_ac6a59ef582b6f1dc4cd678343109893_full.jpg?v2" width="320"></a>
 
@@ -2506,7 +2522,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**76.2 kr/km** · sell after **12 yr** · 9.275.000 kr
+🔴 **76.2 kr/km** · sell after **12 yr** · 9.275.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/HEU00"><img src="https://nyirbilar.brimborg.is/static/notadir/images/HEU00_f25cae9b2483add0c428288c3c4b9f8b_full.jpg?v2" width="320"></a>
 
@@ -2519,7 +2535,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**76.2 kr/km** · sell after **12 yr** · 9.490.000 kr · 4 in stock
+🔴 **76.2 kr/km** · sell after **12 yr** · 9.490.000 kr · 4 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id-buzz-pro-langur-1"><img src="https://www.hekla.is/static/store/images/original/product_969619.png" width="320"></a>
 
@@ -2532,7 +2548,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**76.2 kr/km** · sell after **12 yr** · 9.280.000 kr
+🔴 **76.2 kr/km** · sell after **12 yr** · 9.280.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/KED31"><img src="https://nyirbilar.brimborg.is/static/notadir/images/KED31_4bcf036b089719eb6ff083caa776b353_full.jpg?v2" width="320"></a>
 
@@ -2545,7 +2561,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**76.2 kr/km** · sell after **12 yr** · 9.290.000 kr
+🔴 **76.2 kr/km** · sell after **12 yr** · 9.290.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148758"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148758_b9ec34cef31e718211d216a3bec02673_full.jpg?v2" width="320"></a>
 
@@ -2558,7 +2574,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**76.6 kr/km** · sell after **12 yr** · 9.380.000 kr · 6 in stock
+🔴 **76.6 kr/km** · sell after **12 yr** · 9.380.000 kr · 6 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-peaq-90x-2"><img src="https://www.hekla.is/static/store/images/original/product_973348.png" width="320"></a>
 
@@ -2571,7 +2587,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**76.6 kr/km** · sell after **12 yr** · 9.490.000 kr · 6 in stock
+🔴 **76.6 kr/km** · sell after **12 yr** · 9.490.000 kr · 6 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/q4-e-tron"><img src="https://www.hekla.is/static/store/images/original/product_973960.jpg" width="320"></a>
 
@@ -2584,7 +2600,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**76.7 kr/km** · sell after **12 yr** · 9.385.000 kr
+🔴 **76.7 kr/km** · sell after **12 yr** · 9.385.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GAG87"><img src="https://nyirbilar.brimborg.is/static/notadir/images/GAG87_818c3476817b0bbfe9cdded16eca1d15_full.jpg?v2" width="320"></a>
 
@@ -2597,7 +2613,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**77.0 kr/km** · sell after **10 yr** · 7.190.000 kr
+🔴 **77.0 kr/km** · sell after **10 yr** · 7.190.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mercedes-benz-eqc-400-4matic-2022/5288806/"><img src="https://img.bland.is/album/400/62806/m/20260921094703_0.jpg" width="320"></a>
 
@@ -2610,7 +2626,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**77.0 kr/km** · sell after **12 yr** · 9.470.000 kr · 2 in stock
+🔴 **77.0 kr/km** · sell after **12 yr** · 9.470.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-peaq-90x-13"><img src="https://www.hekla.is/static/store/images/original/product_973857.png" width="320"></a>
 
@@ -2623,7 +2639,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**77.1 kr/km** · sell after **12 yr** · 9.490.000 kr · 5 in stock
+🔴 **77.1 kr/km** · sell after **12 yr** · 9.490.000 kr · 5 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-peaq-90x-sportline"><img src="https://www.hekla.is/static/store/images/original/product_973670.png" width="320"></a>
 
@@ -2636,7 +2652,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**77.3 kr/km** · sell after **12 yr** · 9.490.000 kr · 3 in stock
+🔴 **77.3 kr/km** · sell after **12 yr** · 9.490.000 kr · 3 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148779"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148779_d3077203bc7f36bde61f5a16fdeff475_full.jpg?v2" width="320"></a>
 
@@ -2649,7 +2665,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**77.4 kr/km** · sell after **9 yr** · 6.990.000 kr
+🔴 **77.4 kr/km** · sell after **9 yr** · 6.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mercedes-benz-eqc400-4matic-progressive-9-2022/5144696/"><img src="https://img.bland.is/album/400/102035/m/20250615131333_1.jpg" width="320"></a>
 
@@ -2662,7 +2678,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**77.5 kr/km** · sell after **12 yr** · 10.180.000 kr · 2 in stock
+🔴 **77.5 kr/km** · sell after **12 yr** · 10.180.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id7-gtx-tourer-4motion-20"><img src="https://www.hekla.is/static/store/images/original/product_973085.png" width="320"></a>
 
@@ -2675,7 +2691,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**77.6 kr/km** · sell after **9 yr** · 6.990.000 kr
+🔴 **77.6 kr/km** · sell after **9 yr** · 6.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/hongqi-e-hs9/5292468/"><img src="https://img.bland.is/album/400/157645/m/20261004144151_0.jpg" width="320"></a>
 
@@ -2688,7 +2704,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**77.6 kr/km** · sell after **11 yr** · 8.690.000 kr
+🔴 **77.6 kr/km** · sell after **11 yr** · 8.690.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/MHG32"><img src="https://notadir.brimborg.is/static/notadir/images/MHG32_4f05f58a679da180f8436c1ada6c91a4_thumb.jpg?v2" width="320"></a>
 
@@ -2701,7 +2717,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**79.1 kr/km** · sell after **12 yr** · 10.560.000 kr · 2 in stock
+🔴 **79.1 kr/km** · sell after **12 yr** · 10.560.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id7-gtx-tourer-4motion-17"><img src="https://www.hekla.is/static/store/images/original/product_973030.png" width="320"></a>
 
@@ -2714,7 +2730,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**79.5 kr/km** · sell after **12 yr** · 10.639.900 kr
+🔴 **79.5 kr/km** · sell after **12 yr** · 10.639.900 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id7-gtx-tourer-4motion-25"><img src="https://www.hekla.is/static/store/images/original/product_973062.png" width="320"></a>
 
@@ -2727,7 +2743,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**79.9 kr/km** · sell after **10 yr** · 8.450.000 kr
+🔴 **79.9 kr/km** · sell after **10 yr** · 8.450.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mercedes-benz-eqe-300-amg-style-pano-21-airmatic/5273813/"><img src="https://img.bland.is/album/400/102035/m/20261003121745_0.jpg" width="320"></a>
 
@@ -2740,7 +2756,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**80.2 kr/km** · sell after **12 yr** · 10.040.000 kr · 2 in stock
+🔴 **80.2 kr/km** · sell after **12 yr** · 10.040.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148781"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148781_9de0fefdf9d8ad7163bfc12d43ac124f_full.jpg?v2" width="320"></a>
 
@@ -2753,7 +2769,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**83.0 kr/km** · sell after **6 yr** · 6.650.000 kr
+🔴 **83.0 kr/km** · sell after **6 yr** · 6.650.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mercedes-benz-eqc-400-4matic-2022/5157657/"><img src="https://img.bland.is/album/400/299702/m/20250722104952_0.jpg" width="320"></a>
 
@@ -2766,7 +2782,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**83.4 kr/km** · sell after **10 yr** · 8.550.000 kr
+🔴 **83.4 kr/km** · sell after **10 yr** · 8.550.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/audi-e-tron-55-s-line-all-black-pano-2023/5247205/"><img src="https://img.bland.is/album/400/287249/m/20260502073758_0.jpg" width="320"></a>
 
@@ -2779,7 +2795,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**83.9 kr/km** · sell after **12 yr** · 10.890.000 kr
+🔴 **83.9 kr/km** · sell after **12 yr** · 10.890.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147683"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147683_0251ef2a7206793db0c0c30cc0e1b20a_full.jpg?v2" width="320"></a>
 
@@ -2792,7 +2808,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**84.2 kr/km** · sell after **11 yr** · 9.790.000 kr
+🔴 **84.2 kr/km** · sell after **11 yr** · 9.790.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/cadillac-lyriq-2025/5291625/"><img src="https://img.bland.is/album/400/65287/m/20261001181354_0.jpg" width="320"></a>
 
@@ -2805,7 +2821,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**84.8 kr/km** · sell after **12 yr** · 10.990.000 kr · 2 in stock
+🔴 **84.8 kr/km** · sell after **12 yr** · 10.990.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-e-tron-quattro-56"><img src="https://www.hekla.is/static/store/images/original/product_971323.jpg" width="320"></a>
 
@@ -2818,7 +2834,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**85.0 kr/km** · sell after **12 yr** · 11.100.000 kr · 8 in stock
+🔴 **85.0 kr/km** · sell after **12 yr** · 11.100.000 kr · 8 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147686"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147686_dcf59afd0ad927153dac490a67479811_full.jpg?v2" width="320"></a>
 
@@ -2831,7 +2847,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**85.8 kr/km** · sell after **12 yr** · 11.250.000 kr
+🔴 **85.8 kr/km** · sell after **12 yr** · 11.250.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147787"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147787_3af05dd7e3a86e4d4a68026bbb112822_full.jpg?v2" width="320"></a>
 
@@ -2844,7 +2860,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**86.3 kr/km** · sell after **12 yr** · 11.340.000 kr
+🔴 **86.3 kr/km** · sell after **12 yr** · 11.340.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147726"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147726_f7f59f0bc47eed3d84f06001f2f53703_full.jpg?v2" width="320"></a>
 
@@ -2857,7 +2873,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**86.6 kr/km** · sell after **12 yr** · 11.390.000 kr · 4 in stock
+🔴 **86.6 kr/km** · sell after **12 yr** · 11.390.000 kr · 4 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/q4-e-tron-1"><img src="https://www.hekla.is/static/store/images/original/product_973914.jpg" width="320"></a>
 
@@ -2870,7 +2886,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**86.6 kr/km** · sell after **12 yr** · 11.400.000 kr · 6 in stock
+🔴 **86.6 kr/km** · sell after **12 yr** · 11.400.000 kr · 6 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/148223"><img src="https://nyirbilar.brimborg.is/static/notadir/images/148223_c2e1c6e13d7575c7c2167ad52cc74927_full.jpg?v2" width="320"></a>
 
@@ -2883,7 +2899,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**87.5 kr/km** · sell after **12 yr** · 11.580.000 kr
+🔴 **87.5 kr/km** · sell after **12 yr** · 11.580.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/ZKG76"><img src="https://nyirbilar.brimborg.is/static/notadir/images/ZKG76_0251ef2a7206793db0c0c30cc0e1b20a_full.jpg?v2" width="320"></a>
 
@@ -2896,7 +2912,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**88.1 kr/km** · sell after **11 yr** · 9.780.000 kr
+🔴 **88.1 kr/km** · sell after **11 yr** · 9.780.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mercedes-benz-eqc-400-4matic-2023/5255145/"><img src="https://img.bland.is/album/400/71114/m/20260526214513_0.jpg" width="320"></a>
 
@@ -2909,7 +2925,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**88.4 kr/km** · sell after **12 yr** · 11.790.000 kr
+🔴 **88.4 kr/km** · sell after **12 yr** · 11.790.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147847"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147847_9298931df04a1642750bf0528baa1514_full.jpg?v2" width="320"></a>
 
@@ -2922,7 +2938,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**88.8 kr/km** · sell after **12 yr** · 11.890.000 kr
+🔴 **88.8 kr/km** · sell after **12 yr** · 11.890.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147706"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147706_0251ef2a7206793db0c0c30cc0e1b20a_full.jpg?v2" width="320"></a>
 
@@ -2935,7 +2951,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**89.3 kr/km** · sell after **12 yr** · 11.990.000 kr
+🔴 **89.3 kr/km** · sell after **12 yr** · 11.990.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147696"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147696_143ca085067f921652553faf2e2e7502_full.jpg?v2" width="320"></a>
 
@@ -2948,7 +2964,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**89.6 kr/km** · sell after **12 yr** · 12.070.000 kr
+🔴 **89.6 kr/km** · sell after **12 yr** · 12.070.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147331"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147331_0251ef2a7206793db0c0c30cc0e1b20a_full.jpg?v2" width="320"></a>
 
@@ -2961,7 +2977,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**89.7 kr/km** · sell after **12 yr** · 12.100.000 kr · 8 in stock
+🔴 **89.7 kr/km** · sell after **12 yr** · 12.100.000 kr · 8 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147707"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147707_f7f59f0bc47eed3d84f06001f2f53703_full.jpg?v2" width="320"></a>
 
@@ -2974,7 +2990,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**90.0 kr/km** · sell after **12 yr** · 11.990.000 kr
+🔴 **90.0 kr/km** · sell after **12 yr** · 11.990.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-e-tron-quattro-60"><img src="https://www.hekla.is/static/store/images/original/product_971576.jpg" width="320"></a>
 
@@ -2987,7 +3003,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**90.2 kr/km** · sell after **12 yr** · 12.200.000 kr · 7 in stock
+🔴 **90.2 kr/km** · sell after **12 yr** · 12.200.000 kr · 7 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147698"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147698_d9502be950766d2042b27f2c23cd7701_full.jpg?v2" width="320"></a>
 
@@ -3000,7 +3016,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**90.8 kr/km** · sell after **11 yr** · 10.500.000 kr
+🔴 **90.8 kr/km** · sell after **11 yr** · 10.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/audi-q8-55-etron-sportback/5278594/"><img src="https://img.bland.is/album/400/261222/m/20260816194311_0.jpg" width="320"></a>
 
@@ -3013,7 +3029,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**90.8 kr/km** · sell after **12 yr** · 12.350.000 kr
+🔴 **90.8 kr/km** · sell after **12 yr** · 12.350.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147428"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147428_9952f0a7a737cbeb87a95a9dde481f9b_full.jpg?v2" width="320"></a>
 
@@ -3026,7 +3042,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**91.1 kr/km** · sell after **12 yr** · 12.410.000 kr
+🔴 **91.1 kr/km** · sell after **12 yr** · 12.410.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/145568"><img src="https://nyirbilar.brimborg.is/static/notadir/images/145568_39a2a7db1d687bc02d01fabbed7ca41a_full.jpg?v2" width="320"></a>
 
@@ -3039,7 +3055,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**92.2 kr/km** · sell after **12 yr** · 12.680.000 kr
+🔴 **92.2 kr/km** · sell after **12 yr** · 12.680.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147765"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147765_23bec17b2e0c46820e34a655282bfa36_full.jpg?v2" width="320"></a>
 
@@ -3052,7 +3068,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**92.4 kr/km** · sell after **12 yr** · 12.710.000 kr · 6 in stock
+🔴 **92.4 kr/km** · sell after **12 yr** · 12.710.000 kr · 6 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147429"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147429_23bec17b2e0c46820e34a655282bfa36_full.jpg?v2" width="320"></a>
 
@@ -3065,7 +3081,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**92.4 kr/km** · sell after **12 yr** · 12.720.000 kr
+🔴 **92.4 kr/km** · sell after **12 yr** · 12.720.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147932"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147932_7338d055513fb9f810741679c4453b36_full.jpg?v2" width="320"></a>
 
@@ -3078,7 +3094,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**92.6 kr/km** · sell after **12 yr** · 12.070.000 kr
+🔴 **92.6 kr/km** · sell after **12 yr** · 12.070.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-a6-e-tron-avant-sportback"><img src="https://www.hekla.is/static/store/images/original/product_971125.jpg" width="320"></a>
 
@@ -3091,7 +3107,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**92.6 kr/km** · sell after **12 yr** · 12.770.000 kr
+🔴 **92.6 kr/km** · sell after **12 yr** · 12.770.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/144815"><img src="https://nyirbilar.brimborg.is/static/notadir/images/144815_7c32153c48de287adcce61d7ec3d76c7_full.jpg?v2" width="320"></a>
 
@@ -3104,7 +3120,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**92.7 kr/km** · sell after **12 yr** · 12.780.000 kr
+🔴 **92.7 kr/km** · sell after **12 yr** · 12.780.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/144914"><img src="https://nyirbilar.brimborg.is/static/notadir/images/144914_39a2a7db1d687bc02d01fabbed7ca41a_full.jpg?v2" width="320"></a>
 
@@ -3117,7 +3133,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**92.9 kr/km** · sell after **12 yr** · 13.340.000 kr
+🔴 **92.9 kr/km** · sell after **12 yr** · 13.340.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-idbuzz-gtx-4motion-2"><img src="https://www.hekla.is/static/store/images/original/product_969589.jpg" width="320"></a>
 
@@ -3130,7 +3146,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.0 kr/km** · sell after **12 yr** · 12.560.000 kr
+🔴 **93.0 kr/km** · sell after **12 yr** · 12.560.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-e-tron-quattro-95"><img src="https://www.hekla.is/static/store/images/original/product_972814.jpg" width="320"></a>
 
@@ -3143,7 +3159,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.2 kr/km** · sell after **12 yr** · 12.890.000 kr
+🔴 **93.2 kr/km** · sell after **12 yr** · 12.890.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/144818"><img src="https://nyirbilar.brimborg.is/static/notadir/images/144818_39a2a7db1d687bc02d01fabbed7ca41a_full.jpg?v2" width="320"></a>
 
@@ -3156,7 +3172,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.3 kr/km** · sell after **12 yr** · 13.430.000 kr
+🔴 **93.3 kr/km** · sell after **12 yr** · 13.430.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-idbuzz-gtx-4motion-1"><img src="https://www.hekla.is/static/store/images/original/product_970749.png" width="320"></a>
 
@@ -3169,7 +3185,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.5 kr/km** · sell after **9 yr** · 9.500.000 kr
+🔴 **93.5 kr/km** · sell after **9 yr** · 9.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/audi-e-tron-gt-nov-2022-ek53-skipti/5279559/"><img src="https://img.bland.is/album/400/66123/m/20260819190757_0.jpg" width="320"></a>
 
@@ -3182,7 +3198,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.5 kr/km** · sell after **12 yr** · 12.960.000 kr
+🔴 **93.5 kr/km** · sell after **12 yr** · 12.960.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147813"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147813_74f673d6cb493b9af58e4aae44531e57_full.jpg?v2" width="320"></a>
 
@@ -3195,7 +3211,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.6 kr/km** · sell after **12 yr** · 12.990.000 kr
+🔴 **93.6 kr/km** · sell after **12 yr** · 12.990.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147799"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147799_65ad05a674440ea7aafca924b3f56b2c_full.jpg?v2" width="320"></a>
 
@@ -3208,7 +3224,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.6 kr/km** · sell after **12 yr** · 12.990.000 kr
+🔴 **93.6 kr/km** · sell after **12 yr** · 12.990.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147715"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147715_143ca085067f921652553faf2e2e7502_full.jpg?v2" width="320"></a>
 
@@ -3221,7 +3237,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.7 kr/km** · sell after **12 yr** · 13.010.000 kr
+🔴 **93.7 kr/km** · sell after **12 yr** · 13.010.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147883"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147883_9298931df04a1642750bf0528baa1514_full.jpg?v2" width="320"></a>
 
@@ -3234,7 +3250,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.7 kr/km** · sell after **12 yr** · 13.020.000 kr
+🔴 **93.7 kr/km** · sell after **12 yr** · 13.020.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147724"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147724_6a6f5b6fbabbdc648722e03e29710f01_full.jpg?v2" width="320"></a>
 
@@ -3247,7 +3263,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**93.9 kr/km** · sell after **12 yr** · 13.050.000 kr
+🔴 **93.9 kr/km** · sell after **12 yr** · 13.050.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147846"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147846_726e1cefef6e333790878bdcdb415b0a_full.jpg?v2" width="320"></a>
 
@@ -3260,7 +3276,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**94.1 kr/km** · sell after **12 yr** · 13.100.000 kr
+🔴 **94.1 kr/km** · sell after **12 yr** · 13.100.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/145829"><img src="https://nyirbilar.brimborg.is/static/notadir/images/145829_9c76ba4e6dad34e2d41471bfeba4368b_full.jpg?v2" width="320"></a>
 
@@ -3273,7 +3289,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**94.2 kr/km** · sell after **12 yr** · 13.130.000 kr · 2 in stock
+🔴 **94.2 kr/km** · sell after **12 yr** · 13.130.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/144823"><img src="https://nyirbilar.brimborg.is/static/notadir/images/144823_7c32153c48de287adcce61d7ec3d76c7_full.jpg?v2" width="320"></a>
 
@@ -3286,7 +3302,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**94.5 kr/km** · sell after **12 yr** · 13.200.000 kr · 8 in stock
+🔴 **94.5 kr/km** · sell after **12 yr** · 13.200.000 kr · 8 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147717"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147717_d9502be950766d2042b27f2c23cd7701_full.jpg?v2" width="320"></a>
 
@@ -3299,7 +3315,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**94.6 kr/km** · sell after **12 yr** · 13.230.000 kr
+🔴 **94.6 kr/km** · sell after **12 yr** · 13.230.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/AJU18"><img src="https://nyirbilar.brimborg.is/static/notadir/images/AJU18_6a6f5b6fbabbdc648722e03e29710f01_full.jpg?v2" width="320"></a>
 
@@ -3312,7 +3328,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**94.7 kr/km** · sell after **12 yr** · 13.250.000 kr
+🔴 **94.7 kr/km** · sell after **12 yr** · 13.250.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/144824"><img src="https://nyirbilar.brimborg.is/static/notadir/images/144824_39a2a7db1d687bc02d01fabbed7ca41a_full.jpg?v2" width="320"></a>
 
@@ -3325,7 +3341,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**94.9 kr/km** · sell after **11 yr** · 11.490.000 kr
+🔴 **94.9 kr/km** · sell after **11 yr** · 11.490.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/HPZ56"><img src="https://notadir.brimborg.is/static/notadir/images/HPZ56_4a9f5936f361a4c826f3c6fc821afe40_thumb.jpg?v2" width="320"></a>
 
@@ -3338,7 +3354,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**95.7 kr/km** · sell after **12 yr** · 13.470.000 kr · 3 in stock
+🔴 **95.7 kr/km** · sell after **12 yr** · 13.470.000 kr · 3 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147790"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147790_9952f0a7a737cbeb87a95a9dde481f9b_full.jpg?v2" width="320"></a>
 
@@ -3351,7 +3367,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**96.4 kr/km** · sell after **10 yr** · 10.900.000 kr
+🔴 **96.4 kr/km** · sell after **10 yr** · 10.900.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-s-8-2023/5280533/"><img src="https://img.bland.is/album/400/172915/m/20260823093316_0.jpg" width="320"></a>
 
@@ -3364,7 +3380,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**96.7 kr/km** · sell after **12 yr** · 13.710.000 kr
+🔴 **96.7 kr/km** · sell after **12 yr** · 13.710.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147985"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147985_d9502be950766d2042b27f2c23cd7701_full.jpg?v2" width="320"></a>
 
@@ -3377,7 +3393,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**96.8 kr/km** · sell after **12 yr** · 13.740.000 kr
+🔴 **96.8 kr/km** · sell after **12 yr** · 13.740.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147876"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147876_a9c3fc063d1baf108d3c0e55ff0a7ff1_full.jpg?v2" width="320"></a>
 
@@ -3390,7 +3406,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**97.1 kr/km** · sell after **12 yr** · 13.800.000 kr
+🔴 **97.1 kr/km** · sell after **12 yr** · 13.800.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147817"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147817_d9502be950766d2042b27f2c23cd7701_full.jpg?v2" width="320"></a>
 
@@ -3403,7 +3419,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**97.4 kr/km** · sell after **12 yr** · 13.470.000 kr
+🔴 **97.4 kr/km** · sell after **12 yr** · 13.470.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-e-tron-quattro-83"><img src="https://www.hekla.is/static/store/images/original/product_972487.jpg" width="320"></a>
 
@@ -3416,7 +3432,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**97.8 kr/km** · sell after **12 yr** · 13.960.000 kr
+🔴 **97.8 kr/km** · sell after **12 yr** · 13.960.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147814"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147814_d9502be950766d2042b27f2c23cd7701_full.jpg?v2" width="320"></a>
 
@@ -3429,7 +3445,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**98.6 kr/km** · sell after **12 yr** · 14.140.000 kr
+🔴 **98.6 kr/km** · sell after **12 yr** · 14.140.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147987"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147987_66008baa179c0664eba0002e37729183_full.jpg?v2" width="320"></a>
 
@@ -3442,7 +3458,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**98.7 kr/km** · sell after **12 yr** · 14.170.000 kr
+🔴 **98.7 kr/km** · sell after **12 yr** · 14.170.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147898"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147898_7338d055513fb9f810741679c4453b36_full.jpg?v2" width="320"></a>
 
@@ -3455,7 +3471,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**98.8 kr/km** · sell after **12 yr** · 13.590.000 kr
+🔴 **98.8 kr/km** · sell after **12 yr** · 13.590.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/POJ26"><img src="https://nyirbilar.brimborg.is/static/notadir/images/POJ26_c47fbe1f18ce83b4912c440ca663b512_full.jpg?v2" width="320"></a>
 
@@ -3468,7 +3484,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**99.5 kr/km** · sell after **12 yr** · 13.940.000 kr
+🔴 **99.5 kr/km** · sell after **12 yr** · 13.940.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-e-tron-quattro-88"><img src="https://www.hekla.is/static/store/images/original/product_972563.jpg" width="320"></a>
 
@@ -3481,7 +3497,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**99.7 kr/km** · sell after **10 yr** · 11.790.000 kr
+🔴 **99.7 kr/km** · sell after **10 yr** · 11.790.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mercedes-benz-eqe-500-suv-4-matic-panorama-360-kam/5281298/"><img src="https://img.bland.is/album/400/102035/m/20260825180745_0.jpg" width="320"></a>
 
@@ -3494,7 +3510,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**100.1 kr/km** · sell after **12 yr** · 14.500.000 kr
+🔴 **100.1 kr/km** · sell after **12 yr** · 14.500.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147913"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147913_cbe6ade43bbca1f714196b866f5a1553_full.jpg?v2" width="320"></a>
 
@@ -3507,7 +3523,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**100.7 kr/km** · sell after **12 yr** · 14.620.000 kr
+🔴 **100.7 kr/km** · sell after **12 yr** · 14.620.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147770"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147770_a2612d54dae8b53cb85a31e5d0545cf6_full.jpg?v2" width="320"></a>
 
@@ -3520,7 +3536,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**100.7 kr/km** · sell after **12 yr** · 14.220.000 kr
+🔴 **100.7 kr/km** · sell after **12 yr** · 14.220.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-e-tron-quattro-90"><img src="https://www.hekla.is/static/store/images/original/product_972733.jpg" width="320"></a>
 
@@ -3533,7 +3549,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**101.4 kr/km** · sell after **12 yr** · 14.800.000 kr
+🔴 **101.4 kr/km** · sell after **12 yr** · 14.800.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/147819"><img src="https://nyirbilar.brimborg.is/static/notadir/images/147819_c5dced6edaed30dbd06aa40652c3934a_full.jpg?v2" width="320"></a>
 
@@ -3546,7 +3562,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**101.8 kr/km** · sell after **12 yr** · 14.490.000 kr
+🔴 **101.8 kr/km** · sell after **12 yr** · 14.490.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-e-tron-quattro-89"><img src="https://www.hekla.is/static/store/images/original/product_972723.jpg" width="320"></a>
 
@@ -3559,7 +3575,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**102.1 kr/km** · sell after **12 yr** · 14.540.000 kr
+🔴 **102.1 kr/km** · sell after **12 yr** · 14.540.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-sportback-e-tron-quattro-9"><img src="https://www.hekla.is/static/store/images/original/product_972614.jpg" width="320"></a>
 
@@ -3572,7 +3588,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**102.1 kr/km** · sell after **12 yr** · 14.230.000 kr
+🔴 **102.1 kr/km** · sell after **12 yr** · 14.230.000 kr
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RJM14"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RJM14_c47fbe1f18ce83b4912c440ca663b512_full.jpg?v2" width="320"></a>
 
@@ -3585,7 +3601,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**103.2 kr/km** · sell after **12 yr** · 14.080.000 kr
+🔴 **103.2 kr/km** · sell after **12 yr** · 14.080.000 kr
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-a6-avant-e-tron-quattro-1"><img src="https://www.hekla.is/static/store/images/original/product_972595.jpg" width="320"></a>
 
@@ -3598,7 +3614,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**103.3 kr/km** · sell after **12 yr** · 14.820.000 kr · 2 in stock
+🔴 **103.3 kr/km** · sell after **12 yr** · 14.820.000 kr · 2 in stock
 
 <a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/audi-q6-sportback-e-tron-quattro-10"><img src="https://www.hekla.is/static/store/images/original/product_972618.jpg" width="320"></a>
 
@@ -3611,7 +3627,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**103.4 kr/km** · sell after **10 yr** · 12.290.000 kr
+🔴 **103.4 kr/km** · sell after **10 yr** · 12.290.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/RRL22"><img src="https://notadir.brimborg.is/static/notadir/images/RRL22_2ce4a31adb6f2fdc0d3fd13c0126b5df_thumb.jpg?v2" width="320"></a>
 
@@ -3624,7 +3640,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**107.7 kr/km** · sell after **12 yr** · 15.480.000 kr · 2 in stock
+🔴 **107.7 kr/km** · sell after **12 yr** · 15.480.000 kr · 2 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/VUH36"><img src="https://nyirbilar.brimborg.is/static/notadir/images/VUH36_c47fbe1f18ce83b4912c440ca663b512_full.jpg?v2" width="320"></a>
 
@@ -3637,7 +3653,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**108.2 kr/km** · sell after **10 yr** · 12.900.000 kr
+🔴 **108.2 kr/km** · sell after **10 yr** · 12.900.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/til-solu-tesla-model-s-long-range-5-2023-685hp/5287686/"><img src="https://img.bland.is/album/400/310012/m/20260917020142_0.jpg" width="320"></a>
 
@@ -3650,7 +3666,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**111.5 kr/km** · sell after **11 yr** · 14.590.000 kr
+🔴 **111.5 kr/km** · sell after **11 yr** · 14.590.000 kr
 
 <a href="https://notadir.brimborg.is/is/notadir-bilar/bill/SRU74"><img src="https://notadir.brimborg.is/static/notadir/images/SRU74_56fe1e8a9fa793d3b3d4f76d3cd9c11a_thumb.jpg?v2" width="320"></a>
 
@@ -3663,7 +3679,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**112.0 kr/km** · sell after **12 yr** · 15.750.000 kr
+🔴 **112.0 kr/km** · sell after **12 yr** · 15.750.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/volvo-ex90-ultra-performance-2026/5292109/"><img src="https://img.bland.is/album/400/102035/m/20261007134041_1.jpg" width="320"></a>
 
@@ -3676,7 +3692,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**113.2 kr/km** · sell after **9 yr** · 12.900.000 kr
+🔴 **113.2 kr/km** · sell after **9 yr** · 12.900.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/mercedes-benz-eqs-450-4matic-2023/5284789/"><img src="https://img.bland.is/album/400/279064/m/20260906180131_0.jpg" width="320"></a>
 
@@ -3689,7 +3705,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**113.9 kr/km** · sell after **12 yr** · 16.680.000 kr · 3 in stock
+🔴 **113.9 kr/km** · sell after **12 yr** · 16.680.000 kr · 3 in stock
 
 <a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/KUV29"><img src="https://nyirbilar.brimborg.is/static/notadir/images/KUV29_ec64a7c5cff22689d8661ab8b53c84d4_full.jpg?v2" width="320"></a>
 
@@ -3702,7 +3718,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**122.7 kr/km** · sell after **10 yr** · 14.990.000 kr
+🔴 **122.7 kr/km** · sell after **10 yr** · 14.990.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/bmw-i7-xdrive60-2022/5282364/"><img src="https://img.bland.is/album/400/59963/m/20260829110417_0.jpg" width="320"></a>
 
@@ -3717,7 +3733,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <details><summary>Source status</summary>
 
-- Bland: 1175
+- Bland: 1173
 - Hekla (new): 150
 - Brimborg (new): 221
 - ÍSBAND (new): 18
