@@ -80,6 +80,23 @@ new_cars:
   # Used when the used market can't tell us (model has too few used listings).
   registration_drop: 0.10
 
+# New cars you can't scrape (Tesla sells direct; BL/Askja/Toyota have no stock pages here).
+# Price = list price incl. VSK as shown on the maker's site, BEFORE the rafbílastyrkur (it's deducted
+# automatically when under 10M kr). Entries with price: null are skipped until filled in.
+manual_new:
+  - title: Tesla Model Y Standard
+    price: null
+    url: "https://www.tesla.com/is_is/modely/design"
+  - title: Tesla Model Y Premium RWD
+    price: null
+    url: "https://www.tesla.com/is_is/modely/design"
+  - title: Tesla Model 3 Standard
+    price: null
+    url: "https://www.tesla.com/is_is/model3/design"
+  - title: Tesla Model 3 Premium RWD
+    price: null
+    url: "https://www.tesla.com/is_is/model3/design"
+
 sources:
   dealers:
     - name: Hekla (new)

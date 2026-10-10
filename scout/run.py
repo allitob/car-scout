@@ -56,6 +56,13 @@ def main():
             log(f"{d['name']}: FAILED — {type(e).__name__}: {e}")
             health[d["name"]] = f"failed: {type(e).__name__}"
 
+    manual = [m for m in cfg.get("manual_new") or [] if m.get("price")]
+    for m in manual:
+        raw.append({"source": "Manual (new)", "title": m["title"], "price": int(m["price"]),
+                    "list_price": int(m["price"]), "grant_applied": False, "fuel": "rafmagn",
+                    "url": m.get("url", ""), "image": m.get("image"), "text": "", "new": True})
+    health["Manual (new)"] = len(manual)
+
     # New cars: no km, this year's model, and the rafbílastyrkur off the price
     nc = cfg.get("new_cars", {})
     this_year = dt.date.today().year
