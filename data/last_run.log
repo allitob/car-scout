@@ -1,8 +1,18 @@
-Bland: 1175 car listings scanned, 141 electric
+Bland: 1176 car listings scanned, 141 electric
 Hekla (new): 150 listings, 123 electric
 Brimborg (new): 221 listings, 221 electric
 Brimborg (used): 59 listings, 59 electric
 515 electric cars with year, km and price
 Market fit on 184 listings: value falls 15.3%/yr at 20.000 km/yr (age 0.132/yr, km 0.017/10k km in log price), residual σ 0.18
 277 cars from 2022 on ranked
-Notify: 0 new cars in the top 10
+Traceback (most recent call last):
+  File "/home/runner/work/car-scout/car-scout/scout/run.py", line 213, in <module>
+    main()
+  File "/home/runner/work/car-scout/car-scout/scout/run.py", line 123, in main
+    write_md(rows, market, cfg, health, now, new_urls)
+  File "/home/runner/work/car-scout/car-scout/scout/run.py", line 183, in write_md
+    lines += [card(r, r["url"] in new, rate) for r in rows[:60]]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/car-scout/car-scout/scout/run.py", line 161, in card
+    f"<sub>{'🆕 NEW' if r.get('new') else r['year']} · {fmt(r['km'])} km · {r['source']} · {r['model']} · {deal_txt} "
+TypeError: 'str' object is not callable
