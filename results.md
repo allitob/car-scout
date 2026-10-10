@@ -1,6 +1,6 @@
 # Cheapest EVs per km
 
-Updated 2026-10-10 11:09 UTC · 285 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
+Updated 2026-10-10 11:17 UTC · 285 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
 
 Market: EVs lose about **15% of their value per year** at this mileage (fitted on all 184 EV listings, older ones included). Costs in today's krónur. Assumptions: `config.yaml`.
 
@@ -12,7 +12,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**38.4 kr/km** · sell after **11 yr** · 2.390.000 kr · 🆕
+**38.4 kr/km** · sell after **11 yr** · 2.390.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-t03/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-T03-Caribbean-Blue.png" width="320"></a>
 
@@ -25,7 +25,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**42.0 kr/km** · sell after **12 yr** · 2.990.000 kr · 🆕
+**42.0 kr/km** · sell after **12 yr** · 2.990.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-b03x-life/"><img src="https://www.isband.is/wp-content/uploads/2026/07/1000x1000-B03X-Life-Acorn-Brown.png" width="320"></a>
 
@@ -38,7 +38,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**45.2 kr/km** · sell after **12 yr** · 3.590.000 kr · 🆕
+**45.2 kr/km** · sell after **12 yr** · 3.590.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-b03x-design/"><img src="https://www.isband.is/wp-content/uploads/2026/07/1000x1000-B03X-Design-Seaweed-Green.png" width="320"></a>
 
@@ -142,7 +142,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**47.3 kr/km** · sell after **12 yr** · 3.990.000 kr · 🆕
+**47.3 kr/km** · sell after **12 yr** · 3.990.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-b05-design/"><img src="https://www.isband.is/wp-content/uploads/2026/03/1000x1000-B05-Design-Galaxy-Silver.png" width="320"></a>
 
@@ -350,7 +350,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**52.0 kr/km** · sell after **12 yr** · 4.790.000 kr · 🆕
+**52.0 kr/km** · sell after **12 yr** · 4.790.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-b10-design/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-B10-3.png" width="320"></a>
 
@@ -437,7 +437,9 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**53.7 kr/km** · sell after **12 yr** · 5.290.000 kr · 🆕
+**53.7 kr/km** · sell after **12 yr** · 5.290.000 kr
+
+<a href="https://www.tesla.com/is_is/model3/design"><img src="images/tesla-model-3.jpg" width="320"></a>
 
 [Tesla Model 3 RWD](https://www.tesla.com/is_is/model3/design)  
 <sub>🆕 NEW · 0 km · Manual (new) · tesla model 3 · new: 5.790.000 kr list, rafbílastyrkur assumed (resale ≈ 618.956 kr)</sub>
@@ -609,7 +611,9 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.2 kr/km** · sell after **12 yr** · 6.029.990 kr · 🆕
+**58.2 kr/km** · sell after **12 yr** · 6.029.990 kr
+
+<a href="https://www.tesla.com/is_is/modely/design"><img src="images/tesla-model-y.jpg" width="320"></a>
 
 [Tesla Model Y RWD](https://www.tesla.com/is_is/modely/design)  
 <sub>🆕 NEW · 0 km · Manual (new) · tesla model y · new: 6.529.990 kr list, rafbílastyrkur assumed (resale ≈ 705.538 kr)</sub>
@@ -659,7 +663,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**58.8 kr/km** · sell after **12 yr** · 5.990.000 kr · 🆕
+**58.8 kr/km** · sell after **12 yr** · 5.990.000 kr
 
 <a href="https://www.isband.is/product/leapmotor-c10-design-awd/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-C10-1.png" width="320"></a>
 
