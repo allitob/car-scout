@@ -65,7 +65,7 @@ market:
 filters:
   # Only these model years are ranked. Older EVs still feed the market fit, so newer cars
   # can be projected to 8-10 years old.
-  min_year: 2020
+  min_year: 2022
   min_price_isk: 300000
   max_price_isk: 30000000
 
