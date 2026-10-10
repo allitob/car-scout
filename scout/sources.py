@@ -243,3 +243,12 @@ def dealer(name, url_tmpl, link_rx, new, max_pages, log):
     items = list(out.values())
     log(f"{name}: {len(items)} listings, {sum(1 for c in items if c['fuel'] == 'rafmagn')} electric")
     return items
+
+
+VAN_RE = re.compile(r"\bvan\b|sendib[ií]l|\bpartner\b|\bexpert\b|transit|\betp\s*3\b|crafter|transporter|"
+                    r"proace|berlingo|\bkangoo\b|\bvito\b|evito|e[\s-]?nv200|\bcargo\b|\bpallb[ií]l|\bjumpy\b|"
+                    r"\bboxer\b|\bmaster\b|\btrafic\b|\bdeliver\b|\bcombo\b", re.I)
+
+
+def is_van(title):
+    return bool(VAN_RE.search(title or ""))

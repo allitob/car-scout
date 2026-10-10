@@ -76,6 +76,8 @@ def main():
             continue
         if not (f["min_price_isk"] <= c["price"] <= f["max_price_isk"]):
             continue
+        if f.get("exclude_vans") and sources.is_van(c["title"]):
+            continue
         c["model"], c["make"], c["kwh_100km"] = models.identify(c["title"])
         cars.append(c)
     log(f"{len(cars)} electric cars with year, km and price")
@@ -102,6 +104,18 @@ def main():
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=1))
 
     rows.sort(key=lambda r: r["kr_per_km"])
+    # Dealers list every stock unit: show identical new cars (same dealer, name, price) once with a count
+    grouped, seen = [], {}
+    for r in rows:
+        if r.get("new"):
+            k = (r["source"], r["title"].strip().lower(), r["price"])
+            if k in seen:
+                seen[k]["in_stock"] += 1
+                continue
+            r["in_stock"] = 1
+            seen[k] = r
+        grouped.append(r)
+    rows = grouped
     # Rank only recent model years; older listings were used above for the market fit only
     rows = [r for r in rows if r["year"] >= f.get("min_year", 0)]
     log(f"{len(rows)} cars from {f.get('min_year')} on ranked")
@@ -139,7 +153,7 @@ def card(r, new, rate):
     price = f"{fmt(r['price'])} kr"
     if r.get("prev_price") and r["prev_price"] > r["price"]:
         price += f" (was {fmt(r['prev_price'])})"
-    out = [f"**{r['kr_per_km']:.1f} kr/km** · sell after **{r['hold_years']} yr** · {price}" + (" · 🆕" if new else ""), ""]
+    out = [f"**{r['kr_per_km']:.1f} kr/km** · sell after **{r['hold_years']} yr** · {price}" + (" · 🆕" if new else "") + (f" · {r['in_stock']} in stock" if r.get("in_stock", 1) > 1 else ""), ""]
     if r.get("image"):
         out += [f'<a href="{r["url"]}"><img src="{r["image"]}" width="320"></a>', ""]
     out += [f"[{r['title']}]({r['url']})  ",

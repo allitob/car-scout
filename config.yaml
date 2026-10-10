@@ -63,6 +63,8 @@ market:
   ridge: 2.0
 
 filters:
+  # Drop vans and commercial vehicles (not relevant for a family car). Set to false to include them.
+  exclude_vans: true
   # Only these model years are ranked. Older EVs still feed the market fit, so newer cars
   # can be projected to 8-10 years old.
   min_year: 2022
@@ -74,6 +76,9 @@ new_cars:
   # costing under 10M kr. Applied here when the dealer's card doesn't already show a price "með styrk".
   grant_kr: 500000
   grant_max_price_kr: 10000000
+  # Minimum value lost the moment a new car is registered (on top of normal yearly depreciation).
+  # Used when the used market can't tell us (model has too few used listings).
+  registration_drop: 0.10
 
 sources:
   dealers:

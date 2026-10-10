@@ -30,8 +30,13 @@ def evaluate(car, market, cfg):
     # A price below/above the market usually reflects condition, spec or battery health, so most of
     # the gap stays with the car when it's resold (price_gap_persists = 1: all of it)
     # New cars: the gap between list price and a nearly-new used one is the showroom premium — it's gone at resale
-    keep = 0.0 if car.get("new") else m.get("price_gap_persists", 0.8)
-    v_now = v_market * (price / v_market) ** keep
+    if car.get("new"):
+        # Value right after registration: the used market's level for this model, but never above what
+        # was paid minus the registration drop (thin data can put a model's used level above its new price)
+        v_now = min(v_market, price * (1 - cfg["new_cars"].get("registration_drop", 0.10)))
+    else:
+        keep = m.get("price_gap_persists", 0.8)
+        v_now = v_market * (price / v_market) ** keep
 
     energy_kr_per_km = (car["kwh_100km"] / 100 * e["winter_factor"] * (1 + e["charging_loss"])
                         * (e["home_share"] * e["home_kr_per_kwh"] + (1 - e["home_share"]) * e["public_kr_per_kwh"]))
