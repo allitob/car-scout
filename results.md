@@ -1,6 +1,6 @@
 # Cheapest EVs per km
 
-Updated 2026-10-10 10:52 UTC · 277 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
+Updated 2026-10-10 11:06 UTC · 277 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
 
 Market: EVs lose about **15% of their value per year** at this mileage (fitted on all 184 EV listings, older ones included). Costs in today's krónur. Assumptions: `config.yaml`.
 
@@ -778,9 +778,10 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <details><summary>Source status</summary>
 
-- Bland: 1176
+- Bland: 1177
 - Hekla (new): 150
 - Brimborg (new): 221
 - Brimborg (used): 59
+- Manual (new): 0
 
 </details>
