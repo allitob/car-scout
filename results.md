@@ -1,6 +1,6 @@
 # Cheapest EVs per km
 
-Updated 2026-10-10 11:06 UTC · 277 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
+Updated 2026-10-10 11:09 UTC · 285 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
 
 Market: EVs lose about **15% of their value per year** at this mileage (fitted on all 184 EV listings, older ones included). Costs in today's krónur. Assumptions: `config.yaml`.
 
@@ -9,6 +9,45 @@ Market: EVs lose about **15% of their value per year** at this mileage (fitted o
 cost per km = (price − resale after N years + capital cost + charging + kílómetragjald + insurance + service + tyres + tax/skoðun + expected battery repairs after warranty) ÷ km driven. Resale comes from today's market: what the same model sells for N years older and 20.000·N km further on. N is whichever year gives the lowest cost per km.
 
 </details>
+
+---
+
+**38.4 kr/km** · sell after **11 yr** · 2.390.000 kr · 🆕
+
+<a href="https://www.isband.is/product/leapmotor-t03/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-T03-Caribbean-Blue.png" width="320"></a>
+
+[Leapmotor T03](https://www.isband.is/product/leapmotor-t03/)  
+<sub>🆕 NEW · 0 km · ÍSBAND (new) · leapmotor t03 · new: 2.890.000 kr list, rafbílastyrkur included (resale ≈ 191.006 kr)</sub>
+
+<sub>kr/km: depreciation 10.0 · capital 7% 2.9 · charging 5.1 · km-gjald 7.0 · insurance 5.0 · service 3.6 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.6</sub>
+
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; young brand in Iceland: depreciation & battery guessed</sub>
+
+---
+
+**42.0 kr/km** · sell after **12 yr** · 2.990.000 kr · 🆕
+
+<a href="https://www.isband.is/product/leapmotor-b03x-life/"><img src="https://www.isband.is/wp-content/uploads/2026/07/1000x1000-B03X-Life-Acorn-Brown.png" width="320"></a>
+
+[Leapmotor B03X Life](https://www.isband.is/product/leapmotor-b03x-life/)  
+<sub>🆕 NEW · 0 km · ÍSBAND (new) · leapmotor b03x · new: 3.490.000 kr list, rafbílastyrkur included (resale ≈ 192.640 kr)</sub>
+
+<sub>kr/km: depreciation 11.7 · capital 7% 3.4 · charging 5.4 · km-gjald 7.0 · insurance 5.1 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.2</sub>
+
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; young brand in Iceland: depreciation & battery guessed</sub>
+
+---
+
+**45.2 kr/km** · sell after **12 yr** · 3.590.000 kr · 🆕
+
+<a href="https://www.isband.is/product/leapmotor-b03x-design/"><img src="https://www.isband.is/wp-content/uploads/2026/07/1000x1000-B03X-Design-Seaweed-Green.png" width="320"></a>
+
+[Leapmotor B03X Design](https://www.isband.is/product/leapmotor-b03x-design/)  
+<sub>🆕 NEW · 0 km · ÍSBAND (new) · leapmotor b03x · new: 4.090.000 kr list, rafbílastyrkur included (resale ≈ 231.297 kr)</sub>
+
+<sub>kr/km: depreciation 14.0 · capital 7% 4.1 · charging 5.4 · km-gjald 7.0 · insurance 5.2 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.2</sub>
+
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; young brand in Iceland: depreciation & battery guessed</sub>
 
 ---
 
@@ -100,6 +139,19 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>kr/km: depreciation 12.4 · capital 7% 5.4 · charging 5.8 · km-gjald 7.0 · insurance 5.4 · service 5.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.7</sub>
 
 <sub>⚠️ still getting cheaper per km at 8 yr / 230.000 km, where market data ends — keeping it longer is probably cheaper still</sub>
+
+---
+
+**47.3 kr/km** · sell after **12 yr** · 3.990.000 kr · 🆕
+
+<a href="https://www.isband.is/product/leapmotor-b05-design/"><img src="https://www.isband.is/wp-content/uploads/2026/03/1000x1000-B05-Design-Galaxy-Silver.png" width="320"></a>
+
+[Leapmotor B05 Design](https://www.isband.is/product/leapmotor-b05-design/)  
+<sub>🆕 NEW · 0 km · ÍSBAND (new) · leapmotor b05 · new: 4.490.000 kr list, rafbílastyrkur included (resale ≈ 257.068 kr)</sub>
+
+<sub>kr/km: depreciation 15.6 · capital 7% 4.6 · charging 5.4 · km-gjald 7.0 · insurance 5.3 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.2</sub>
+
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; young brand in Iceland: depreciation & battery guessed</sub>
 
 ---
 
@@ -298,6 +350,19 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
+**52.0 kr/km** · sell after **12 yr** · 4.790.000 kr · 🆕
+
+<a href="https://www.isband.is/product/leapmotor-b10-design/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-B10-3.png" width="320"></a>
+
+[Leapmotor B10 Design](https://www.isband.is/product/leapmotor-b10-design/)  
+<sub>🆕 NEW · 0 km · ÍSBAND (new) · leapmotor b10 · new: 5.290.000 kr list, rafbílastyrkur included (resale ≈ 308.611 kr)</sub>
+
+<sub>kr/km: depreciation 18.7 · capital 7% 5.5 · charging 6.0 · km-gjald 7.0 · insurance 5.4 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.2</sub>
+
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; young brand in Iceland: depreciation & battery guessed</sub>
+
+---
+
 **52.1 kr/km** · sell after **12 yr** · 5.070.000 kr · 2 in stock
 
 [VOLKSWAGEN ID. POLO](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-8)  
@@ -369,6 +434,17 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>kr/km: depreciation 19.8 · capital 7% 5.8 · charging 5.8 · km-gjald 7.0 · insurance 5.5 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
 <sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
+
+---
+
+**53.7 kr/km** · sell after **12 yr** · 5.290.000 kr · 🆕
+
+[Tesla Model 3 RWD](https://www.tesla.com/is_is/model3/design)  
+<sub>🆕 NEW · 0 km · Manual (new) · tesla model 3 · new: 5.790.000 kr list, rafbílastyrkur assumed (resale ≈ 618.956 kr)</sub>
+
+<sub>kr/km: depreciation 19.5 · capital 7% 7.3 · charging 5.3 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
+
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation</sub>
 
 ---
 
@@ -533,6 +609,17 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
+**58.2 kr/km** · sell after **12 yr** · 6.029.990 kr · 🆕
+
+[Tesla Model Y RWD](https://www.tesla.com/is_is/modely/design)  
+<sub>🆕 NEW · 0 km · Manual (new) · tesla model y · new: 6.529.990 kr list, rafbílastyrkur assumed (resale ≈ 705.538 kr)</sub>
+
+<sub>kr/km: depreciation 22.2 · capital 7% 8.4 · charging 5.8 · km-gjald 7.0 · insurance 5.9 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
+
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation</sub>
+
+---
+
 **58.2 kr/km** · sell after **8 yr** · 4.500.000 kr
 
 <a href="https://bland.is/til-solu/farartaeki/bilar/tesla-model-y-2023/5292750/"><img src="https://img.bland.is/album/400/73249/m/20261005112606_0.jpg" width="320"></a>
@@ -569,6 +656,19 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 <sub>kr/km: depreciation 23.7 · capital 7% 7.0 · charging 6.5 · km-gjald 7.0 · insurance 5.7 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
 
 <sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
+
+---
+
+**58.8 kr/km** · sell after **12 yr** · 5.990.000 kr · 🆕
+
+<a href="https://www.isband.is/product/leapmotor-c10-design-awd/"><img src="https://www.isband.is/wp-content/uploads/2025/10/1000x1000-C10-1.png" width="320"></a>
+
+[Leapmotor C10 Design AWD](https://www.isband.is/product/leapmotor-c10-design-awd/)  
+<sub>🆕 NEW · 0 km · ÍSBAND (new) · leapmotor c10 · new: 6.490.000 kr list, rafbílastyrkur included (resale ≈ 385.924 kr)</sub>
+
+<sub>kr/km: depreciation 23.4 · capital 7% 6.9 · charging 6.5 · km-gjald 7.0 · insurance 5.7 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 2.2</sub>
+
+<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; young brand in Iceland: depreciation & battery guessed</sub>
 
 ---
 
@@ -674,114 +774,13 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 ---
 
-**59.9 kr/km** · sell after **10 yr** · 4.690.000 kr
-
-<a href="https://notadir.brimborg.is/is/notadir-bilar/bill/LMB57"><img src="https://notadir.brimborg.is/static/notadir/images/LMB57_402c476ff93d20d362133231b6e37ea5_thumb.jpg?v2" width="320"></a>
-
-[Polestar 2 LRSM Pilot Lite](https://notadir.brimborg.is/is/notadir-bilar/bill/LMB57)  
-<sub>2022 · 38.002 km · Brimborg (used) · polestar 2 · 5% under market (market ≈ 4.946.385 kr, resale ≈ 858.455 kr)</sub>
-
-<sub>kr/km: depreciation 19.2 · capital 7% 8.1 · charging 6.3 · km-gjald 7.0 · insurance 5.9 · service 6.3 · tyres 2.0 · tax/skoðun 1.2 · battery risk 4.0</sub>
-
-<sub>⚠️ still getting cheaper per km at 10 yr / 238.000 km, where market data ends — keeping it longer is probably cheaper still</sub>
-
----
-
-**59.9 kr/km** · sell after **11 yr** · 5.670.000 kr
-
-<a href="https://bland.is/til-solu/farartaeki/bilar/mazda-6e-2025/5291215/"><img src="https://img.bland.is/album/400/135494/m/20260929225151_0.jpg" width="320"></a>
-
-[Mazda 6e 2025](https://bland.is/til-solu/farartaeki/bilar/mazda-6e-2025/5291215/)  
-<sub>2025 · 11.000 km · Bland · mazda (other) · at market (market ≈ 5.614.007 kr, resale ≈ 502.491 kr)</sub>
-
-<sub>kr/km: depreciation 23.5 · capital 7% 7.6 · charging 6.5 · km-gjald 7.0 · insurance 5.8 · service 4.4 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.9</sub>
-
-<sub>⚠️ still getting cheaper per km at 11 yr / 231.000 km, where market data ends — keeping it longer is probably cheaper still; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
-
----
-
-**60.2 kr/km** · sell after **12 yr** · 6.390.000 kr · 2 in stock
-
-<a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RUH79"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RUH79_32e9321b832e538ae32ab3a0acb0dc31_full.jpg?v2" width="320"></a>
-
-[Mazda CX-6e Takumi](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RUH79)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · mazda cx-6e · new: 6.890.000 kr list, rafbílastyrkur included (resale ≈ 411.695 kr)</sub>
-
-<sub>kr/km: depreciation 24.9 · capital 7% 7.3 · charging 6.3 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
-
-<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
-
----
-
-**60.3 kr/km** · sell after **12 yr** · 6.380.000 kr
-
-<a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EPF49"><img src="https://nyirbilar.brimborg.is/static/notadir/images/EPF49_9ad79e05aafed7c62a5e0797da10de0a_full.jpg?v2" width="320"></a>
-
-[Mazda6e Takumi Plus](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/EPF49)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.880.000 kr list, rafbílastyrkur included (resale ≈ 411.051 kr)</sub>
-
-<sub>kr/km: depreciation 24.9 · capital 7% 7.3 · charging 6.5 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
-
-<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
-
----
-
-**60.4 kr/km** · sell after **12 yr** · 6.400.000 kr
-
-<a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RXU96"><img src="https://nyirbilar.brimborg.is/static/notadir/images/RXU96_4d6bf4a1cbd0439c2af7f7cdb3c7ec16_full.jpg?v2" width="320"></a>
-
-[Mazda6e Takumi Plus](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/RXU96)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.900.000 kr list, rafbílastyrkur included (resale ≈ 412.340 kr)</sub>
-
-<sub>kr/km: depreciation 24.9 · capital 7% 7.3 · charging 6.5 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
-
-<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
-
----
-
-**60.6 kr/km** · sell after **12 yr** · 6.430.000 kr
-
-<a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/MHL89"><img src="https://nyirbilar.brimborg.is/static/notadir/images/MHL89_f3098269988f3bb5567c88b3b19c9b14_full.jpg?v2" width="320"></a>
-
-[Mazda6e Takumi Plus](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/MHL89)  
-<sub>🆕 NEW · 0 km · Brimborg (new) · unknown · new: 6.930.000 kr list, rafbílastyrkur included (resale ≈ 414.273 kr)</sub>
-
-<sub>kr/km: depreciation 25.1 · capital 7% 7.4 · charging 6.5 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
-
-<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs; model not recognised: consumption assumed</sub>
-
----
-
-**60.6 kr/km** · sell after **9 yr** · 4.690.000 kr
-
-<a href="https://notadir.brimborg.is/is/notadir-bilar/bill/OXE66"><img src="https://notadir.brimborg.is/static/notadir/images/OXE66_fe4f0b1661b5d9228393bca0f92ae76a_thumb.jpg?v2" width="320"></a>
-
-[Polestar 2 LRSM Pilot Lite](https://notadir.brimborg.is/is/notadir-bilar/bill/OXE66)  
-<sub>2022 · 49.806 km · Brimborg (used) · polestar 2 · 3% under market (market ≈ 4.848.426 kr, resale ≈ 1.009.161 kr)</sub>
-
-<sub>kr/km: depreciation 20.4 · capital 7% 8.6 · charging 6.3 · km-gjald 7.0 · insurance 6.0 · service 5.8 · tyres 2.0 · tax/skoðun 1.2 · battery risk 3.3</sub>
-
-<sub>⚠️ still getting cheaper per km at 9 yr / 230.000 km, where market data ends — keeping it longer is probably cheaper still</sub>
-
----
-
-**60.8 kr/km** · sell after **12 yr** · 6.630.000 kr
-
-[VOLKSWAGEN ID. Cross Style](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-cross-style-3)  
-<sub>🆕 NEW · 0 km · Hekla (new) · vw id.cross · new: 7.130.000 kr list, rafbílastyrkur included (resale ≈ 427.158 kr)</sub>
-
-<sub>kr/km: depreciation 25.8 · capital 7% 7.6 · charging 5.6 · km-gjald 7.0 · insurance 5.8 · service 4.0 · tyres 2.0 · tax/skoðun 1.2 · battery risk 1.7</sub>
-
-<sub>⚠️ no nearly-new used ones to compare with: assumed it loses 10% on registration, then the normal EV depreciation; little market data for this model: depreciation borrowed from brand/all EVs</sub>
-
----
-
 <details><summary>Source status</summary>
 
 - Bland: 1177
 - Hekla (new): 150
 - Brimborg (new): 221
+- ÍSBAND (new): 18
 - Brimborg (used): 59
-- Manual (new): 0
+- Manual (new): 2
 
 </details>
