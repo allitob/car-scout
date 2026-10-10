@@ -50,7 +50,7 @@ def main():
     f = cfg["filters"]
     cars = []
     for c in raw:
-        if not sources.is_electric(c.get("fuel")):
+        if not sources.is_electric(c.get("fuel"), c.get("title")):
             continue
         if not c.get("year") or c.get("km") is None or not c.get("price"):
             continue

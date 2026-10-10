@@ -19,7 +19,11 @@ S.headers.update({"User-Agent": UA, "Accept-Language": "is,en;q=0.8"})
 PRICE_RE = re.compile(r"(\d{1,3}(?:[.\s ]\d{3})+|\d{4,9})\s*(?:kr|ISK)", re.I)
 YEAR_RE = re.compile(r"(?:Árg(?:erð)?\.?|Ár)\s*:?\s*((?:19|20)\d{2})", re.I)
 KM_RE = re.compile(r"(?:Akstur|Ekinn|Ekin)\s*:?\s*(\d{1,3}(?:[.\s ]\d{3})+|\d{1,7})\s*(þús|þ\.?\s*km|km)?", re.I)
-FUEL_RE = re.compile(r"(?:Eldsneyti|Orkugjafi)\s*:?\s*([A-Za-zÁÉÍÓÚÝÞÆÖáéíóúýþæöð/\-]+(?:\s*/\s*[A-Za-zÁÉÍÓÚÝÞÆÖáéíóúýþæöð]+)?)", re.I)
+# Fuel can be a list: "Bensín, Rafmagn" (plug-in hybrid) vs "Rafmagn" (BEV)
+FUEL_RE = re.compile(r"(?:Eldsneyti|Orkugjafi)\s*:?\s*((?:[A-Za-zÁÉÍÓÚÝÞÆÖáéíóúýþæöð\-]+)(?:\s*[,/]\s*[A-Za-zÁÉÍÓÚÝÞÆÖáéíóúýþæöð\-]+)*)", re.I)
+# Not passenger BEVs even when the fuel field says Rafmagn
+NOT_BEV_RE = re.compile(r"plug[\s-]?in|phev|hybrid|hybrid|tvinn|tengil|\bgte\b|\b4xe\b|\b\d{3}e\b|recharge\s*t[68]|"
+                        r"golfb[ií]l|hj[oó]lh[yý]s|fellih[yý]s|h[uú]sb[ií]l|hobby|vesp|m[oó]torhj[oó]l|rafhj[oó]l|fjórhj", re.I)
 TITLE_YEAR_RE = re.compile(r"\b(20[0-3]\d|19[89]\d)\b")
 
 
@@ -48,8 +52,9 @@ def parse_fields(text, title=""):
     m = YEAR_RE.search(text)
     if m:
         year = int(m.group(1))
-    elif TITLE_YEAR_RE.search(title or ""):
-        year = int(TITLE_YEAR_RE.search(title).group(1))
+    ty = TITLE_YEAR_RE.search(title or "")
+    if ty and (year is None or int(ty.group(1)) != year):
+        year = int(ty.group(1))  # the seller's own title wins over a mis-set field
     m = KM_RE.search(text)
     if m:
         km = num(m.group(1))
@@ -61,12 +66,10 @@ def parse_fields(text, title=""):
     return year, km, fuel
 
 
-def is_electric(fuel, text=""):
-    f = (fuel or "").lower()
-    if f:
-        # "Rafmagn" only — plug-in hybrids ("Bensín/Rafmagn", "Tengiltvinn") are excluded
-        return f.startswith("rafmagn") and "/" not in f and "bens" not in f and "dís" not in f and "dis" not in f
-    return False
+def is_electric(fuel, title=""):
+    """Battery-electric only: fuel exactly "Rafmagn", and nothing in the title saying hybrid / not a car."""
+    f = (fuel or "").lower().strip(" ,")
+    return f == "rafmagn" and not NOT_BEV_RE.search(title or "")
 
 
 def _cards(html, base, link_rx):
@@ -96,11 +99,20 @@ def _cards(html, base, link_rx):
         title = a.get_text(" ", strip=True) or (h.get_text(" ", strip=True) if h else "")
         if len(title) < 3 and h:
             title = h.get_text(" ", strip=True)
-        img = node.find("img")
         src = None
-        if img:
-            src = img.get("data-src") or img.get("src")
-            src = urljoin(base, src) if src and not src.startswith("data:") else None
+        cover = node.find(attrs={"data-cover": True})
+        if cover:
+            src = cover["data-cover"]
+        else:
+            bg = node.find(style=re.compile(r"background-image"))
+            m = re.search(r"url\(['\"]?([^'\")]+)", bg["style"]) if bg else None
+            img = node.find("img")
+            src = m.group(1) if m else (img.get("data-src") or img.get("src")) if img else None
+        if src:
+            src = re.sub(r"\?d=\d+$", "", src)
+            src = urljoin("https:", src) if src.startswith("//") else urljoin(base, src)
+            if src.startswith("data:"):
+                src = None
         year, km, fuel = parse_fields(text, title)
         out[href] = {"title": title, "price": price, "year": year, "km": km, "fuel": fuel,
                      "url": href, "image": src, "text": text[:600]}
@@ -132,6 +144,6 @@ def bland(category, max_pages, log, debug_dir: Path | None = None):
             break
         time.sleep(1)
     items = list(out.values())
-    ev = [c for c in items if is_electric(c["fuel"])]
+    ev = [c for c in items if is_electric(c["fuel"], c["title"])]
     log(f"Bland: {len(items)} car listings scanned, {len(ev)} electric")
     return items

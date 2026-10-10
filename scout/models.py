@@ -11,14 +11,14 @@ import unicodedata
 
 # (key, make, regex on the ascii-folded lowercase title, kwh_100km)
 MODELS = [
-    ("tesla model 3", "tesla", r"model\s*3|\bm3\b", 15.5),
-    ("tesla model y", "tesla", r"model\s*y\b", 17.0),
-    ("tesla model s", "tesla", r"model\s*s\b", 19.5),
-    ("tesla model x", "tesla", r"model\s*x\b", 22.5),
+    ("tesla model 3", "tesla", r"model\s*3|tesla\s*3\b|\bm3\b", 15.5),
+    ("tesla model y", "tesla", r"model\s*y\b|tesla\s*y\b", 17.0),
+    ("tesla model s", "tesla", r"model\s*s\b|tesla\s*s\b", 19.5),
+    ("tesla model x", "tesla", r"model\s*x\b|tesla\s*x\b", 22.5),
     ("nissan ariya", "nissan", r"ariya", 19.5),
     ("nissan leaf", "nissan", r"\bleaf\b|\blauf\b", 17.0),
-    ("vw e-golf", "volkswagen", r"e[\s-]?golf", 16.0),
-    ("vw e-up", "volkswagen", r"e[\s-]?up\b", 14.0),
+    ("vw e-golf", "volkswagen", r"e[\s-]?golf|golf", 16.0),
+    ("vw e-up", "volkswagen", r"\bup\b", 14.0),
     ("vw id.3", "volkswagen", r"\bid\.?\s*3\b", 16.5),
     ("vw id.4", "volkswagen", r"\bid\.?\s*4\b", 19.0),
     ("vw id.5", "volkswagen", r"\bid\.?\s*5\b", 19.0),
@@ -31,9 +31,10 @@ MODELS = [
     ("audi e-tron gt", "audi", r"e[\s-]?tron\s*gt", 21.0),
     ("audi e-tron", "audi", r"e[\s-]?tron|q8", 24.0),
     ("kia ev3", "kia", r"\bev\s*3\b", 16.5),
+    ("kia ev5", "kia", r"\bev\s*5\b", 19.0),
     ("kia ev6", "kia", r"\bev\s*6\b", 18.5),
     ("kia ev9", "kia", r"\bev\s*9\b", 23.0),
-    ("kia niro ev", "kia", r"e[\s-]?niro|niro\s*(ev|electric|rafmagn)", 16.0),
+    ("kia niro ev", "kia", r"niro", 16.0),
     ("kia soul ev", "kia", r"soul", 16.0),
     ("hyundai ioniq 5", "hyundai", r"ioniq\s*5", 19.0),
     ("hyundai ioniq 6", "hyundai", r"ioniq\s*6", 16.0),
@@ -53,21 +54,23 @@ MODELS = [
     ("byd atto 3", "byd", r"atto\s*3", 17.5),
     ("byd seal", "byd", r"\bseal\b|sealion", 17.5),
     ("byd tang", "byd", r"\btang\b", 22.0),
-    ("mercedes eqa", "mercedes", r"\beqa\b", 18.0),
-    ("mercedes eqb", "mercedes", r"\beqb\b", 19.0),
-    ("mercedes eqc", "mercedes", r"\beqc\b", 24.0),
-    ("mercedes eqe", "mercedes", r"\beqe\b", 19.0),
-    ("mercedes eqs", "mercedes", r"\beqs\b", 20.0),
+    ("mercedes eqa", "mercedes", r"\beqa\s*\d*\b", 18.0),
+    ("mercedes eqb", "mercedes", r"\beqb\s*\d*\b", 19.0),
+    ("mercedes eqc", "mercedes", r"\beqc\s*\d*\b", 24.0),
+    ("mercedes eqe", "mercedes", r"\beqe\s*\d*\b", 19.0),
+    ("mercedes eqs", "mercedes", r"\beqs\s*\d*\b", 20.0),
     ("mercedes eqv", "mercedes", r"\beqv\b", 26.0),
     ("bmw i3", "bmw", r"\bi3\b", 15.0),
     ("bmw i4", "bmw", r"\bi4\b", 17.0),
+    ("bmw i5", "bmw", r"\bi5\b", 19.0),
+    ("bmw i7", "bmw", r"\bi7\b", 22.0),
     ("bmw ix1", "bmw", r"\bix1\b", 18.0),
     ("bmw ix3", "bmw", r"\bix3\b", 19.0),
     ("bmw ix", "bmw", r"\bix\b", 21.0),
     ("renault zoe", "renault", r"\bzo[eé]\b", 16.5),
     ("renault megane e-tech", "renault", r"megane", 16.5),
-    ("peugeot e-208", "peugeot", r"e[\s-]?208", 15.5),
-    ("peugeot e-2008", "peugeot", r"e[\s-]?2008", 17.0),
+    ("peugeot e-208", "peugeot", r"\b(e[\s-]?)?208\b", 15.5),
+    ("peugeot e-2008", "peugeot", r"2008", 17.0),
     ("opel corsa-e", "opel", r"corsa", 15.5),
     ("opel mokka-e", "opel", r"mokka", 17.0),
     ("citroen e-c4", "citroen", r"e[\s-]?c4|\bc4\b", 17.0),
@@ -78,20 +81,28 @@ MODELS = [
     ("porsche taycan", "porsche", r"taycan", 22.0),
     ("mazda mx-30", "mazda", r"mx[\s-]?30", 18.0),
     ("honda e", "honda", r"honda\s*e\b", 17.0),
-    ("fiat 500e", "fiat", r"500\s*e\b|500\s*(electric|rafmagn)", 15.0),
+    ("fiat 500e", "fiat", r"500\s*e\b|e\s*500|\b500\b", 15.0),
     ("smart #1", "smart", r"smart\s*#?\s*1\b", 18.0),
     ("leapmotor t03", "leapmotor", r"t\s*03", 15.0),
     ("leapmotor c10", "leapmotor", r"c\s*10", 19.0),
     ("xpeng g6", "xpeng", r"\bg6\b", 18.0),
     ("lexus ux300e", "lexus", r"ux\s*300", 17.0),
     ("dacia spring", "dacia", r"spring", 14.0),
+    ("nissan e-nv200", "nissan", r"nv\s*200", 20.0),
+    ("mercedes b 250e", "mercedes", r"\bb\s*(250\s*e|klass|class)?\b", 17.0),
+    ("vw e-crafter", "volkswagen", r"crafter", 28.0),
+    ("vw transporter abt-e", "volkswagen", r"transporter|abt", 25.0),
+    ("ford explorer ev", "ford", r"explorer", 18.0),
+    ("cadillac lyriq", "cadillac", r"lyriq", 22.0),
+    ("hongqi e-hs9", "hongqi", r"e[\s-]?hs\s*9", 26.0),
+    ("byd etp3", "byd", r"etp\s*3", 22.0),
     ("maxus", "maxus", r"maxus|euniq|mifa", 22.0),
 ]
 
 MAKE_WORDS = {
     "tesla": "tesla", "nissan": "nissan", "volkswagen": "volkswagen", "vw": "volkswagen", "skoda": "skoda",
     "cupra": "cupra", "audi": "audi", "kia": "kia", "hyundai": "hyundai", "polestar": "polestar",
-    "volvo": "volvo", "mg": "mg", "byd": "byd", "mercedes": "mercedes", "benz": "mercedes", "bmw": "bmw",
+    "volvo": "volvo", "mg": "mg", "nizzan": "nissan", "cadillac": "cadillac", "hongqi": "hongqi", "byd": "byd", "mercedes": "mercedes", "benz": "mercedes", "bmw": "bmw",
     "renault": "renault", "peugeot": "peugeot", "opel": "opel", "citroen": "citroen", "toyota": "toyota",
     "subaru": "subaru", "ford": "ford", "jaguar": "jaguar", "porsche": "porsche", "mazda": "mazda",
     "honda": "honda", "fiat": "fiat", "smart": "smart", "leapmotor": "leapmotor", "xpeng": "xpeng",
@@ -110,7 +121,9 @@ def fold(s: str) -> str:
 def identify(title: str):
     """Return (model_key, make, kwh_100km). Unknown models keep their make if one is named."""
     t = fold(title)
-    make = next((m for w, m in MAKE_WORDS.items() if re.search(rf"\b{re.escape(w)}\b", t)), None)
+    # The make named first in the title wins ("Nizzan E-NV200 Skoða skipti" is a Nissan)
+    hits = [(mt.start(), m) for w, m in MAKE_WORDS.items() for mt in [re.search(rf"\b{re.escape(w)}\b", t)] if mt]
+    make = min(hits)[1] if hits else None
     for key, mk, rx, kwh in MODELS:
         if re.search(rx, t) and (make is None or make == mk or (mk == "volkswagen" and make == "volkswagen")):
             return key, mk, kwh
