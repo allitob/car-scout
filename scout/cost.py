@@ -39,10 +39,12 @@ def evaluate(car, market, cfg):
     totals = {"depreciation": 0, "opportunity": 0, "energy": 0, "km_fee": 0, "insurance": 0,
               "tax": 0, "tyres": 0, "maintenance": 0, "battery": 0}
     prev_v = price
+    capped = False
     for h in range(1, u["max_hold_years"] + 1):
         age_end, km_end = age0 + h, km0 + D * h
         # Don't extrapolate far beyond the oldest / highest-mileage cars actually on the market
         if age_end > market.max_age + 2 or km_end > market.max_km + 2 * D:
+            capped = True
             break
         v = v_now * step ** h
         mid_v = (prev_v + v) / 2
@@ -73,6 +75,9 @@ def evaluate(car, market, cfg):
     if best is None:
         return None
     flags = []
+    if capped and best["hold_years"] == h - 1:
+        flags.append(f"no older/higher-mileage cars on the market to project beyond {best['hold_years']} yr — "
+                     "the selling year is a data limit, not an optimum")
     if young:
         flags.append("young brand in Iceland: depreciation & battery guessed")
     elif not measured:
