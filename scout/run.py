@@ -187,7 +187,7 @@ def write_md(rows, market, cfg, health, now, new):
              "Resale comes from today's market: what the same model sells for N years older and "
              f"{fmt(D)}·N km further on. N is whichever year gives the lowest cost per km.", "",
              "</details>", "", "---", ""]
-    lines += [card(r, r["url"] in new, rate) for r in rows[:60]]
+    lines += [card(r, r["url"] in new, rate) for r in rows]
     lines += ["<details><summary>Source status</summary>", ""]
     lines += [f"- {k}: {v}" for k, v in health.items()]
     lines += ["", "</details>", ""]
