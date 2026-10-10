@@ -1,0 +1,72 @@
+# Car scout — ranks used battery-electric cars by total cost per km.
+# All money in today's ISK. Edit freely; every run reads this file.
+
+usage:
+  km_per_year: 20000
+  # Longest ownership the model will consider. The best selling year is chosen per car.
+  max_hold_years: 12
+
+money:
+  # What the cash tied up in the car would otherwise earn (real, after inflation).
+  # Depreciation is estimated in today's prices, so this should be a real rate too.
+  opportunity_rate: 0.07
+  # Selling at the end: share of market value lost (private sale ~5%, trade-in at a dealer ~12%)
+  sell_spread: 0.05
+  # How much of a listing's price gap to the market (cheap = worn, dear = well specced) is still there
+  # at resale. 1 = all of it (no credit for "deals"), 0 = resells at the plain market value.
+  price_gap_persists: 0.8
+
+energy:
+  # Home charging price incl. distribution, transmission and VAT. CHECK against the parents' bill.
+  home_kr_per_kwh: 22
+  # Public fast charging (ON, Orka náttúrunnar / Ísorka / Tesla). CHECK current prices.
+  public_kr_per_kwh: 60
+  # Share of kWh charged at home (home charger available)
+  home_share: 0.9
+  # Icelandic year-round consumption vs. the mild-climate figures in scout/models.py
+  winter_factor: 1.2
+  # Charging losses (wall → battery)
+  charging_loss: 0.10
+
+running:
+  # kílómetragjald 2026, all cars ≤ 3.5 t (skatturinn.is)
+  km_fee_kr: 6.95
+  # Insurance: ábyrgðartrygging part + kaskó as a share of the car's value. CHECK with a quote.
+  insurance_fixed_kr: 90000
+  insurance_kasko_share: 0.012
+  # Bifreiðagjald + skoðun, per year. CHECK.
+  tax_and_inspection_kr: 25000
+  # Tyres: two sets (summer/winter), EVs wear them fast
+  tyres_kr_per_km: 2.0
+  # Service and repairs: base per year, plus a yearly increase once the car is older than this
+  maintenance_base_kr: 40000
+  maintenance_warranty_years: 5
+  maintenance_growth_kr_per_year: 20000
+
+battery:
+  # Battery warranty on most EVs: 8 years / 160.000 km. Inside it, battery cost = 0.
+  warranty_years: 8
+  warranty_km: 160000
+  # Outside warranty: chance per year of a battery repair/replacement, and its cost
+  failure_rate_per_year: 0.02
+  failure_rate_growth_per_year: 0.01
+  repair_cost_kr: 2500000
+  # Brands with no used-market history in Iceland: battery risk and depreciation are guesses,
+  # so both are scaled up by this factor. Models with too little data get the same treatment.
+  young_brands: [leapmotor, xpeng, zeekr, byd, maxus, nio, lynk, smart, ora, aiways, jac, dongfeng, voyah, seres]
+  uncertainty_factor: 1.3
+
+market:
+  # A model needs at least this many listings spanning this many model years for its own price level
+  min_listings_per_model: 3
+  # Ridge shrinkage of model price levels toward the brand/overall level
+  ridge: 2.0
+
+filters:
+  min_price_isk: 300000
+  max_price_isk: 30000000
+
+sources:
+  bland:
+    category: "https://bland.is/solutorg/farartaeki/nyir-notadir-bilar-til-solu/?categoryId=17&sub=1"
+    max_pages: 60
