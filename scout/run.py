@@ -159,7 +159,7 @@ def card(r, new, rate):
         out += [f'<a href="{r["url"]}"><img src="{r["image"]}" width="320"></a>', ""]
     out += [f"[{r['title']}]({r['url']})  ",
             f"<sub>{'🆕 NEW' if r.get('new') else r['year']} · {fmt(r['km'])} km · {r['source']} · {r['model']} · {deal_txt} "
-            (f"(resale ≈ {fmt(r['resale'])} kr)</sub>" if r.get("anchored") else f"(market ≈ {fmt(r['market_value'])} kr, resale ≈ {fmt(r['resale'])} kr)</sub>"), "",
+            + (f"(resale ≈ {fmt(r['resale'])} kr)</sub>" if r.get("anchored") else f"(market ≈ {fmt(r['market_value'])} kr, resale ≈ {fmt(r['resale'])} kr)</sub>"), "",
             f"<sub>kr/km: {parts}</sub>"]
     if r["flags"]:
         out += ["", f"<sub>⚠️ {'; '.join(r['flags'])}</sub>"]
