@@ -1,6 +1,6 @@
 # Cheapest EVs per km
 
-Updated 2026-10-10 11:17 UTC · 285 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
+Updated 2026-10-10 11:22 UTC · 285 battery-electric cars from 2022 on · 20.000 km/yr · capital at 7% · best selling year chosen per car (max 12 yr)
 
 Market: EVs lose about **15% of their value per year** at this mileage (fitted on all 184 EV listings, older ones included). Costs in today's krónur. Assumptions: `config.yaml`.
 
@@ -235,7 +235,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 **49.3 kr/km** · sell after **12 yr** · 4.499.000 kr
 
-<a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GKM99"><img src="https://nyirbilar.brimborg.is/static/strevda/overlay/1790002323-nokian.vetrardekk.fylgjanyr.png" width="320"></a>
+<a href="https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GKM99"><img src="https://nyirbilar.brimborg.is/static/notadir/images/GKM99_6f413bfacadee226d0e68c5547ef01a0_full.jpg?v2" width="320"></a>
 
 [Ford Puma EV Premium](https://nyirbilar.brimborg.is/is/nyir-bilar/bill/GKM99)  
 <sub>🆕 NEW · 0 km · Brimborg (new) · ford puma ev · new: 5.209.000 kr list, rafbílastyrkur included (resale ≈ 289.862 kr)</sub>
@@ -365,6 +365,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 **52.1 kr/km** · sell after **12 yr** · 5.070.000 kr · 2 in stock
 
+<a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-8"><img src="https://www.hekla.is/static/store/images/original/product_973719.png" width="320"></a>
+
 [VOLKSWAGEN ID. POLO](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-8)  
 <sub>🆕 NEW · 0 km · Hekla (new) · vw id.polo · new: 5.570.000 kr list, rafbílastyrkur included (resale ≈ 326.650 kr)</sub>
 
@@ -414,6 +416,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 ---
 
 **52.7 kr/km** · sell after **12 yr** · 5.190.000 kr · 4 in stock
+
+<a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-epiq-55"><img src="https://www.hekla.is/static/store/images/original/product_973604.png" width="320"></a>
 
 [Skoda Epiq 55](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/skoda-epiq-55)  
 <sub>🆕 NEW · 0 km · Hekla (new) · skoda epiq · new: 5.690.000 kr list, rafbílastyrkur included (resale ≈ 334.382 kr)</sub>
@@ -465,6 +469,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 **53.9 kr/km** · sell after **12 yr** · 5.410.000 kr · 3 in stock
 
+<a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-1"><img src="https://www.hekla.is/static/store/images/original/product_973727.png" width="320"></a>
+
 [VOLKSWAGEN ID. POLO](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-polo-1)  
 <sub>🆕 NEW · 0 km · Hekla (new) · vw id.polo · new: 5.910.000 kr list, rafbílastyrkur included (resale ≈ 348.556 kr)</sub>
 
@@ -502,6 +508,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 **54.3 kr/km** · sell after **12 yr** · 5.490.000 kr · 2 in stock
 
+<a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/epiq-2"><img src="https://www.hekla.is/static/store/images/original/product_973581.png" width="320"></a>
+
 [Skoda Epiq 55](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/epiq-2)  
 <sub>🆕 NEW · 0 km · Hekla (new) · skoda epiq · new: 5.990.000 kr list, rafbílastyrkur included (resale ≈ 353.710 kr)</sub>
 
@@ -526,6 +534,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 **54.7 kr/km** · sell after **12 yr** · 5.480.000 kr · 7 in stock
 
+<a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id3-pro-39"><img src="https://www.hekla.is/static/store/images/original/product_970239.jpg" width="320"></a>
+
 [VW ID.3 PRO](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/vw-id3-pro-39)  
 <sub>🆕 NEW · 0 km · Hekla (new) · vw id.3 · new: 5.980.000 kr list, rafbílastyrkur included (resale ≈ 353.066 kr)</sub>
 
@@ -549,6 +559,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 ---
 
 **56.8 kr/km** · sell after **12 yr** · 5.880.000 kr · 2 in stock
+
+<a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-cross-life"><img src="https://www.hekla.is/static/store/images/original/product_973142.png" width="320"></a>
 
 [VOLKSWAGEN ID. Cross Life](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/volkswagen-id-cross-life)  
 <sub>🆕 NEW · 0 km · Hekla (new) · vw id.cross · new: 6.380.000 kr list, rafbílastyrkur included (resale ≈ 378.837 kr)</sub>
@@ -756,6 +768,8 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 **59.7 kr/km** · sell after **12 yr** · 6.390.000 kr · 6 in stock
 
+<a href="https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/elroq-22"><img src="https://www.hekla.is/static/store/images/original/product_973434.png" width="320"></a>
+
 [Skoda Elroq 85x 4x4](https://www.hekla.is/is/bilar/nyir-bilar-syningasalur/elroq-22)  
 <sub>🆕 NEW · 0 km · Hekla (new) · skoda elroq · new: 7.190.000 kr list, rafbílastyrkur included (resale ≈ 411.695 kr)</sub>
 
@@ -780,7 +794,7 @@ cost per km = (price − resale after N years + capital cost + charging + kíló
 
 <details><summary>Source status</summary>
 
-- Bland: 1177
+- Bland: 1176
 - Hekla (new): 150
 - Brimborg (new): 221
 - ÍSBAND (new): 18
