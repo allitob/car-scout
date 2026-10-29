@@ -1,9 +1,10 @@
-Bland: 1169 car listings scanned, 116 electric
-Hekla (new): 161 listings, 120 electric
-Brimborg (new): 191 listings, 191 electric
-ÍSBAND (new): 0 listings, 0 electric
+Bland: failed https://bland.is/solutorg/farartaeki/nyir-notadir-bilar-til-solu/?categoryId=17&sub=1&page=2: 500 Server Error: Internal Server Error for url: https://bland.is/solutorg/farartaeki/nyir-notadir-bilar-til-solu/?categoryId=17&sub=1&page=2
+Bland: 50 car listings scanned, 1 electric
+Hekla (new): 145 listings, 108 electric
+Brimborg (new): 187 listings, 187 electric
+ÍSBAND (new): 19 listings, 6 electric
 Brimborg (used): 56 listings, 56 electric
-463 electric cars with year, km and price
-Market fit on 161 listings: value falls 15.0%/yr at 20.000 km/yr (age 0.118/yr, km 0.022/10k km in log price), residual σ 0.17
-242 cars from 2022 on ranked
+346 electric cars with year, km and price
+Market fit on 54 listings: value falls 9.7%/yr at 20.000 km/yr (age 0.054/yr, km 0.024/10k km in log price), residual σ 0.12
+192 cars from 2022 on ranked
 Notify: posted 1 cars to issue #1
