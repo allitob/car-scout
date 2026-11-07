@@ -1,9 +1,9 @@
-Bland: 1232 car listings scanned, 125 electric
-Hekla (new): 160 listings, 108 electric
-Brimborg (new): 201 listings, 201 electric
-ÍSBAND (new): 19 listings, 6 electric
-Brimborg (used): 54 listings, 54 electric
-465 electric cars with year, km and price
-Market fit on 166 listings: value falls 16.9%/yr at 20.000 km/yr (age 0.121/yr, km 0.032/10k km in log price), residual σ 0.18
-244 cars from 2022 on ranked
+Bland: 1257 car listings scanned, 129 electric
+Hekla (new): 159 listings, 107 electric
+Brimborg (new): 200 listings, 200 electric
+ÍSBAND (new): 0 listings, 0 electric
+Brimborg (used): 55 listings, 55 electric
+461 electric cars with year, km and price
+Market fit on 170 listings: value falls 17.0%/yr at 20.000 km/yr (age 0.122/yr, km 0.032/10k km in log price), residual σ 0.18
+237 cars from 2022 on ranked
 Notify: 0 new cars in the top 10
