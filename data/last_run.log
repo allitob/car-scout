@@ -1,9 +1,10 @@
-Bland: 1284 car listings scanned, 131 electric
-Hekla (new): 172 listings, 121 electric
+Bland: failed https://bland.is/solutorg/farartaeki/nyir-notadir-bilar-til-solu/?categoryId=17&sub=1: HTTPSConnectionPool(host='bland.is', port=443): Max retries exceeded with url: /solutorg/farartaeki/nyir-notadir-bilar-til-solu/?categoryId=17&sub=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bland.is', port=443) at 0x75f68780e4b0>, 'Connection to bland.is timed out. (connect timeout=30)'))
+Bland: 0 car listings scanned, 0 electric
+Hekla (new): 171 listings, 121 electric
 Brimborg (new): 199 listings, 199 electric
 ÍSBAND (new): 19 listings, 6 electric
-Brimborg (used): 51 listings, 51 electric
-483 electric cars with year, km and price
-Market fit on 173 listings: value falls 17.1%/yr at 20.000 km/yr (age 0.127/yr, km 0.030/10k km in log price), residual σ 0.18
-250 cars from 2022 on ranked
+Brimborg (used): 54 listings, 54 electric
+363 electric cars with year, km and price
+Market fit on 53 listings: value falls 10.4%/yr at 20.000 km/yr (age 0.054/yr, km 0.028/10k km in log price), residual σ 0.12
+185 cars from 2022 on ranked
 Notify: 0 new cars in the top 10
